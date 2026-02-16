@@ -1543,10 +1543,8 @@ focus_tree = {
 		prerequisite = { focus = ENG_the_sun_never_sets }
 		prerequisite = { focus = ENG_no_further_appeasement }
 		available = {
-			has_country_leader =  {
-				name = "Winston Churchill"
-				ruling_only = yes
-			}
+			
+			has_war = yes
 		}
 		icon = GFX_minister_churchill
 		x = -1
@@ -1749,7 +1747,6 @@ focus_tree = {
 		id = ENG_compass
 		prerequisite = { focus = ENG_motion_of_no_confidence }
 		available = {
-			NOT = {has_full_control_of_state =412}
 		}
 		bypass = {
 			date > 1941.1.1
@@ -1772,6 +1769,7 @@ focus_tree = {
 				RAJ = {add_timed_idea = {idea = ENG_compass days = 60}}
 				CAN = {add_timed_idea = {idea = ENG_compass days = 60}}
 				AST = {add_timed_idea = {idea = ENG_compass days = 60}}
+				MEX = {add_timed_idea = {idea = ENG_compass days = 60}}
 			}
 		}
 	}
