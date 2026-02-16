@@ -493,7 +493,7 @@ technologies = {
 		}
 	}
 	concentrated_industry3 = {
-		industrial_capacity_factory = 0.16
+		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.1
 		global_building_slots_factor = 0.25
 		path = {
@@ -533,7 +533,7 @@ technologies = {
 		}
 	}
 	concentrated_industry4 = {
-		industrial_capacity_factory = 0.16
+		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.1
 		global_building_slots_factor = 0.25
 		path = {
@@ -573,7 +573,7 @@ technologies = {
 		}
 	}
 	concentrated_industry5 = {
-		industrial_capacity_factory = 0.16
+		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.1
 		global_building_slots_factor = 0.25
 		research_cost = 2
@@ -617,7 +617,7 @@ technologies = {
 		}
 	}
 	concentrated_industry6 = {
-		industrial_capacity_factory = 0.16
+		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.1
 		global_building_slots_factor = 0.25
 		research_cost = 2
@@ -758,7 +758,7 @@ technologies = {
 		}
 	}
 	dispersed_industry3 = {
-		industrial_capacity_factory = 0.12
+		industrial_capacity_factory = 0.11
 		industrial_capacity_dockyard = 0.1
 		line_change_production_efficiency_factor = 0.05
 		production_factory_start_efficiency_factor = 0.05
@@ -796,7 +796,7 @@ technologies = {
 		}
 	}
 	dispersed_industry4 = {
-		industrial_capacity_factory = 0.12
+		industrial_capacity_factory = 0.11
 		industrial_capacity_dockyard = 0.1
 		line_change_production_efficiency_factor = 0.05
 		production_factory_start_efficiency_factor = 0.05
@@ -833,7 +833,7 @@ technologies = {
 		}
 	}
 	dispersed_industry5 = {
-		industrial_capacity_factory = 0.12
+		industrial_capacity_factory = 0.11
 		industrial_capacity_dockyard = 0.1
 		line_change_production_efficiency_factor = 0.05
 		production_factory_start_efficiency_factor = 0.05
@@ -870,7 +870,7 @@ technologies = {
 		}
 	}
 	dispersed_industry6 = {
-		industrial_capacity_factory = 0.12
+		industrial_capacity_factory = 0.11
 		industrial_capacity_dockyard = 0.1
 		line_change_production_efficiency_factor = 0.05
 		production_factory_start_efficiency_factor = 0.05
