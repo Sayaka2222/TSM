@@ -372,7 +372,7 @@ usa_start_rubber_relocation = {
 usa_weekly_rubber_relocation = {
 
 	if = {
-    	limit = { check_variable = { usa_rubber_left <= 0 } }
+    	limit = { check_variable = { var = usa_rubber_left value = 10 compare = less_than_or_equals } }
     	clr_country_flag = usa_rubber_relocating
   	}
   	else = {

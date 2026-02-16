@@ -705,7 +705,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = CAN_r_b_bennett
+			idea_token = CAN_sir_mark_the_wise
 			allowed = {
 				original_tag = CAN
 			}

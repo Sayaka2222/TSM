@@ -3,6 +3,9 @@ state={
  	name="STATE_111"
  	manpower = 1670190
  	state_category = city
+	resources = {
+		rubber = 50
+	}
  	history={
  		owner = FIN
  		victory_points = {

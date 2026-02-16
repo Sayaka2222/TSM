@@ -1680,7 +1680,7 @@ focus_tree = {
 			add_ideas = blood_toil_tears_sweat
  		}
  	}
-		focus = {
+	focus = {
  		id = MEX_responsibility_for_our_own_defense
  		prerequisite = { focus = MEX_zandery_military_airport }
  		icon = GFX_goal_generic_build_tank
@@ -1692,7 +1692,7 @@ focus_tree = {
  		completion_reward = {
  			add_war_support = 0.05
  			
-			add_ideas = YUG_idea_foreign_capital
+			add_ideas = CAN_war_bonds_1
  		}
  	}
 }
