@@ -480,8 +480,75 @@ focus_tree = {
 			add_ideas = FRA_rearmament_plan
 			unlock_decision_category_tooltip = FRA_rearmament_plan
 			army_experience = 100
+			29 = {
+				set_building_level = {
+						type = bunker
+						level = 2
+						province =10411
+					}
+					set_building_level = {
+						type = bunker
+						level = 2
+						province =540
+					}
+			
+		}
+		16 = {
+				set_building_level = {
+						type = bunker
+						level = 3
+						province =10434
+					}
+					set_building_level = {
+						type = bunker
+						level = 3
+						province =8758
+					}
+					set_building_level = {
+						type = bunker
+						level = 3
+						province =8747
+					}
+					set_building_level = {
+						type = bunker
+						level = 2
+						province =11866
+					}
+		}
+		27 = {
+				set_building_level = {
+						type = bunker
+						level = 2
+						province =3427
+					}
+					
+		}
+		653 = {
+				set_building_level = {
+						type = bunker
+						level = 2
+						province =6451
+					}
+					set_building_level = {
+						type = bunker
+						level = 2
+						province =3704
+					}
+					set_building_level = {
+						type = bunker
+						level = 3
+						province =9100
+					}
+		}
+		21 = {
+				set_building_level = {
+						type = bunker
+						level = 3
+						province =10740
+					}
 		}
 	}
+}
 	focus = {
 		id = FRA_heavy_armor_focus
 		icon = GFX_goal_generic_army_tanks
@@ -535,8 +602,71 @@ focus_tree = {
 				bonus = 1
 				uses = 2
 			}
+				18 = {
+					set_building_level = {
+						type = bunker
+						level = 2
+						province =3337
+					}
+					set_building_level = {
+						type = bunker
+						level = 2
+						province =8696
+					}
+					set_building_level = {
+						type = bunker
+						level = 2
+						province =3532
+					}
+					set_building_level = {
+						type = bunker
+						level = 2
+						province =11695
+					}
+					set_building_level = {
+						type = bunker
+						level = 2
+						province =8714
+					}
+					
+			}
+			699 = {
+				set_building_level = {
+						type = bunker
+						level = 2
+						province =10348
+					}
+					set_building_level = {
+						type = bunker
+						level = 2
+						province =419
+					}
+					set_building_level = {
+						type = bunker
+						level = 2
+						province =3180
+					}
+					set_building_level = {
+						type = bunker
+						level = 2
+						province =10629
+					}
+		}
+		6 = {
+				set_building_level = {
+						type = bunker
+						level = 2
+						province =6102
+					}
+					set_building_level = {
+						type = bunker
+						level = 2
+						province =481
+					}
 		}
 	}
+		}
+	
 
 	focus = {
 		id = FRA_defensive_focus
@@ -854,7 +984,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_political_power = 75
-			add_stability = -0.1
 		custom_effect_tooltip = available_political_advisor	
 		show_ideas_tooltip = rene_massigli
 		}
@@ -1108,13 +1237,13 @@ focus_tree = {
 		id = FRA_freedom_front
 		icon = GFX_focus_generic_workers
 		x = 0
-		y = 1
+		y = 2
 		offset = {
 			x = 0
 			y = 0
 		}
 		prerequisite = {
-			focus = FRA_protect_the_rights_of_man
+			focus = FRA_france_undividable
 		}
 		relative_position_id = FRA_protect_the_rights_of_man
 		cost = 5
@@ -1135,13 +1264,14 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = {
-			focus = FRA_freedom_front
+			focus = FRA_protect_the_rights_of_man
 		}
 		available = {
-			date >  1939.7.1
-			num_of_military_factories > 100
+			date >  1939.1.1
+			num_of_military_factories > 80
+			num_of_civilian_factories > 55
 		}
-		relative_position_id = FRA_freedom_front
+		relative_position_id = FRA_protect_the_rights_of_man
 		cost = 5
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
@@ -1351,7 +1481,7 @@ focus_tree = {
 		available = {
 			
 		}
-		prerequisite = { focus = FRA_defensive_strategems focus = FRA_france_undividable }
+		prerequisite = { focus = FRA_defensive_strategems focus = FRA_freedom_front }
 		x = -1
 		y = 1
 		bypass = {

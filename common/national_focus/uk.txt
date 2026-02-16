@@ -2053,7 +2053,7 @@ focus_tree = {
 				
 				add_political_power = -60
 				add_timed_idea = { idea = ENG_imperial_conference_economy_dominion days = 365 }
-				add_timed_idea = { idea = ENG_imperial_conference_defense_dominion days = 365 }
+				add_timed_idea = { idea = ENG_imperial_conference_defense_5 days = 365 }
 				country_event = { id = mtg_britain.88 hours = 12 }
 				add_war_support = 0.1
 			}

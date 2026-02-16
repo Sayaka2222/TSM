@@ -133,7 +133,7 @@ unplanned_offensive = { # on Province
 }
 
 FRA_minibarb = { 
-	army_speed_factor = -0.25
+	army_speed_factor = -0.3
 }
 
 soviet_hero_city = { # on Province
