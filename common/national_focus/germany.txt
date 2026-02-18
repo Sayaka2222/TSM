@@ -857,7 +857,7 @@
 			prerequisite = { focus = GER_extra_tech_slot }
 			search_filters = { FOCUS_FILTER_INDUSTRY }
 			completion_reward = { 
-			add_ideas = GER_hermann_goering_plan1
+				add_timed_idea = {idea=GER_hermann_goering_plan1 days = 720}
 		}
 	}		
 	focus = {
@@ -871,7 +871,7 @@
 		prerequisite = { focus = GER_extra_tech_slot }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = { 
-		add_ideas = GER_rethink_our_old_plans1
+			add_timed_idea = {idea=GER_rethink_our_old_plans1 days = 720}
 							}
 		}
 	focus = {
