@@ -211,7 +211,7 @@ equipments = {
 		naval_strike_attack = 1
 		naval_strike_targetting = 8
 		upgrades = {
- 			plane_engine_upgrade
+ 			plane_gun_upgrade
  			plane_armor_upgrade
  		}
 	}
@@ -225,7 +225,7 @@ equipments = {
 		parent = small_plane_airframe_0
 		priority = 5
 		upgrades = {
- 			plane_engine_upgrade
+ 			plane_gun_upgrade
  			plane_armor_upgrade
  		}
 		air_range = 1250
@@ -308,7 +308,7 @@ equipments = {
 		parent = small_plane_airframe_1
 		priority = 5
 		upgrades = {
- 			plane_engine_upgrade
+ 			plane_gun_upgrade
  			plane_armor_upgrade
  		}
 		air_range = 1500
@@ -396,7 +396,7 @@ equipments = {
 		derived_variant_name = fighter_equipment_3
 		year = 1942
 		upgrades = {
- 			plane_engine_upgrade
+ 			plane_gun_upgrade
  			plane_armor_upgrade
  		}
 		archetype = small_plane_airframe
@@ -499,7 +499,7 @@ equipments = {
 		derived_variant_name = jet_fighter_equipment_1 # We should use "jet" for this or any of the ones below, but this is good enough for now.
 		year = 1945
 		upgrades = {
- 			plane_engine_upgrade
+ 			plane_gun_upgrade
  			plane_armor_upgrade
  		}
 		archetype = small_plane_airframe
