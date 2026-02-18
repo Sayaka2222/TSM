@@ -587,8 +587,11 @@ operations = {
 		available = {  GER = { controls_state = 10 } has_war=yes }
 		cost = 0
 		complete_effect = {
+			set_global_flag = ger_fra_hold_timer_active
+			GER = { set_variable = { fra_hold_months_total = 0 } }
 			FRA = {
-				set_country_flag = fra_evacuating_industry
+				set_variable = { fra_core_penalty = 0 }
+				add_dynamic_modifier    = { modifier = fra_core_penalty_scaling }
 			}
 			effect_tooltip = {
 				declare_war_on = {
