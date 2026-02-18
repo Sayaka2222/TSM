@@ -1,7 +1,29 @@
 on_actions = {
-	on_weekly = {
-		effect = {
-			if = { limit = { has_country_flag = fra_evacuating_industry } fra_weekly_evacuate_industry = yes }
-		}
-	}
+  	on_monthly = {
+    effect = {
+      	if = {
+        	limit = {
+				tag = GER
+          		has_global_flag = ger_fra_hold_timer_active
+          		NOT = { has_global_flag = fall_of_france }
+          		FRA = { exists = yes }
+        	}
+        	GER = {
+          		add_to_variable = { fra_hold_months_total = 1 }
+        	}
+      	}
+	  	if = {
+          	limit = { 
+				tag = GER
+          		has_global_flag = ger_fra_hold_timer_active
+          		NOT = { has_global_flag = fall_of_france }
+          		FRA = { exists = yes }
+				GER = { check_variable = { fra_hold_months_total > 2 } }
+			}
+          		FRA = {
+            		add_to_variable = { fra_core_penalty = -0.05 }
+          		}
+       		}
+    	}
+  	}
 }

@@ -2,9 +2,10 @@ Ostarbeiter = {
 	consumer_goods_expected_value=ostarbeiter_cg
 
 }
-dockyard_con_penalty = {
-	production_speed_dockyard_factor = dockyard_con_penalty 
 
+fra_core_penalty_scaling = {
+  army_core_attack_factor = fra_core_penalty
+  army_core_defence_factor = fra_core_penalty
 }
 
 jim_crow = {

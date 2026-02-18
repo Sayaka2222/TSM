@@ -95,6 +95,12 @@ country_event = {
 		retire_character = FRA_vincent_auriol 
 		set_global_flag = achievement_france_surrender
 		set_global_flag = fall_of_france
+
+		FRA = {
+			set_variable = { fra_core_penalty = 0 }
+			remove_dynamic_modifier = { modifier = fra_core_penalty_scaling }
+		}
+
 		add_political_power = 100
 		add_timed_idea={idea=GER_triumph_in_france days=730}
 		GER={
@@ -250,6 +256,8 @@ country_event = {
 		FRA = {set_equipment_fraction = 0}
 		FRA = { country_event = {id=france.187 days=7} }
 		GER = { country_event = {id=france.15 days=7} }
+		clr_global_flag = ger_fra_hold_timer_active
+		ger_fall_of_france_payout = yes
 	}
 }
 country_event = {
