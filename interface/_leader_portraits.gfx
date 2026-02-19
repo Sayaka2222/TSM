@@ -7148,6 +7148,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = GFX_portrait_USA_jonathan_wainwright
+		texturefile = "gfx/leaders/USA/Portrait_USA_jonathan_wainwright.dds"
+	}
+	
+	spriteType = {
 		name = GFX_portrait_USA_russell_hartle
 		texturefile = "gfx/leaders/USA/Portrait_USA_Russell_P_Hartle.dds"
 	}
