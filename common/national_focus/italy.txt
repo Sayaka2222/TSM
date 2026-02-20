@@ -81,12 +81,11 @@ focus_tree = {
 	focus = {
 		id = ITA_naval_rearmament
 		icon = GFX_focus_ITA_milizia_marittima_di_artiglieria
+		prerequisite = {
+			focus = ITA_triumph_in_africa
+		}
 		x = 5
 		y = 1
-		prerequisite = {
-			focus = ITA_plan_z
-			focus = ITA_u_boat_effort
-		}
 		relative_position_id = ITA_plan_z
 		cost = 3
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -132,7 +131,9 @@ focus_tree = {
 	focus = {
 		id = ITA_naval_advancement
 		icon = GFX_focus_ITA_trade_interdiction
-		prerequisite = { focus = ITA_plan_z focus = ITA_u_boat_effort }
+		prerequisite = {
+			focus = ITA_triumph_in_africa
+		}
 		x = 1
 		y = 1
 		relative_position_id = ITA_plan_z
@@ -165,13 +166,13 @@ focus_tree = {
 				name = light_gun
 				bonus = 1.0
 				uses = 1
-				technology = improved_light_battery
+				technology = basic_light_shell
 			}
 			add_tech_bonus = {
 				name = light_gun
 				bonus = 1.0
 				uses = 1
-				technology = improved_heavy_battery
+				technology = basic_heavy_shell
 			}
 			add_tech_bonus = {
 				name = light_gun
@@ -254,18 +255,14 @@ focus_tree = {
 					instant_build = yes
 											}
 				}
-			add_tech_bonus = {
-				name = dd_bonus
-				bonus = 1.5
-				uses = 2
-				category = dd_tech
-			}	
 	}
 }	
 	focus = {
 		id = ITA_h_class
 		icon = GFX_focus_ITA_h_class
-		prerequisite = { focus = ITA_plan_z focus = ITA_u_boat_effort  }
+		prerequisite = {
+			focus = ITA_triumph_in_africa
+		}
 		x = 3
 		y = 1
 		relative_position_id = ITA_plan_z
@@ -313,8 +310,10 @@ focus = {
 }	
 	focus = {
 		id = ITA_modular_construction
+		prerequisite = {
+			focus = ITA_triumph_in_africa
+		}
 		icon = GFX_ITA_develop_marconi_class
-		prerequisite = { focus = ITA_plan_z focus = ITA_u_boat_effort }
 		x = -1
 		y = 1
 		relative_position_id = ITA_u_boat_effort
@@ -1137,7 +1136,7 @@ focus = {
 		cost = 5
 		completion_reward = {
 			add_political_power = -75
-			add_state_core = 103
+			add_state_core = 543
 			add_state_core = 44
 			add_state_core = 105
 			add_state_core = 159

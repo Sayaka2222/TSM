@@ -38,5 +38,6 @@ is_scw_minor_country = {
 		tag = CAN
 		tag = MEX
 		tag = YUG
+		tag = SPR
 	}
 }

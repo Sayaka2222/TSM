@@ -600,7 +600,6 @@ technologies = {
 			ap_attack = -0.3
 			air_attack = 0.2
 		}
-		tech_air_damage_factor = -0.01
 		path = {
 			leads_to_tech = antiair4
 			research_cost_coeff = 1
@@ -658,7 +657,6 @@ technologies = {
 			ap_attack = 0.3
 			air_attack = 0.2
 		}
-		tech_air_damage_factor = -0.01
 		path = {
 			leads_to_tech = antiair4
 			research_cost_coeff = 1
@@ -707,7 +705,6 @@ technologies = {
 		mot_anti_air_brigade = {
 			air_attack = 0.1
 		}
-		tech_air_damage_factor = -0.01
 		path = {
 			leads_to_tech = antiair5
 			research_cost_coeff = 1

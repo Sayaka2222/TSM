@@ -7,7 +7,7 @@ state={
  		aluminium = 350
  	}
  	history={
-		add_extra_state_shared_building_slots = 5
+		add_extra_state_shared_building_slots = 9
  		owner = FRA
  		add_core_of = FRA
  		victory_points = {
@@ -18,7 +18,7 @@ state={
  		}
  		buildings = {
  			infrastructure = 4			
- 			dockyard = 5
+ 			dockyard = 9
  			9100 = {
  				naval_base = 2
  			}
