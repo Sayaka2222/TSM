@@ -30,15 +30,40 @@ defensive_postures = {
     category_light_infantry = {
 		max_organisation = 10
     }
-
+	engineer = {
+		battalion_mult = {
+			category = category_light_infantry
+			entrenchment = 0.10
+			add = yes
+		}
+	}
+	pioneer_support = {
+		battalion_mult = {
+			category = category_light_infantry
+			entrenchment = 0.10
+			add = yes
+		}
+	}
+	armored_engineer = {
+		battalion_mult = {
+			category = category_light_infantry
+			entrenchment = 0.10
+			add = yes
+		}
+	}
+	assault_engineer = {
+		battalion_mult = {
+			category = category_light_infantry
+			entrenchment = 0.10
+			add = yes
+		}
+	}
     rewards = {
         improvised_fighting_position = {
             dig_in_speed_factor = 0.2
         }
         elastic_operations = {
-            category_light_infantry = {
-				entrenchment = 0.1
-			}
+            dig_in_speed_factor = 0.2
         }
         developed_trench_networking = {
             category_light_infantry = {
@@ -52,10 +77,6 @@ defensive_postures = {
         }
         field_construction_training = {
             land_reinforce_rate = 0.05
-            dig_in_speed_factor = 0.2
-            category_light_infantry = {
-                entrenchment = 0.2
-            }
         }
 
     }

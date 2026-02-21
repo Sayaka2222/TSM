@@ -255,29 +255,29 @@ technologies = {
 		engineer = {
 			entrenchment  = 2
 			urban = {
-				defence = 0.10
-				attack = 0.10
+				defence = 0.05
+				attack = 0.05
 			}
 		}
 		pioneer_support = {
 			entrenchment  = 2
 			urban = {
-				defence = 0.10
-				attack = 0.10
+				defence = 0.05
+				attack = 0.05
 			}
 		}
 		assault_engineer = {
 			entrenchment  = 2
 			urban = {
-				defence = 0.10
-				attack = 0.10
+				defence = 0.05
+				attack = 0.05
 			}
 		}
 		armored_engineer = {
 			entrenchment  = 2
 			urban = {
-				defence = 0.10
-				attack = 0.10
+				defence = 0.05
+				attack = 0.05
 			}
 		}
 		research_cost = 1.5
@@ -1665,11 +1665,6 @@ technologies = {
     			 has_dlc = "Gotterdammerung"
     		}
     
-    		allow = {
-    	 		ROOT = {
-    				is_special_project_completed = sp:sp_land_military_engineering_vehicles
-    			}
-    		}
     
     		is_special_project_tech = yes
     

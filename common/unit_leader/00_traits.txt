@@ -327,7 +327,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			max_dig_in_factor = 0.30
+			max_dig_in_factor = 0.20
 		}
 
 		ai_will_do = {
@@ -345,7 +345,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			planning_speed = 0.25
+			planning_speed = 0.5
 		}
 
 		ai_will_do = {
@@ -390,7 +390,7 @@ leader_traits = {
 
 		cost = 1000
 		field_marshal_modifier = {
-			defence = 0.10
+			defence = 0.075
 		}
 		custom_effect_tooltip = INCREASED_COUNTERATTACK_CHANCE
 
@@ -1023,7 +1023,6 @@ leader_traits = {
 			factor = 1
 		}
 
-		mutually_exclusive = ambusher
 
 		trait_type = assignable_trait
 		any_parent = { infantry_leader }
@@ -1037,7 +1036,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			max_dig_in = 5
+			dig_in_speed_factor = 0.5
 			recon_factor_while_entrenched = 0.25
 		}
 
@@ -1045,7 +1044,6 @@ leader_traits = {
 			factor = 1
 		}
 
-		mutually_exclusive = infantry_expert
 
 		trait_type = assignable_trait
 		any_parent = { infantry_leader }
