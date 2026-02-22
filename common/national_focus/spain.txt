@@ -27,6 +27,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_STABILITY}
 		completion_reward = {
+			custom_effect_tooltip = "if limit lennard = SPR add division attack +100%"
 			add_stability = 0.1
 			country_event = spain.1
 			add_political_power = 200
