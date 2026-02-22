@@ -7,8 +7,22 @@ GRE_defend_athens = {
 		type = garrison
 		value = 100
 	}
+	
+	ai_strategy = {
+    	type = front_unit_request
+   		country_trigger = { tag = ENG }
+    	value = -200
+  	}
+
+	ai_strategy = {
+    	type = front_unit_request
+   		country_trigger = { tag = FRA }
+    	value = -200
+  	}
+
 	abort = { always = no }
 }
+
 GRE_build_stuff= {
 	enable = {
 		#date>1939.1.1

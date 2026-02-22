@@ -188,6 +188,7 @@ focus_tree = {
 				}
 				add_compliance = 30
 			}
+			custom_effect_tooltip = FRA_doc_tt_3
 			add_ideas = {
 				FRA_rebuild_the_military
 			}
@@ -1088,8 +1089,6 @@ focus_tree = {
 				technology = dispersed_industry4
 				technology = dispersed_industry5
 			}
-			hidden_effect= {SWE = {country_event = { id = lar_fra_inefficient_economy.1 days = 365 }} }
-			custom_effect_tooltip = FRA_laissez_faire_tt
 		}
 	}
 	focus = {

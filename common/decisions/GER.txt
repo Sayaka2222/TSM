@@ -648,23 +648,17 @@ operations = {
 		complete_effect = {
 			effect_tooltip = {
 				declare_war_on = {
-					target = YUG
-					type = annex_everything
-				}
-				declare_war_on = {
 					target = GRE
 					type = annex_everything
 				}
 			}
 			hidden_effect = { 
-				every_country = {limit = {check_variable= { speeches_enabled > 0}  }
-					scoped_sound_effect = "sp_ita_musso"
+				ENG = {
+					set_autonomy = {
+						target = GRE
+						autonomy_state = autonomy_dominion
+					}
 				}
-				set_variable={ Global.super_event = 3 }
-				show_super_event=yes
-				ENG = { add_to_faction = YUG }
-				YUG = { add_to_war = { targeted_alliance = ENG enemy = GER } }
-				YUG= { declare_war_on_enemy_faction = yes}
 
 				ENG = { add_to_faction = GRE }
 				GRE = { add_to_war = { targeted_alliance = ENG enemy = GER } }

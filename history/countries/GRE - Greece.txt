@@ -3,6 +3,7 @@ oob = "GRE_1936"
 set_research_slots = 0
 add_ideas = {
 	limited_conscription
+	warrior_spirit
 }
 set_technology = {
 	airfield_allowed = 1
@@ -14,7 +15,9 @@ set_technology = {
 	tech_recon = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-
+	interwar_antitank = 1
+	tech_trucks = 1
+	motorised_infantry = 1
 }
 
 recruit_character = GRE_konstantinos_demertzis
@@ -26,22 +29,37 @@ add_ideas = peace_training
 add_timed_idea = { idea = no_training days= 1095 }
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0
-	amount = 40000
+	amount = 50000
 	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = anti_air_equipment_1
-	amount = 1100
+	amount = 1600
 	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
-	amount = 800
+	amount = 1600
+	producer = GER
+}
+add_equipment_to_stockpile = {
+	type = anti_tank_equipment_1
+	amount = 1600
 	producer = GER
 }
 add_equipment_to_stockpile = {
 	type = support_equipment_1
 	amount = 1700
+	producer = GER
+}
+add_equipment_to_stockpile = {
+	type = train_equipment_1
+	amount = 100
+	producer = GER
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 1000
 	producer = GER
 }
 add_manpower = 1000000

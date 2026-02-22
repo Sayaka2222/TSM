@@ -1701,16 +1701,18 @@ focus = {
 				amount = 800
 				producer = USA
 			}}
- 			else = {add_equipment_to_stockpile = {
- 				type = small_plane_airframe_2
- 				amount = 1500
- 				producer = USA
- 			}}
- 			add_equipment_to_stockpile = {
- 				type = small_plane_cas_airframe_2
- 				amount = 500
- 				producer = USA
- 			}
+ 			else = {
+				add_equipment_to_stockpile = {
+ 					type = small_plane_airframe_2
+ 					amount = 1500
+ 					producer = USA
+ 				}
+				add_equipment_to_stockpile = {
+ 					type = cv_small_plane_cas_airframe_2
+ 					amount = 500
+ 					producer = USA
+ 				}
+			}
  		}
 	}
 	focus = {
@@ -1885,31 +1887,85 @@ focus = {
 				   	date > 1941.9.1
 						count_triggers = {
 							amount = 22
-							586={is_controlled_by_ROOT_or_ally = yes} 
-							300={is_controlled_by_ROOT_or_ally = yes} 
-							303={is_controlled_by_ROOT_or_ally = yes} 
-							713={is_controlled_by_ROOT_or_ally = yes} 
-							591={is_controlled_by_ROOT_or_ally = yes} 
-							302={is_controlled_by_ROOT_or_ally = yes} 
-							712={is_controlled_by_ROOT_or_ally = yes} 
-							301={is_controlled_by_ROOT_or_ally = yes} 
-							592={is_controlled_by_ROOT_or_ally = yes} 
-							587={is_controlled_by_ROOT_or_ally = yes} 
-							588={is_controlled_by_ROOT_or_ally = yes} 
-							639={is_controlled_by_ROOT_or_ally = yes} 
-							548={is_controlled_by_ROOT_or_ally = yes} 
+							544={is_controlled_by_ROOT_or_ally = yes} 
+							294={is_controlled_by_ROOT_or_ally = yes} 
+							545={is_controlled_by_ROOT_or_ally = yes} 
 							546={is_controlled_by_ROOT_or_ally = yes} 
 							549={is_controlled_by_ROOT_or_ally = yes} 
+							548={is_controlled_by_ROOT_or_ally = yes} 
 							547={is_controlled_by_ROOT_or_ally = yes} 
-							545={is_controlled_by_ROOT_or_ally = yes} 
-							294={is_controlled_by_ROOT_or_ally = yes} 
-							544={is_controlled_by_ROOT_or_ally = yes} 
-							388={is_controlled_by_ROOT_or_ally = yes} 
-							450={is_controlled_by_ROOT_or_ally = yes} 
+							300={is_controlled_by_ROOT_or_ally = yes} 
+							301={is_controlled_by_ROOT_or_ally = yes} 
+							303={is_controlled_by_ROOT_or_ally = yes} 
+							591={is_controlled_by_ROOT_or_ally = yes} 
+							713={is_controlled_by_ROOT_or_ally = yes} 
+							302={is_controlled_by_ROOT_or_ally = yes} 
+							712={is_controlled_by_ROOT_or_ally = yes} 
+							592={is_controlled_by_ROOT_or_ally = yes} 
+							586={is_controlled_by_ROOT_or_ally = yes} 
+							639={is_controlled_by_ROOT_or_ally = yes} 
 							656={is_controlled_by_ROOT_or_ally = yes} 
+							588={is_controlled_by_ROOT_or_ally = yes} 
+							450={is_controlled_by_ROOT_or_ally = yes} 
+							388={is_controlled_by_ROOT_or_ally = yes} 
+							587={is_controlled_by_ROOT_or_ally = yes} 
 						}
 						count_triggers = {
 							amount = 5
+							272={is_controlled_by_ROOT_or_ally = yes} 
+							273={is_controlled_by_ROOT_or_ally = yes} 
+							294={is_controlled_by_ROOT_or_ally = yes} 
+							302={is_controlled_by_ROOT_or_ally = yes} 
+							405={is_controlled_by_ROOT_or_ally = yes} 
+						}
+						count_triggers = {
+							amount = 4
+							450={is_controlled_by_ROOT_or_ally = yes} 
+							655={is_controlled_by_ROOT_or_ally = yes} 
+							555={is_controlled_by_ROOT_or_ally = yes} 
+							588={is_controlled_by_ROOT_or_ally = yes} 
+						}
+						count_triggers = {
+							amount = 8
+							453={is_controlled_by_ROOT_or_ally = yes} 
+							550={is_controlled_by_ROOT_or_ally = yes} 
+							552={is_controlled_by_ROOT_or_ally = yes} 
+							553={is_controlled_by_ROOT_or_ally = yes} 
+							559={is_controlled_by_ROOT_or_ally = yes} 
+							566={is_controlled_by_ROOT_or_ally = yes} 
+							567={is_controlled_by_ROOT_or_ally = yes} 
+							568={is_controlled_by_ROOT_or_ally = yes} 
+						}
+					}
+				   AND = {
+				   date > 1942.1.1
+						count_triggers = {
+							amount = 15
+							544={is_controlled_by_ROOT_or_ally = yes} 
+							294={is_controlled_by_ROOT_or_ally = yes} 
+							545={is_controlled_by_ROOT_or_ally = yes} 
+							546={is_controlled_by_ROOT_or_ally = yes} 
+							549={is_controlled_by_ROOT_or_ally = yes} 
+							548={is_controlled_by_ROOT_or_ally = yes} 
+							547={is_controlled_by_ROOT_or_ally = yes} 
+							300={is_controlled_by_ROOT_or_ally = yes} 
+							301={is_controlled_by_ROOT_or_ally = yes} 
+							303={is_controlled_by_ROOT_or_ally = yes} 
+							591={is_controlled_by_ROOT_or_ally = yes} 
+							713={is_controlled_by_ROOT_or_ally = yes} 
+							302={is_controlled_by_ROOT_or_ally = yes} 
+							712={is_controlled_by_ROOT_or_ally = yes} 
+							592={is_controlled_by_ROOT_or_ally = yes} 
+							586={is_controlled_by_ROOT_or_ally = yes} 
+							639={is_controlled_by_ROOT_or_ally = yes} 
+							656={is_controlled_by_ROOT_or_ally = yes} 
+							588={is_controlled_by_ROOT_or_ally = yes} 
+							450={is_controlled_by_ROOT_or_ally = yes} 
+							388={is_controlled_by_ROOT_or_ally = yes} 
+							587={is_controlled_by_ROOT_or_ally = yes} 
+						}
+						count_triggers = {
+							amount = 4
 							405={is_controlled_by_ROOT_or_ally = yes} 
 							294={is_controlled_by_ROOT_or_ally = yes} 
 							302={is_controlled_by_ROOT_or_ally = yes} 
@@ -1924,7 +1980,115 @@ focus = {
 							588={is_controlled_by_ROOT_or_ally = yes} 
 						}
 						count_triggers = {
-							amount = 8
+							amount = 6
+							559={is_controlled_by_ROOT_or_ally = yes} 
+							552={is_controlled_by_ROOT_or_ally = yes} 
+							553={is_controlled_by_ROOT_or_ally = yes} 
+							550={is_controlled_by_ROOT_or_ally = yes} 
+							568={is_controlled_by_ROOT_or_ally = yes} 
+							566={is_controlled_by_ROOT_or_ally = yes} 
+							567={is_controlled_by_ROOT_or_ally = yes} 
+							453={is_controlled_by_ROOT_or_ally = yes} 
+						}
+				   	}
+				   AND = {
+				   date > 1942.3.1
+						count_triggers = {
+							amount = 9
+							544={is_controlled_by_ROOT_or_ally = yes} 
+							294={is_controlled_by_ROOT_or_ally = yes} 
+							545={is_controlled_by_ROOT_or_ally = yes} 
+							546={is_controlled_by_ROOT_or_ally = yes} 
+							549={is_controlled_by_ROOT_or_ally = yes} 
+							548={is_controlled_by_ROOT_or_ally = yes} 
+							547={is_controlled_by_ROOT_or_ally = yes} 
+							300={is_controlled_by_ROOT_or_ally = yes} 
+							301={is_controlled_by_ROOT_or_ally = yes} 
+							303={is_controlled_by_ROOT_or_ally = yes} 
+							591={is_controlled_by_ROOT_or_ally = yes} 
+							713={is_controlled_by_ROOT_or_ally = yes} 
+							302={is_controlled_by_ROOT_or_ally = yes} 
+							712={is_controlled_by_ROOT_or_ally = yes} 
+							592={is_controlled_by_ROOT_or_ally = yes} 
+							586={is_controlled_by_ROOT_or_ally = yes} 
+							639={is_controlled_by_ROOT_or_ally = yes} 
+							656={is_controlled_by_ROOT_or_ally = yes} 
+							588={is_controlled_by_ROOT_or_ally = yes} 
+							450={is_controlled_by_ROOT_or_ally = yes} 
+							388={is_controlled_by_ROOT_or_ally = yes} 
+							587={is_controlled_by_ROOT_or_ally = yes} 
+						}
+						count_triggers = {
+							amount = 3
+							405={is_controlled_by_ROOT_or_ally = yes} 
+							294={is_controlled_by_ROOT_or_ally = yes} 
+							302={is_controlled_by_ROOT_or_ally = yes} 
+							273={is_controlled_by_ROOT_or_ally = yes} 
+							272={is_controlled_by_ROOT_or_ally = yes} 
+						}
+						count_triggers = {
+							amount = 4
+							450={is_controlled_by_ROOT_or_ally = yes} 
+							655={is_controlled_by_ROOT_or_ally = yes} 
+							555={is_controlled_by_ROOT_or_ally = yes} 
+							588={is_controlled_by_ROOT_or_ally = yes} 
+						}
+						count_triggers = {
+							amount = 4
+							559={is_controlled_by_ROOT_or_ally = yes} 
+							552={is_controlled_by_ROOT_or_ally = yes} 
+							553={is_controlled_by_ROOT_or_ally = yes} 
+							550={is_controlled_by_ROOT_or_ally = yes} 
+							568={is_controlled_by_ROOT_or_ally = yes} 
+							566={is_controlled_by_ROOT_or_ally = yes} 
+							567={is_controlled_by_ROOT_or_ally = yes} 
+							453={is_controlled_by_ROOT_or_ally = yes} 
+						}
+				   }
+				   AND = {
+				   date > 1942.6.1
+						count_triggers = {
+							amount = 5
+							544={is_controlled_by_ROOT_or_ally = yes} 
+							294={is_controlled_by_ROOT_or_ally = yes} 
+							545={is_controlled_by_ROOT_or_ally = yes} 
+							546={is_controlled_by_ROOT_or_ally = yes} 
+							549={is_controlled_by_ROOT_or_ally = yes} 
+							548={is_controlled_by_ROOT_or_ally = yes} 
+							547={is_controlled_by_ROOT_or_ally = yes} 
+							300={is_controlled_by_ROOT_or_ally = yes} 
+							301={is_controlled_by_ROOT_or_ally = yes} 
+							303={is_controlled_by_ROOT_or_ally = yes} 
+							591={is_controlled_by_ROOT_or_ally = yes} 
+							713={is_controlled_by_ROOT_or_ally = yes} 
+							302={is_controlled_by_ROOT_or_ally = yes} 
+							712={is_controlled_by_ROOT_or_ally = yes} 
+							592={is_controlled_by_ROOT_or_ally = yes} 
+							586={is_controlled_by_ROOT_or_ally = yes} 
+							639={is_controlled_by_ROOT_or_ally = yes} 
+							656={is_controlled_by_ROOT_or_ally = yes} 
+							588={is_controlled_by_ROOT_or_ally = yes} 
+							450={is_controlled_by_ROOT_or_ally = yes} 
+							388={is_controlled_by_ROOT_or_ally = yes} 
+							587={is_controlled_by_ROOT_or_ally = yes} 
+						}
+						count_triggers = {
+							amount = 3
+							405={is_controlled_by_ROOT_or_ally = yes} 
+							294={is_controlled_by_ROOT_or_ally = yes} 
+							302={is_controlled_by_ROOT_or_ally = yes} 
+							273={is_controlled_by_ROOT_or_ally = yes} 
+							272={is_controlled_by_ROOT_or_ally = yes} 
+						}
+						count_triggers = {
+							amount = 2
+							450={is_controlled_by_ROOT_or_ally = yes} 
+							655={is_controlled_by_ROOT_or_ally = yes} 
+							555={is_controlled_by_ROOT_or_ally = yes} 
+							588={is_controlled_by_ROOT_or_ally = yes} 
+						}
+						count_triggers = {
+							amount = 2
 							559={is_controlled_by_ROOT_or_ally = yes} 
 							552={is_controlled_by_ROOT_or_ally = yes} 
 							553={is_controlled_by_ROOT_or_ally = yes} 
@@ -1935,172 +2099,11 @@ focus = {
 							453={is_controlled_by_ROOT_or_ally = yes} 
 						}
 					}
-				   AND = {
-				   date > 1942.1.1
-				   count_triggers = {
-					amount = 17
-					586={is_controlled_by_ROOT_or_ally = yes} 
-					300={is_controlled_by_ROOT_or_ally = yes} 
-					303={is_controlled_by_ROOT_or_ally = yes} 
-					713={is_controlled_by_ROOT_or_ally = yes} 
-					591={is_controlled_by_ROOT_or_ally = yes} 
-					302={is_controlled_by_ROOT_or_ally = yes} 
-					712={is_controlled_by_ROOT_or_ally = yes} 
-					301={is_controlled_by_ROOT_or_ally = yes} 
-					592={is_controlled_by_ROOT_or_ally = yes} 
-					587={is_controlled_by_ROOT_or_ally = yes} 
-					588={is_controlled_by_ROOT_or_ally = yes} 
-					639={is_controlled_by_ROOT_or_ally = yes} 
-					548={is_controlled_by_ROOT_or_ally = yes} 
-					546={is_controlled_by_ROOT_or_ally = yes} 
-					549={is_controlled_by_ROOT_or_ally = yes} 
-					547={is_controlled_by_ROOT_or_ally = yes} 
-					545={is_controlled_by_ROOT_or_ally = yes} 
-					294={is_controlled_by_ROOT_or_ally = yes} 
-					544={is_controlled_by_ROOT_or_ally = yes} 
-					388={is_controlled_by_ROOT_or_ally = yes} 
-					450={is_controlled_by_ROOT_or_ally = yes} 
-					656={is_controlled_by_ROOT_or_ally = yes} 
-				}
-				count_triggers = {
-					amount = 5
-					405={is_controlled_by_ROOT_or_ally = yes} 
-					294={is_controlled_by_ROOT_or_ally = yes} 
-					302={is_controlled_by_ROOT_or_ally = yes} 
-					273={is_controlled_by_ROOT_or_ally = yes} 
-					272={is_controlled_by_ROOT_or_ally = yes} 
-				}
-				count_triggers = {
-					amount = 4
-					450={is_controlled_by_ROOT_or_ally = yes} 
-					655={is_controlled_by_ROOT_or_ally = yes} 
-					555={is_controlled_by_ROOT_or_ally = yes} 
-					588={is_controlled_by_ROOT_or_ally = yes} 
-				}
-				count_triggers = {
-					amount = 6
-					559={is_controlled_by_ROOT_or_ally = yes} 
-					552={is_controlled_by_ROOT_or_ally = yes} 
-					553={is_controlled_by_ROOT_or_ally = yes} 
-					550={is_controlled_by_ROOT_or_ally = yes} 
-					568={is_controlled_by_ROOT_or_ally = yes} 
-					566={is_controlled_by_ROOT_or_ally = yes} 
-					567={is_controlled_by_ROOT_or_ally = yes} 
-					453={is_controlled_by_ROOT_or_ally = yes} 
-				}
-				   }
-				   AND = {
-				   date > 1942.3.1
-				   count_triggers = {
-					amount = 11
-					586={is_controlled_by_ROOT_or_ally = yes} 
-					300={is_controlled_by_ROOT_or_ally = yes} 
-					303={is_controlled_by_ROOT_or_ally = yes} 
-					713={is_controlled_by_ROOT_or_ally = yes} 
-					591={is_controlled_by_ROOT_or_ally = yes} 
-					302={is_controlled_by_ROOT_or_ally = yes} 
-					712={is_controlled_by_ROOT_or_ally = yes} 
-					301={is_controlled_by_ROOT_or_ally = yes} 
-					592={is_controlled_by_ROOT_or_ally = yes} 
-					587={is_controlled_by_ROOT_or_ally = yes} 
-					588={is_controlled_by_ROOT_or_ally = yes} 
-					639={is_controlled_by_ROOT_or_ally = yes} 
-					548={is_controlled_by_ROOT_or_ally = yes} 
-					546={is_controlled_by_ROOT_or_ally = yes} 
-					549={is_controlled_by_ROOT_or_ally = yes} 
-					547={is_controlled_by_ROOT_or_ally = yes} 
-					545={is_controlled_by_ROOT_or_ally = yes} 
-					294={is_controlled_by_ROOT_or_ally = yes} 
-					544={is_controlled_by_ROOT_or_ally = yes} 
-					388={is_controlled_by_ROOT_or_ally = yes} 
-					450={is_controlled_by_ROOT_or_ally = yes} 
-					656={is_controlled_by_ROOT_or_ally = yes} 
-				}
-				count_triggers = {
-					amount = 3
-					405={is_controlled_by_ROOT_or_ally = yes} 
-					294={is_controlled_by_ROOT_or_ally = yes} 
-					302={is_controlled_by_ROOT_or_ally = yes} 
-					273={is_controlled_by_ROOT_or_ally = yes} 
-					272={is_controlled_by_ROOT_or_ally = yes} 
-				}
-				count_triggers = {
-					amount = 4
-					450={is_controlled_by_ROOT_or_ally = yes} 
-					655={is_controlled_by_ROOT_or_ally = yes} 
-					555={is_controlled_by_ROOT_or_ally = yes} 
-					588={is_controlled_by_ROOT_or_ally = yes} 
-				}
-				count_triggers = {
-					amount = 4
-					559={is_controlled_by_ROOT_or_ally = yes} 
-					552={is_controlled_by_ROOT_or_ally = yes} 
-					553={is_controlled_by_ROOT_or_ally = yes} 
-					550={is_controlled_by_ROOT_or_ally = yes} 
-					568={is_controlled_by_ROOT_or_ally = yes} 
-					566={is_controlled_by_ROOT_or_ally = yes} 
-					567={is_controlled_by_ROOT_or_ally = yes} 
-					453={is_controlled_by_ROOT_or_ally = yes} 
-				}
-				   }
-				   AND = {
-				   date > 1942.6.1
-				   count_triggers = {
-					amount = 6
-					586={is_controlled_by_ROOT_or_ally = yes} 
-					300={is_controlled_by_ROOT_or_ally = yes} 
-					303={is_controlled_by_ROOT_or_ally = yes} 
-					713={is_controlled_by_ROOT_or_ally = yes} 
-					591={is_controlled_by_ROOT_or_ally = yes} 
-					302={is_controlled_by_ROOT_or_ally = yes} 
-					712={is_controlled_by_ROOT_or_ally = yes} 
-					301={is_controlled_by_ROOT_or_ally = yes} 
-					592={is_controlled_by_ROOT_or_ally = yes} 
-					587={is_controlled_by_ROOT_or_ally = yes} 
-					588={is_controlled_by_ROOT_or_ally = yes} 
-					639={is_controlled_by_ROOT_or_ally = yes} 
-					548={is_controlled_by_ROOT_or_ally = yes} 
-					546={is_controlled_by_ROOT_or_ally = yes} 
-					549={is_controlled_by_ROOT_or_ally = yes} 
-					547={is_controlled_by_ROOT_or_ally = yes} 
-					545={is_controlled_by_ROOT_or_ally = yes} 
-					294={is_controlled_by_ROOT_or_ally = yes} 
-					544={is_controlled_by_ROOT_or_ally = yes} 
-					388={is_controlled_by_ROOT_or_ally = yes} 
-					450={is_controlled_by_ROOT_or_ally = yes} 
-					656={is_controlled_by_ROOT_or_ally = yes} 
-				}
-				count_triggers = {
-					amount = 3
-					405={is_controlled_by_ROOT_or_ally = yes} 
-					294={is_controlled_by_ROOT_or_ally = yes} 
-					302={is_controlled_by_ROOT_or_ally = yes} 
-					273={is_controlled_by_ROOT_or_ally = yes} 
-					272={is_controlled_by_ROOT_or_ally = yes} 
-				}
-				count_triggers = {
-					amount = 2
-					450={is_controlled_by_ROOT_or_ally = yes} 
-					655={is_controlled_by_ROOT_or_ally = yes} 
-					555={is_controlled_by_ROOT_or_ally = yes} 
-					588={is_controlled_by_ROOT_or_ally = yes} 
-				}
-				count_triggers = {
-					amount = 2
-					559={is_controlled_by_ROOT_or_ally = yes} 
-					552={is_controlled_by_ROOT_or_ally = yes} 
-					553={is_controlled_by_ROOT_or_ally = yes} 
-					550={is_controlled_by_ROOT_or_ally = yes} 
-					568={is_controlled_by_ROOT_or_ally = yes} 
-					566={is_controlled_by_ROOT_or_ally = yes} 
-					567={is_controlled_by_ROOT_or_ally = yes} 
-					453={is_controlled_by_ROOT_or_ally = yes} 
-				}
-				   }
 				}
 			}
 		}
 		completion_reward = {
+			custom_effect_tooltip = "No matter what you can do this in September 1942"
 			remove_ideas = Pacific_focus
 			create_corps_commander = {
 				name = "George S. Patton"

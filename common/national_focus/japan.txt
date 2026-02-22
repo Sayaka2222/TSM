@@ -1511,8 +1511,12 @@ focus_tree = {
  		continue_if_invalid = no
  		available_if_capitulated = no
  		completion_reward = {
- 			custom_effect_tooltip = available_mio_tt
-			show_mio_tooltip = JAP_aichi_organization
+ 			add_tech_bonus = {
+ 				name = radar_tech_bonus
+ 				bonus = 1.0
+ 				uses = 2
+ 				category = radar_tech
+ 			}
  		}
  	}
  	focus = {
@@ -1538,8 +1542,8 @@ focus_tree = {
  		continue_if_invalid = no
  		available_if_capitulated = no
  		completion_reward = {
- 			custom_effect_tooltip = available_mio_tt
-			show_mio_tooltip = JAP_mitsubishi_organization
+ 			remove_ideas = JAP_duplicate_research_efforts
+ 			air_experience = 300
  		}
  	}
  	focus = {
@@ -1605,12 +1609,6 @@ focus_tree = {
  				category = tactical_bomber
  				category = naval_bomber
  			}
- 			add_tech_bonus = {
- 				name = radar_tech_bonus
- 				bonus = 1.0
- 				uses = 2
- 				category = radar_tech
- 			}
  		}
  	}
  	focus = {
@@ -1635,8 +1633,6 @@ focus_tree = {
  		search_filters = { FOCUS_FILTER_RESEARCH }
  		completion_reward = {
 			complete_special_project = sp:sp_air_radar
- 			remove_ideas = JAP_duplicate_research_efforts
- 			air_experience = 300
 			add_tech_bonus = {
 				name = GER_Fighter_Weapon
 				bonus = 1.5

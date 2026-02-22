@@ -65,7 +65,7 @@ NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 12
 NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 24
 NDefines.NNavy.COMBAT_ARMOR_PIERCING_DAMAGE_REDUCTION = -0.75 --vanilla -0.9
 NDefines.NNavy.NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY = 100						-- How many planes flying in a naval combat before penalties are introduced
-NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.01					-- Each plane above the optimal amount decreases the amount of airplanes being able to takeoff by such %. Subject to diminishing returns
+NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.005					-- Each plane above the optimal amount decreases the amount of airplanes being able to takeoff by such %. Subject to diminishing returns
 
 NDefines.NNavy.COMBAT_MIN_DURATION = 12
 

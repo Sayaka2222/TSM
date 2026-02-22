@@ -866,7 +866,7 @@ focus = {
  			}
  			create_equipment_variant = {
  				name = "Savoia-Marchetti.79 Sparviero"
- 				type = small_plane_naval_bomber_airframe_2
+ 				type = cv_small_plane_naval_bomber_airframe_2
  				upgrades = {
  					plane_armor_upgrade=0
  					plane_engine_upgrade=0
@@ -879,7 +879,7 @@ focus = {
 				special_type_slot_2=floats
 				fixed_main_weapon_slot=torpedo_mounting_2
 				fixed_auxiliary_weapon_slot_1=light_mg_2x
-				fixed_auxiliary_weapon_slot_2=bomb_locks
+				fixed_auxiliary_weapon_slot_2=light_mg_2x
 				special_type_slot_3=drop_tanks
 				}
  			}

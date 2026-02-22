@@ -318,6 +318,50 @@ focus_tree = {
 			set_nationality = POL
 			}
 			}
+			division_template = {
+				name = "Spartans"
+				division_names_group = GRE_INF_01
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+					infantry = { x = 0 y = 4 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 1 y = 3 }
+					infantry = { x = 1 y = 4 }
+					infantry = { x = 1 y = 5 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
+					infantry = { x = 2 y = 2 }
+					infantry = { x = 2 y = 3 }
+					infantry = { x = 2 y = 4 }
+					artillery_brigade = { x = 3 y = 0 }
+					artillery_brigade = { x = 3 y = 1 }
+					anti_tank_brigade = { x = 3 y = 2 }
+					anti_air_brigade = { x = 3 y = 3 }
+				}
+				
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					recon = { x = 0 y = 2 }
+					anti_air = { x = 0 y = 3  }
+					anti_tank = { x = 0 y = 4  }
+				}
+			}
+ 			715 = {
+ 				for_loop_effect = {
+ 					end = 50
+ 					create_unit = {
+ 						prioritize_location = 9135
+ 						division = "name = \"Spartans\" division_template = \"Spartans\" start_experience_factor = 0.3"
+ 						owner = GRE
+ 					}
+ 				}
+			}
  			every_country={
  				limit={is_playable_country=yes}
  				swap_ideas={

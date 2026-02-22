@@ -13,6 +13,15 @@ on_actions = {
 			}
 			
 			}
+
+			if = {limit = {original_tag = GRE}
+			set_equipment_fraction = 0
+			delete_unit_template_and_units = {
+				division_template = "Spartans"
+				disband = no #will refund equipment and manpower
+			}
+			
+			}
 			
 		}
 	}
