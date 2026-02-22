@@ -612,14 +612,34 @@ great_war_infantry = {
     max_planning = 0.05
     rewards = {
         traverse_digging = {
-            dig_in_speed_factor = 0.05
             engineer = {
-                battalion_mult = {
-                    category = category_light_infantry
-                    entrenchment = 0.05
-                }
-            }
-            
+		battalion_mult = {
+			category = category_light_infantry
+			entrenchment = 0.10
+			add = yes
+		}
+	}
+	pioneer_support = {
+		battalion_mult = {
+			category = category_light_infantry
+			entrenchment = 0.10
+			add = yes
+		}
+	}
+	armored_engineer = {
+		battalion_mult = {
+			category = category_light_infantry
+			entrenchment = 0.10
+			add = yes
+		}
+	}
+	assault_engineer = {
+		battalion_mult = {
+			category = category_light_infantry
+			entrenchment = 0.10
+			add = yes
+		}
+	}
         }
         sapping_operations = {
             category_light_infantry = {
