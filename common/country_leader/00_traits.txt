@@ -2298,8 +2298,7 @@ leader_traits = {
 
 	naval_aviation_pioneer = {
 		sprite = 14
-		experience_gain_navy = 0.2
-		experience_gain_air = 0.2
+		naval_strike_targetting_factor = 0.05
 
 		ai_will_do = {
 			factor = 100
@@ -3037,7 +3036,7 @@ leader_traits = {
 
 	army_chief_morale_1 = { # Ground units get 4 more Morale
 		sprite = 5
-		army_morale_factor = 0.04
+		coordination_bonus = 0.04
 		custom_modifier_tooltip = theorist_chief_of_army_tt
 		ai_will_do = {
 			factor = 1
@@ -3046,7 +3045,7 @@ leader_traits = {
 
 	army_chief_morale_2 = { # Ground units get 8 more Morale
 		sprite = 5
-		army_morale_factor = 0.08
+		coordination_bonus = 0.08
 		custom_modifier_tooltip = theorist_chief_of_army_tt
 		ai_will_do = {
 			factor = 2
@@ -3055,7 +3054,7 @@ leader_traits = {
 
 	army_chief_morale_3 = { # Ground units get 12 more Morale
 		sprite = 5
-		army_morale_factor = 0.12
+		coordination_bonus = 0.12
 		custom_modifier_tooltip = theorist_chief_of_army_tt
 		ai_will_do = {
 			factor = 3
@@ -3185,6 +3184,8 @@ leader_traits = {
 		sprite = 5
 		army_infantry_attack_factor = 0.05
 		army_infantry_defence_factor = 0.1
+		-special_forces_attack_factor = 0.10
+		-special_forces_defence_factor = 0.05
 		#army_artillery_attack_factor = 0.05
 		#army_artillery_defence_factor = 0.11
 
@@ -3197,6 +3198,8 @@ leader_traits = {
 		sprite = 5
 		army_infantry_attack_factor = 0.1
 		army_infantry_defence_factor = 0.15
+		-special_forces_attack_factor = 0.15
+		-special_forces_defence_factor = 0.10
 		#army_artillery_attack_factor = 0.1
 		#army_artillery_defence_factor = 0.15
 
@@ -3209,6 +3212,8 @@ leader_traits = {
 		sprite = 5
 		army_infantry_attack_factor = 0.15
 		army_infantry_defence_factor = 0.2
+		-special_forces_attack_factor = 0.20
+		-special_forces_defence_factor = 0.10
 		#army_artillery_attack_factor = 0.15
 		#army_artillery_defence_factor = 0.2
 
@@ -3360,7 +3365,7 @@ leader_traits = {
 
 	army_logistics_1 = {  # Ground units suffer 4% less attrition
 		sprite = 6
-		supply_consumption_factor = -0.03
+		attrition = -0.1
 
 		ai_will_do = {
 			factor = 2
@@ -3369,7 +3374,7 @@ leader_traits = {
 
 	army_logistics_2 = {  # Ground units suffer 8% less attrition
 		sprite = 6
-		supply_consumption_factor = -0.06
+		attrition = -0.15
 
 		ai_will_do = {
 			factor = 4
@@ -3378,7 +3383,7 @@ leader_traits = {
 
 	army_logistics_3 = {  # Ground units suffer 12% less attrition
 		sprite = 6
-		supply_consumption_factor = -0.12
+		attrition = -0.2
 
 		ai_will_do = {
 			factor = 6

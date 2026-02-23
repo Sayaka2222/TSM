@@ -972,7 +972,7 @@ characters={
 			}
 		}
 		advisor={
-			cost = 150
+			cost = 100
 			slot = theorist
 			idea_token = curtis_lemay
 			ledger = air
