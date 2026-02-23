@@ -1136,15 +1136,15 @@ characters={
 			}
 		}
 		advisor={
-			slot = navy_chief
+			slot = theorist
 			idea_token = osami_nagano
 			allowed = {
 				original_tag = JAP
 			}
 			traits = {
-				navy_chief_commerce_raiding_1
+				naval_aviation_pioneer
 			}
-			cost =  50
+			cost = 150
 			ai_will_do = {
 				factor = 0.200
 			}
