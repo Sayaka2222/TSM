@@ -644,6 +644,7 @@ focus = {
 				}
 			}
 			add_timed_idea= {idea=SOV_winter_offensive days=60}
+			news_event = { id = news.503 }
 		}
 	}
 	focus = {

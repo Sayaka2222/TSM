@@ -478,6 +478,7 @@ ideas = {
 						tag=SOV
 						tag=JAP
 						has_idea = wartime_economy
+						has_idea = wartime_economy_man
 					}
 				}
 			}

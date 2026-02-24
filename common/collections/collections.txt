@@ -407,22 +407,6 @@ states_controlled_by_faction_member_and_core_holder = {
 
 # New Order in east Asia
 
-anti_fascist_controlled_states_my_continent = {
-	input = game:all_states
-	name = COLLECTION_STATES_MY_CONTINENT_CONTROLLED_DEMOCRATIC_COMMUNIST
-	operators = {
-		limit = {
-			is_on_same_continent_as = ROOT
-			controller = {
-				OR = {
-					has_government = communism
-					has_government = democratic
-				}
-			}
-		}
-	}
-}
-
 
 
 

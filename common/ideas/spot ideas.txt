@@ -55,6 +55,10 @@ ideas = {
 				tag = SIA
 				extra_trade_to_target_factor = 1
 			}
+			targeted_modifier = {
+				tag = JAP
+				extra_trade_to_target_factor = 1
+			}
 		}
 		SIA_faction_trade = {
 			allowed = {

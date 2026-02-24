@@ -3470,3 +3470,6 @@
  news.503.t:0 "The Russian Winter Sets In"
  news.503.d:0 "General Winter has arrived. As temperatures plummet and blizzards sweep across the vast Russian plains, German soldiers find themselves locked in a new battle — not with the enemy's guns, but with the relentless cold. Supply lines are freezing, vehicles are immobilized, and frostbite has become a common affliction among the troops. While the Soviet forces, hardened by years of experience in these harsh conditions, remain resilient, German troops are struggling to adapt. Despair and fatigue are spreading through the ranks as the once fluid advance grinds to a halt. Commanders fear that the worst is yet to come. The Russian Winter has claimed many lives before, and now it threatens to turn the tide of war." 
  news.503.a:0 "The German Forces better be prepared" 
+ news.999.t:0 "[This.GetName] has too many Special Forces."
+ news.999.desc:0 "[This.GetName] has too many Special Forces."
+ news.999.a:0 "[This.GetName] has too many Special Forces."

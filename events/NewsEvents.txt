@@ -5600,6 +5600,16 @@ news_event = {
 	}
 }
 news_event = {
+	id = news.999
+	title = news.999.t
+	desc = news.999.desc
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = news.999.a
+	}
+}
+news_event = {
 	id = news.300
 	title = news.300.t
 	desc = news.300.desc
