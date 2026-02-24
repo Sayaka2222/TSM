@@ -261,6 +261,11 @@ commandos = {
 		marine = {
             need = {infantry_equipment = 100}
 			max_strength = 4}
+			
+	mountaineers_special_forces_contribution_factor = 0.30
+	marines_special_forces_contribution_factor = 0.30
+	paratroopers_special_forces_contribution_factor = 0.30
+	
     effect = {custom_effect_tooltip = "Each Infantry Batallion requires 50 more Infantry Equipment and each special Forces Battalion rquires 100 more Infantry equipment"}
     # EFFECTS
 
