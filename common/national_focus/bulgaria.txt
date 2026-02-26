@@ -626,7 +626,7 @@ focus_tree = {
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			212 = {
+			205 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
@@ -833,6 +833,9 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
 			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -860,6 +863,9 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
 			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -886,6 +892,9 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
 			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -919,6 +928,9 @@ focus_tree = {
 			    category = tp_tech
 			}
 			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -945,6 +957,9 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
 			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -971,6 +986,9 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
 			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -998,6 +1016,9 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
 			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -1025,6 +1046,9 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
 			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -1052,6 +1076,9 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
 			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard

@@ -717,7 +717,7 @@ equipments = {
  			front_1_custom_slot = {
  				required = no
  				allowed_module_categories = {
- 					ship_6_battery ship_7_battery ship_8_battery ship_9_battery
+ 					ship_6_battery ship_7_battery
  				}
  			}
  			mid_1_custom_slot = {
