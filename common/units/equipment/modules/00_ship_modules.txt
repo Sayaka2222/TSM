@@ -2704,6 +2704,21 @@ equipment_modules = {
  		}
  		dismantle_cost_ic = 8200
  	}
+
+	ship_armor_carrier_deck = {
+ 		category = ship_carrier_armor
+ 		gfx = ship_cruiser_armor
+ 		multiply_stats = {
+ 			build_cost_ic = 0.05
+ 			naval_speed = -0.1
+ 			max_strength = 0.15
+ 		}
+ 		add_stats = {
+ 			armor_value = 15
+ 		}
+ 		dismantle_cost_ic = 2500
+ 	}
+
  	ship_armor_cruiser_1 = {
  		category = ship_cruiser_armor
  		gfx = ship_armor_thin_1
@@ -2835,26 +2850,8 @@ equipment_modules = {
  		}
  		dismantle_cost_ic = 6200
  	}
- 	ship_armor_carrier_deck = {
- 		category = ship_carrier_armor
- 		gfx = ship_cruiser_armor
- 		multiply_stats = {
- 			build_cost_ic = 0.1
- 		}
- 		build_cost_resources = {
- 			steel = 10
- 		}
- 		multiply_stats = {
- 			naval_speed = -0.05
- 		}
- 		add_stats = {
- 			armor_value = 7
- 			max_strength = 25
- 		}
- 		dismantle_cost_ic = 2500
- 	}
 
-	 ship_armor_ice_carrier_deck_1 = {
+	ship_armor_ice_carrier_deck_1 = {
 		abbreviation = "sdr"
 		category = ship_ice_carrier_armor
 		gfx = ship_armor_ice_carrier_deck_1

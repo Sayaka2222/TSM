@@ -39,7 +39,7 @@ equipments = {
  			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_cruiser_armor }	
+				allowed_module_categories = { ship_carrier_armor }	
 			}
  			mid_1_custom_slot = {
  				required = no
@@ -204,7 +204,7 @@ equipments = {
  			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_cruiser_armor }	
+				allowed_module_categories = { ship_carrier_armor }	
 			}
  			mid_1_custom_slot = {
  				required = no
@@ -854,7 +854,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_cruiser_armor }	
+				allowed_module_categories = { ship_carrier_armor }	
 			}
 			front_1_custom_slot = {
 				required = no
@@ -975,7 +975,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_cruiser_armor }	
+				allowed_module_categories = { ship_carrier_armor }	
 			}
 			front_1_custom_slot = {
 				required = no
