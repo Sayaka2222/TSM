@@ -1724,14 +1724,14 @@ focus_tree = {
 					fixed_ship_battery_slot = ship_381_battery
 					fixed_ship_anti_air_slot = ship_anti_air_3
 					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-					fixed_ship_radar_slot = empty
+					fixed_ship_radar_slot = ship_radar_2
 					fixed_ship_engine_slot = heavy_ship_engine_3
 					fixed_ship_secondaries_slot = ship_secondaries_2
-					fixed_ship_armor_slot = ship_scheme_incremental_post_jutland
+					fixed_ship_armor_slot = ship_scheme_all_or_nothing
 					front_1_custom_slot = ship_381_battery
 					mid_1_custom_slot = ship_anti_air_3
 					mid_2_custom_slot = ship_anti_air_3
-					mid_3_custom_slot = ship_anti_air_3
+					mid_3_custom_slot = ship_ap_shell
 					rear_1_custom_slot = ship_381_battery
 				}
 			}

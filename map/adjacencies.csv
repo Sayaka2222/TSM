@@ -276,10 +276,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12047;7900;impassable;-1;-1;-1;-1;-1;;Spain-Oviedo
 12044;4818;impassable;-1;-1;-1;-1;-1;;Spain-Vigo
 11210;4164;impassable;-1;-1;-1;-1;-1;;SIndia-Stupidtile
-8199;5112;;-1;-1;-1;-1;-1;Corsican_Strait;Corsican North
-8177;5136;;-1;-1;-1;-1;-1;Corsican_Strait;Corsican West
-8199;5136;;-1;-1;-1;-1;-1;Corsican_Strait;Corsican South
-8222;5162;;-1;-1;-1;-1;-1;Tunisian_Strait;Tunisian West
 9029;9056;impassable;-1;-1;-1;-1;-1;;francespain
 10694;9056;impassable;-1;-1;-1;-1;-1;;francespain
 10694;6404;impassable;-1;-1;-1;-1;-1;;francespain

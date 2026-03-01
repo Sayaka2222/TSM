@@ -573,7 +573,7 @@ equipments = {
  			fixed_ship_secondaries_slot = inherit
  		}
  		default_modules = {
- 			fixed_ship_deck_slot_1 = ship_deck_space_small
+ 			fixed_ship_deck_slot_1 = ship_deck_space
  			fixed_ship_deck_slot_2 = ship_anti_air_2
  			fixed_ship_radar_slot = empty
  			fixed_ship_anti_air_slot = ship_anti_air_2
@@ -584,9 +584,9 @@ equipments = {
  		max_strength = 125
  		reliability = 0.65
  		naval_speed = 20
- 		build_cost_ic = 3000
+ 		build_cost_ic = 1500
  		resources = {
- 			steel = 30
+ 			steel = 20
  		}
  		manpower = 1000
  	}

@@ -5,7 +5,6 @@ foreign_politics = {
 		icon = generic_operation
 		available = {
 			BUL = { is_ai = yes }
-			date>1939.1.1
 		}
 		allowed = {
 			tag = ITA
@@ -20,6 +19,50 @@ foreign_politics = {
 				every_owned_state={
 					limit={is_core_of=PREV}
 					add_core_of = ITA
+				}
+			}
+			ITA = {
+				annex_country = {
+					target = BUL
+					transfer_troops = yes
+				}
+			}
+		}
+	}
+
+	ITA_cleanup = {
+		icon = generic_operation
+		available = {
+			BUL = { is_ai = yes }
+			GER = {
+				has_completed_focus = GER_mol_rib_pact
+			}
+		}
+		allowed = {
+			tag = ITA
+		}
+		cost = 0
+		visible = {
+			YUG = { is_ai = yes }
+		}
+		fire_only_once = yes
+		complete_effect = {
+			BUL = {
+				every_owned_state={
+					limit={is_core_of=PREV}
+					add_core_of = ITA
+				}
+			}
+			YUG = {
+				every_owned_state={
+					limit={is_core_of=PREV}
+					add_core_of = ITA
+				}
+			}
+			ITA = {
+				annex_country = {
+					target = YUG
+					transfer_troops = yes
 				}
 			}
 			ITA = {
@@ -152,21 +195,45 @@ foreign_politics = {
 					province =10007
 					instant_build = yes
 				}
-				set_building_level = {
-					type = air_base
-					level = 10
-				}
 			}
 			113 = {
 				set_building_level = {
-					type = air_base
-					level = 10
+					type = coastal_bunker
+					level = 3
+					province =3750
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					level = 3
+					province =6526
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					level = 3
+					province =9253
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					level = 3
+					province =3891
+					instant_build = yes
 				}
 			}
 			112 = {
 				set_building_level = {
-					type = air_base
-					level = 10
+					type = coastal_bunker
+					level = 3
+					province =10689
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					level = 3
+					province =6383
+					instant_build = yes
 				}
 			}
 		}

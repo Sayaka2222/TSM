@@ -372,7 +372,7 @@ equipment_modules = {
  			hg_attack = 23.6
  			build_cost_ic = 1860
 			naval_heavy_gun_hit_chance_factor = 0.03
-			reliability = -0.09
+			reliability = -0.11
  		}
  		multiply_stats = {
  			naval_speed = -0.06

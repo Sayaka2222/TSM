@@ -796,19 +796,19 @@ focus = {
 				}
 			}
 			air_experience = 100
-			113 = {	add_building_construction = {
+			113 = {	set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			112 = {	add_building_construction = {
+			112 = {	set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
 				}
 			}
-			160 = {	add_building_construction = {
+			160 = {	set_building_level = {
 					type = air_base
 					level = 10
 					instant_build = yes
@@ -992,6 +992,7 @@ focus = {
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
+			custom_effect_tooltip = ITA_air_tt
 			add_timed_idea={
 				idea = ITA_air_deployment
 				days =30
@@ -1002,7 +1003,7 @@ focus = {
 				producer = ITA
 			}
 			add_equipment_to_stockpile = {
-				type = small_plane_cas_airframe_2
+				type = cv_small_plane_cas_airframe_2
 				amount = 750
 				producer = ITA
 			}

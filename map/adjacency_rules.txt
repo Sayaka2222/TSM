@@ -241,8 +241,11 @@ adjacency_rule=
 			has_global_flag = SUEZ_CANAL_BLOCKED
 			has_country_flag = SUEZ_CANAL_BLOCKED_FOR_COUNTRY
 			AND = {
-				tag = USA
 				SOV = {has_war = no}
+			}
+			AND = {
+				tag = USA
+				date < 1942.6.1
 			}
 		}
 		tooltip = disable_canal_tt
@@ -292,11 +295,7 @@ adjacency_rule=
 			#}
 			AND = {
 				tag = USA
-				USA = {
-						not  = {
-						has_global_flag  = torch_launched
-					}
-				}
+				date < 1942.6.1
 			}
 		}
 	}
@@ -335,23 +334,6 @@ adjacency_rule=
 	required_provinces = {4702 4634}
 	icon =2595
 	offset = { -10.0 0.0 7.0 }
-	is_disabled = {
-		OR= {
-			#AND = {
-			#	OR={tag=ITA tag=GER}
-			##	has_war=no
-			#}
-			AND = {
-				tag = USA
-				USA = {
-						not  = {
-						has_global_flag  = torch_launched
-					}
-				}
-			}
-		}
-	}
-	
 }
 adjacency_rule=
 {
@@ -752,84 +734,3 @@ adjacency_rule={
 	icon =1576
 	offset = { 0 0 -1 }
 }
-adjacency_rule={
-	name = "Tunisian_Strait"
-	contested =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	enemy =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	neutral =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	required_provinces = {9177 10858}
-	icon =5162
-	offset = { -2.0 0.0 0.0 }
-	is_disabled = {
-			AND = {
-				tag = USA
-			    422= {is_controlled_by_ROOT_or_ally=no}
-			}
-	}
-}
-adjacency_rule={
-	name = "Corsican_Strait"
-	contested =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	enemy =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	friend =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	neutral =
-	{
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	required_provinces = {6383 6290}
-	icon =5112
-	offset = { 0.0 0.0 0.0 }
-	is_disabled = {
-			AND = {
-				tag = USA
-				422= {is_controlled_by_ROOT_or_ally=no}
-			}
-	}
-}
-

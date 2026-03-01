@@ -193,7 +193,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "PARATROOPERS_DOCTRINE_LABEL"
+					text = "Rangers"
 					maxWidth = 400
 					maxHeight = 122
 					format = center

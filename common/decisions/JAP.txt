@@ -118,7 +118,7 @@ foreign_politics = {
  				}
  			}
  			custom_effect_tooltip = tooltip_jap_war
- 			add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 90 }
+ 			add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 120 }
  			hidden_effect={
  				sound_effect = sp_jap_banzai
  				if={limit={USA={has_war=no}}
