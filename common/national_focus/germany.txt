@@ -2454,22 +2454,22 @@ focus = {
 					scoped_sound_effect="ss_marschiert"
 				}
 			GER = {
-				add_timed_idea = { idea = GER_blau days = 120 }
+				add_timed_idea = { idea = GER_blau days = 90 }
 			}
 			hidden_effect={  ROM = {
-					add_timed_idea = { idea = GER_blau days = 120 }
+					add_timed_idea = { idea = GER_blau days = 90 }
 				}
 				HUN = {
-					add_timed_idea = { idea = GER_blau days = 120 }
+					add_timed_idea = { idea = GER_blau days = 90 }
 				}
 				BUL = {
-					add_timed_idea = { idea = GER_blau days = 120 }
+					add_timed_idea = { idea = GER_blau days = 90 }
 				}
 				ITA = {
-					add_timed_idea = { idea = GER_blau days = 120 }
+					add_timed_idea = { idea = GER_blau days = 90 }
 				}
 				SPR = {
-					add_timed_idea = { idea = GER_blau days = 120 }
+					add_timed_idea = { idea = GER_blau days = 90 }
 					}}
 			custom_effect_tooltip = GER_barbarossa_others_text
 		}

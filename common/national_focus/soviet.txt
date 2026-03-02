@@ -143,7 +143,7 @@ focus_tree = {
     			amount = 1000
     			producer = SOV
 		}
-		add_timed_idea= {idea=SOV_counterattack days=100}
+		add_timed_idea= {idea=SOV_counterattack days=30}
 		set_global_flag=SOV_counterattack	
 		}
 	}

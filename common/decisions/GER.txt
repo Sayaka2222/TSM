@@ -697,54 +697,22 @@ operations = {
 			show_super_event=yes
 			SOV={declare_war_on_enemy_faction =yes}
 			GER = {
-				add_timed_idea = { idea = GER_barbarossa days = 175 }
+				add_timed_idea = { idea = GER_barbarossa days = 120 }
 				every_country={set_country_flag = big_event_custom_barbarossa}
 			}
 			hidden_effect={
 				ROM = {
-					if = { limit= { has_country_flag=inf_barb_buff }
-						add_timed_idea = { idea = GER_barbarossa_inf days = 175 }
-					}
-					else_if = { limit= { has_country_flag=armor_barb_buff }
-						add_timed_idea = { idea = GER_barbarossa days = 175 }
-					}
-					else={
-						add_timed_idea = { idea = GER_barbarossa_inf days = 175 }
-					}
-				}
-				HUN = {
-					if = { limit= { has_country_flag=inf_barb_buff }
-						add_timed_idea = { idea = GER_barbarossa_inf days = 175 }
-					}
-					else_if = { limit= { has_country_flag=armor_barb_buff }
-						add_timed_idea = { idea = GER_barbarossa days = 175 }
-					}
-					else={
-						add_timed_idea = { idea = GER_barbarossa days = 175 }
-					}
-				}
-				BUL = {
-					if = { limit= { has_country_flag=inf_barb_buff }
-						add_timed_idea = { idea = GER_barbarossa_inf days = 175 }
-					}
-					else_if = { limit= { has_country_flag=armor_barb_buff }
-						add_timed_idea = { idea = GER_barbarossa days = 175 }
-					}
-					else={
-						add_timed_idea = { idea = GER_barbarossa_inf days = 175 }
-					}
-				}
-				SPR = {
-					if = { limit= { has_country_flag=inf_barb_buff }
-						add_timed_idea = { idea = GER_barbarossa_inf days = 175 }
-					}
-					else_if = { limit= { has_country_flag=armor_barb_buff }
-						add_timed_idea = { idea = GER_barbarossa_spr days = 175 }
-					}
-					else={
-						add_timed_idea = { idea = GER_barbarossa_spr days = 175 }
-					}
-				}
+				add_timed_idea = { idea = GER_barbarossa days = 120 }
+			}
+			BUL = {
+				add_timed_idea = { idea = GER_barbarossa days = 120 }
+			}
+			HUN = {
+				add_timed_idea = { idea = GER_barbarossa days = 120 }
+			}
+			SPR = {
+				add_timed_idea = { idea = GER_barbarossa days = 120 }
+			}
 			}
 		}
 	}
