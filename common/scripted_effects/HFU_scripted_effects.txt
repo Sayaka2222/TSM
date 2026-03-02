@@ -484,7 +484,7 @@ update_pacific_war = {
 	}
 }
 update_africa={
-	set_variable={ITA.africa_status=0.8}
+	set_variable={ITA.africa_status=0.5}
 	if= { 
 		limit = {422= {is_controlled_by_GER_or_ally=no} 
 		FRA={
@@ -497,11 +497,11 @@ update_africa={
 	}
 	if= { 
 		limit = {414= {is_controlled_by_GER_or_ally=no}}#el algheilia
-		add_to_variable={ITA.africa_status=-0.1}
+		add_to_variable={ITA.africa_status=-0.15}
 	}
 	if= { 
 		limit = {582= {is_controlled_by_GER_or_ally=no}} #tobruk
-		add_to_variable={ITA.africa_status=-0.1}
+		add_to_variable={ITA.africa_status=-0.2}
 	}
 	if= { 
 		limit = {416= {is_controlled_by_GER_or_ally=no}} #marsah
@@ -509,11 +509,11 @@ update_africa={
 	}
 	if= { 
 		limit = {412= {is_controlled_by_GER_or_ally=no}} #cairo
-		add_to_variable={ITA.africa_status=-0.2}
+		add_to_variable={ITA.africa_status=-0.3}
 	}
 	if= { 
 		limit = {420= {is_controlled_by_GER_or_ally=no}} #aswan
-		add_to_variable={ITA.africa_status=-0.1}
+		add_to_variable={ITA.africa_status=-0.15}
 	}
 	if= { 
 		limit = {736= {is_controlled_by_GER_or_ally=no}} #port sudan
