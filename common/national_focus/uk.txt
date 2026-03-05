@@ -830,6 +830,12 @@ focus_tree = {
                 name = USA_TAC
                 uses = 1
                 bonus = 1
+                technology = improved_medium_airframe
+            }
+			add_tech_bonus = {
+                name = USA_TAC
+                uses = 1
+                bonus = 1
                 technology = advanced_medium_airframe
             }
 			add_tech_bonus = {
@@ -842,13 +848,13 @@ focus_tree = {
                 name = USA_flying_fortress
                 bonus = 1.0
                 uses = 1
-                technology= improved_large_airframe
+                technology= basic_large_airframe
             }
 			add_tech_bonus = {
                 name = USA_flying_fortress
                 bonus = 1.0
                 uses = 1
-                technology= advanced_large_airframe
+                technology= improved_large_airframe
             }
 		}
 	}
