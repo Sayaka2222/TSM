@@ -693,21 +693,23 @@
 				name = radar_tech_bonus
 				bonus = 1.0
 				uses = 2
-				category = radar_tech
+				category = electronics
 			}
-			if = {
-				limit = {
-					NOT = { has_war_with = SOV }
-				}
-				SOV = {
-					country_event = { id = germany.78 days = 1 }
-					add_tech_bonus = {
-						name = radar_tech_bonus
-						bonus = 2.0
-						uses = 3
-						category = radar_tech
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = { has_war_with = SOV }
 					}
-					complete_special_project = sp:sp_air_radar
+					SOV = {
+						country_event = { id = germany.78 days = 1 }
+						add_tech_bonus = {
+							name = radar_tech_bonus
+							bonus = 2.0
+							uses = 3
+							category = radar_tech
+						}
+						complete_special_project = sp:sp_air_radar
+					}
 				}
 			}
 		}
@@ -1989,7 +1991,31 @@ focus = {
 					transfer_state = 747
 				}
 				BUL = {
-					transfer_state = 106
+					if = {
+						limit = {
+							exists = yes
+						}
+						transfer_state = 106
+						transfer_state = 77
+					}
+					else = {
+						ITA = {
+							transfer_state = 106
+						}
+					}
+				}
+				if = {
+					limit = {
+						YUG = {
+							is_ai = yes
+						}
+					}
+					ITA = {
+						annex_country = {
+							target = YUG
+							transfer_troops = no
+						}
+					}
 				}
 				HUN = {
 					transfer_state = 45
@@ -2072,9 +2098,6 @@ focus = {
 				HUN = {
 					transfer_state = 76
 				}
-			}
-			BUL = {
-				transfer_state = 77
 			}
 			SOV = {
 				country_event = { id = germany.11 days = 1 }
@@ -2997,8 +3020,13 @@ focus = {
 			factor = 1
 		}
 		available = {
-			date > 1939.1.1
-			has_tech = basic_ship_hull_cruiser
+			OR = {
+				AND = {
+					date > 1939.1.1
+					has_tech = basic_ship_hull_cruiser
+				}
+				date > 1939.6.1
+			}
 		}
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -3135,8 +3163,14 @@ focus = {
 		ai_will_do = {
 			factor = 0.25
 		}
-		available={date > 1939.6.1
-		has_tech = basic_ship_hull_heavy
+		available={
+			OR = {
+				AND = {
+					date > 1939.6.1
+					has_tech = basic_ship_hull_heavy
+				}
+				date > 1940.1.1
+			}
 		}
 		available_if_capitulated = yes
 		complete_tooltip = {
@@ -3190,8 +3224,15 @@ focus = {
 		icon = GFX_focus_GER_sub_plan
 		prerequisite = { focus = GER_naval_effort }
 		mutually_exclusive = { focus = GER_plan_z focus = GER_all_options}
-		available={date>1939.1.1
-		has_tech = basic_ship_hull_submarine}
+		available={
+			OR = {
+				AND = {
+					date > 1939.1.1
+					has_tech = basic_ship_hull_submarine
+				}
+				date > 1939.6.1
+			}
+		}
 		x = 3
 		y = 1
 		relative_position_id = GER_naval_effort
