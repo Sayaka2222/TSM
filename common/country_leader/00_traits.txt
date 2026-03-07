@@ -51,7 +51,7 @@ leader_traits = {
 	## BULGARIA ###
 	tsar_unifier = { #Tsar Boris III
 		random = no
-		stability_weekly_factor = 0.003
+		stability_weekly = 0.003
 	}
 
 	brilliant_researcher = {
