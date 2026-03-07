@@ -427,16 +427,6 @@ country_event = {
 			}
 		}
 		random_owned_controlled_state = {
-			limit = {
-				NOT = {
-					state = 173
-					state = 277
-					state = 697
-					state = 617
-					state = 174
-					state = 283
-				}
-			}
 			for_loop_effect = {
 			end = 1
 				create_unit = {

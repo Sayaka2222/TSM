@@ -148,8 +148,8 @@ operations = {
 			OR = {tag = ENG tag = GER tag = ITA }
 		}
 		available = {
-			412 = { is_controlled_by_ROOT_or_ally = yes }
-			418 = { is_controlled_by_ROOT_or_ally = yes }
+			446 = { is_controlled_by_ROOT_or_ally = yes }
+			453 = { is_controlled_by_ROOT_or_ally = yes }
 			if = {limit ={tag=ENG }
 				NOT = {controls_state = 416 }
 			}
@@ -157,7 +157,7 @@ operations = {
 		visible = {
 			has_war = yes
 			NOT = { has_global_flag = SUEZ_CANAL_BLOCKED }
-			412 = { is_controlled_by_ROOT_or_ally = yes }
+			446 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 		fire_only_once = no
 		days_remove = 30
@@ -170,13 +170,13 @@ operations = {
 				if = {
 					limit = {
 						NOT = {
-							owns_state = 412
-							owns_state = 418
+							owns_state = 446
+							owns_state = 453
 						}
 					}
 					random_country = {
 						limit = {
-							owns_state = 412
+							owns_state = 446
 							owns_state = 453
 						}
 						country_event = { id = generic.12 days = 1 }
@@ -188,13 +188,25 @@ operations = {
 			if = {
 				limit = {
 					OR = {
-						controls_state = 412
-						has_full_control_of_state = 418
+						controls_state = 453
+						has_full_control_of_state = 446
 					}
 				}
 				set_country_flag = blew_up_suez
 				set_global_flag = SUEZ_CANAL_BLOCKED
 				country_event = { id = wtt_news.40 hours = 6}
+			}
+			effect_tooltip = {
+				if = {
+					limit = {
+						ENG = {
+							owns_state = 446
+							owns_state = 453
+						}
+					}
+					add_war_support = -0.05
+					add_stability = -0.05
+				}
 			}
 		}
 	}

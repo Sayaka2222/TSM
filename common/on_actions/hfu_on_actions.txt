@@ -434,6 +434,9 @@ on_actions = {
 			if = {
 				limit = { check_variable = { var = cap value = bats compare = less_than } }
 				add_ideas = over_limit
+				ROOT = {
+					news_event = { id = news.999 }
+				}
 			}
 			else = {
 				if = { limit = { has_idea = over_limit } remove_ideas = over_limit }
