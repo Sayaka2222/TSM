@@ -459,8 +459,8 @@ equipment_modules = {
 			ship_9_battery
 		}
 		add_stats = {
- 			lg_attack = 6
- 			build_cost_ic = 350
+ 			lg_attack = 7.5
+ 			build_cost_ic = 275
 			naval_light_gun_hit_chance_factor = 0.1
 			reliability = -0.05
  		}
@@ -485,8 +485,8 @@ equipment_modules = {
 			ship_9_battery
 		}
 		add_stats = {
- 			lg_attack = 6
- 			build_cost_ic = 450
+ 			lg_attack = 7.5
+ 			build_cost_ic = 375
 			reliability = -0.06
  		}
  		multiply_stats = {
@@ -512,7 +512,7 @@ equipment_modules = {
 		    ship_9_battery 
 		}
 		add_stats = {
- 			lg_attack = 8
+ 			lg_attack = 9
  			build_cost_ic = 600
 			naval_light_gun_hit_chance_factor = 0.1
 			reliability = -0.07
@@ -522,7 +522,7 @@ equipment_modules = {
  		}
  		add_average_stats = {
  			lg_armor_piercing = 18
- 			build_cost_ic = 1750
+ 			build_cost_ic = 1500
 			surface_visibility = 6
  		}
  		can_convert_from = {
@@ -541,7 +541,7 @@ equipment_modules = {
 		    ship_8_battery 
 		}
 		add_stats = {
- 			lg_attack = 8
+ 			lg_attack = 9
  			build_cost_ic = 700
 			reliability = -0.08
  		}
@@ -551,7 +551,7 @@ equipment_modules = {
  		}
  		add_average_stats = {
  			lg_armor_piercing = 11
- 			build_cost_ic = 2000
+ 			build_cost_ic = 1750
 			surface_visibility = 6
  		}
 		can_convert_from = {
@@ -1600,7 +1600,7 @@ equipment_modules = {
  		add_stats = {
  			naval_speed = 5
  			fuel_consumption = 12
- 			build_cost_ic = 400
+ 			build_cost_ic = 350
 			reliability = -0.2
  		}
  		multiply_stats = {
@@ -1618,7 +1618,7 @@ equipment_modules = {
  		add_stats = {
  			naval_speed = 6
  			fuel_consumption = 16
- 			build_cost_ic = 480
+ 			build_cost_ic = 400
 			reliability = -0.2
  		}
  		multiply_stats = {
@@ -1636,7 +1636,7 @@ equipment_modules = {
  		add_stats = {
  			naval_speed = 7
  			fuel_consumption = 20
- 			build_cost_ic = 550
+ 			build_cost_ic = 450
 			reliability = -0.2
  		}
  		multiply_stats = {
@@ -1654,7 +1654,7 @@ equipment_modules = {
  		add_stats = {
  			naval_speed = 7
  			fuel_consumption = 24
- 			build_cost_ic = 670
+ 			build_cost_ic = 500
 			reliability = -0.2
  		}
  		multiply_stats = {
@@ -2741,7 +2741,7 @@ equipment_modules = {
  		category = ship_cruiser_armor
  		gfx = ship_armor_thin_2
  		multiply_stats = {
- 			build_cost_ic = 0.05
+ 			build_cost_ic = 0.025
  			naval_speed = -0.05
  			max_strength = 0.05
 			anti_air_attack = -0.17
@@ -2764,7 +2764,7 @@ equipment_modules = {
  			build_cost_ic = 0.05
  			naval_speed = -0.075
  			max_strength = 0.1
-			anti_air_attack = -0.09
+			reliability = 0.09
  		}
 		can_convert_from = {
  			module_category = ship_cruiser_armor
@@ -2773,7 +2773,7 @@ equipment_modules = {
  		dismantle_cost_ic = 3500
  		add_stats = {
  			armor_value = 15
-			naval_torpedo_damage_reduction_factor = -0.09
+			naval_torpedo_damage_reduction_factor = 0.2
  		}
  	}
  	ship_armor_cruiser_4 = {
@@ -2781,8 +2781,10 @@ equipment_modules = {
  		gfx = ship_armor_thin_4
  		multiply_stats = {
  			build_cost_ic = 0.05
- 			naval_speed = -0.1
+ 			naval_speed = -0.075
  			max_strength = 0.15
+			reliability = 0.17
+			anti_air_attack = 0.33
  		}
 		can_convert_from = {
  			module_category = ship_cruiser_armor
