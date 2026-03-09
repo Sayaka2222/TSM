@@ -52,18 +52,18 @@ equipments = {
  		surface_detection = 20
  		sub_detection = 0
  		surface_visibility = 1
- 		sub_visibility = 18
+ 		sub_visibility = 19
  		naval_speed = 14
  		reliability = 0.60
  		naval_range = 2500
  		max_strength = 15
  		fuel_consumption = 1
- 		build_cost_ic = 220
+ 		build_cost_ic = 300
  		resources = {
  			#oil = 10
  			steel = 10
  		}
- 		manpower = 1
+ 		manpower = 25
  	}
  	ship_hull_submarine_1 = {
  		year = 1922
@@ -92,14 +92,15 @@ equipments = {
  			rear_1_custom_slot = empty
  			fixed_ship_engine_slot = sub_ship_engine_2
  		}
- 		sub_visibility = 16
+ 		sub_visibility = 17
  		naval_speed = 16
  		reliability = 0.70
  		naval_range = 4000
  		reliability = 0.70
  		max_strength = 30
- 		build_cost_ic = 250
+ 		build_cost_ic = 350
 		naval_dominance_factor = 1
+		manpower = 45
  		resources = {
  			#oil = 10
  			steel = 20
@@ -138,13 +139,14 @@ equipments = {
  			rear_1_custom_slot = empty
  			fixed_ship_engine_slot = sub_ship_engine_3
  		}
- 		sub_visibility = 14
+ 		sub_visibility = 15
  		naval_speed = 18
  		reliability = 0.75
  		naval_range = 5000
  		max_strength = 45
- 		build_cost_ic = 400
+ 		build_cost_ic = 450
 		naval_dominance_factor = 1
+		manpower = 60
  		resources = {
  			steel = 30
  		}
@@ -181,13 +183,14 @@ equipments = {
  			mid_1_custom_slot = empty
  			rear_1_custom_slot = empty
  		}
- 		sub_visibility = 12
+ 		sub_visibility = 13
  		naval_speed = 20
  		reliability = 0.80
  		naval_range = 6000
  		max_strength = 52.5
- 		build_cost_ic = 450
+ 		build_cost_ic = 500
 		naval_dominance_factor = 1
+		manpower = 80
  		resources = {
  			steel = 30
  		}

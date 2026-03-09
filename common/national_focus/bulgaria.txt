@@ -1325,8 +1325,6 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY}
 		completion_reward = {
 			add_stability = 0.1
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = BUL_dimitrana_ivanova
 		}
 	}
 

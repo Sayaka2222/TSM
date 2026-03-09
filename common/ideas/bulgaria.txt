@@ -3251,7 +3251,6 @@ ideas = {
 					original_tag = BUL
 			}
 			available = {
-				has_completed_focus = BUL_limited_womens_suffrage	
 			}
 			traits = {
 				war_industrialist 

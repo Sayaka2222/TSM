@@ -49,6 +49,9 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
+			modifier = {
+				license_naval_purchase_cost = 400
+			}
 			equipment_bonus = {
 				small_plane_airframe = {
 					instant = yes

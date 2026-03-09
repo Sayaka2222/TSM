@@ -20,6 +20,8 @@ SOV_industry_relocation = {
 			SOV_relocate_mil=yes
 			SOV_relocate_mil=yes
 			SOV_relocate_mil=yes
+			SOV_relocate_civ=yes
+			SOV_relocate_civ=yes
 			if={limit={check_variable={relocatedmil<4}}
 				set_temp_variable = {civs_to_relocate=4}
 				subtract_from_temp_variable = {civs_to_relocate = relocatedmil}
