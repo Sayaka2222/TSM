@@ -415,7 +415,7 @@ focus_tree = {
 				name = radar_tech_bonus
 				bonus = 1.0
 				uses = 2
-				category = radar_tech
+				category = electronics
 			}
 		}
 	}

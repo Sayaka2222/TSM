@@ -41,9 +41,9 @@ equipments = {
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 12
+		lend_lease_cost = 10
 		
-		build_cost_ic = 12 #Same as M Tank (12) - less than H Tank (24) 
+		build_cost_ic = 10 #Same as M Tank (12) - less than H Tank (24) 
 		resources = {
 			tungsten = 2
 			steel = 3

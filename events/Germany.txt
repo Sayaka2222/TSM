@@ -8,6 +8,12 @@ country_event = {
 		GRE = { has_capitulated = yes}
 	}
 	immediate = {
+		ENG = {
+			release_autonomy = {
+				target = GRE
+				autonomy_state = autonomy_dominion
+			}
+		}
 		HUN = {
 			transfer_state = 45
 		}
