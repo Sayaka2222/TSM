@@ -87,16 +87,24 @@ ideas = {
 			}
 			equipment_bonus = {
 				support_equipment = {
-					build_cost_ic = -0.05 
+					build_cost_ic = -0.1 
 					instant = yes
 				}
 				artillery_equipment = {
-					build_cost_ic = -0.05 
+					build_cost_ic = -0.1 
 					instant = yes
 				}
 				infantry_equipment = {
 					instant = yes
-					build_cost_ic = -0.05 
+					build_cost_ic = -0.1
+				}
+				anti_tank_equipment = {
+					build_cost_ic = -0.1 
+					instant = yes
+				}
+				anti_air_equipment = {
+					build_cost_ic = -0.1 
+					instant = yes
 				}
 			}
 		}
@@ -614,7 +622,7 @@ ideas = {
 			
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.15
+				attack_bonus_against = 0.1
 			}
 		}
 		GER_ardennenoffensive = {
@@ -877,6 +885,14 @@ ideas = {
 				production_speed_synthetic_refinery_factor = 0.3
 				political_power_cost = 0.2
 				country_resource_rubber = 100
+			}
+			equipment_bonus = {
+				small_plane_cas_airframe = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				small_plane_airframe = {
+					build_cost_ic = -0.1 instant = yes
+				}
 			}
 			
 		}
@@ -1250,7 +1266,6 @@ ideas = {
 			cost = 100
 			equipment_bonus = {
 				small_plane_cas_airframe = {
-					build_cost_ic = -0.1
 					air_ground_attack = 0.1 
 					reliability = 0.1
 					maximum_speed = 0.1
