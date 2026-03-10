@@ -715,7 +715,7 @@ focus = {
 		x = 2
 		y = 1
 		prerequisite = { focus = SOV_great_figher }
-		cost = 6
+		cost = 5
 		ai_will_do = {
 			factor = 10
 			modifier = {
@@ -723,10 +723,21 @@ focus = {
 				NOT = { has_war_with = GER }
 			}
 		}
+		available = {
+			date > 1941.10.1
+			}
 		completion_reward = {
-			add_ideas = SOV_tankograd
-		}
-	}
+		custom_effect_tooltip = SOV_tankograd_TT
+		if = {
+			limit = { has_completed_focus = SOV_positive_heroism }
+					add_ideas = SOV_tankograd_pos
+					}
+		if = {
+			limit = { has_completed_focus = SOV_collectivist_propaganda}
+					add_ideas = SOV_tankograd
+					}
+				}
+			}
 	focus = {
 		id = SOV_great_patriotic_general
 		icon = GFX_anti_communism
@@ -770,7 +781,6 @@ focus = {
 			}
 		}
 		available = {
-			date > 1942.01.1
 		}
 		bypass = {
 		}
@@ -2421,14 +2431,27 @@ focus = {
 	relative_position_id = SOV_winter_camps 
 	x = 1
 	y = 2
-	completion_reward = { 
-		add_tech_bonus = {
+	completion_reward = {
+		if = {
+			limit = { has_completed_focus = SOV_positive_heroism }
+					add_tech_bonus = {
 		name = armor
 		uses = 1
-		bonus = 1.2
+		bonus = 1.5
 		technology = advanced_medium_tank_chassis
 	}
-}
+					}
+		if = {
+			limit = { has_completed_focus = SOV_collectivist_propaganda}
+					add_tech_bonus = {
+		name = armor
+		uses = 1
+		bonus = 0.5
+		technology = advanced_medium_tank_chassis
+	}
+					}
+	custom_effect_tooltip = SOV_tank
+	}
 }
 focus = {
 	id = SOV_great_terror

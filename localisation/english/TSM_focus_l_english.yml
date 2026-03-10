@@ -1,5 +1,9 @@
 ﻿l_english:
 
+ SOV_tank:0 "Gives a §G50%§! medium 3 Bonus if you went down the Collectivst path and a §G150%§! medium 3 bonus if you went down the positive path"
+ 
+SOV_tankograd_TT:0 "Positive Heroism gain §G30%§! Retention and §G-5%§! ic on medium tanks Collectivist Propaganda gain §R-30%§! Retention and §G-15%§! ic on medium tank"
+ 
  SOV_long:0 "Build a new Industrial Heartland"
 
  SOV_short:0 "Expand the Industrial Heartland"

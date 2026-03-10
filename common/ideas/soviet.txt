@@ -527,9 +527,30 @@ ideas = {
 			picture = generic_morale_bonus
 			equipment_bonus = {
 				medium_tank_chassis = {
+					build_cost_ic = -0.15  instant = yes
+				}
+			}
+			modifier = {
+                line_change_production_efficiency_factor = -0.3
+            }
+		}
+		SOV_tankograd_pos = {
+			removal_cost = -1
+			allowed = {
+				always = no # Added via focus
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_morale_bonus
+			equipment_bonus = {
+				medium_tank_chassis = {
 					build_cost_ic = -0.05  instant = yes
 				}
 			}
+			modifier = {
+                line_change_production_efficiency_factor = 0.3
+            }
 		}
 		SOV_heavy_tonk = {
 			removal_cost = -1

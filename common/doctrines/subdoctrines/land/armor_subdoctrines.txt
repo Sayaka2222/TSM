@@ -198,7 +198,7 @@ streamlined_deployment = {
         }
         full_front_deployment = {
             category_all_armor = {
-                reliability = 0.05
+                default_morale = 0.05
             }
 
         }
@@ -266,7 +266,6 @@ armored_advance = {
         }
         maintenance_routines = {
             category_all_armor = {
-                reliability = 0.1
                 default_morale = 0.05
                 }
         }
