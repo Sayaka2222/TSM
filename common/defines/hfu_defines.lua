@@ -382,6 +382,11 @@ NDefines.NMilitary.UNIT_LEADER_USE_NONLINEAR_XP_GAIN = true      -- Whether unit
 
 -------------------------------------
 --Air changes
+NDefines.NAir.ACCIDENT_CHANCE_BASE = 0
+NDefines.NAir.ACCIDENT_CHANCE_CARRIER_MULT = 0
+NDefines.NAir.ACCIDENT_CHANCE_BALANCE_MULT = 0
+NDefines.NAir.ACCIDENT_CHANCE_RELIABILITY_MULT = 0
+NDefines.NAir.ACCIDENT_EFFECT_MULT = 0
 NDefines.NAir.COMBAT_BETTER_SPEED_DAMAGE_INCREASE = 0.60
 NDefines.NAir.SUPPLY_NEED_FACTOR = 0.01				-- How much supply planes need
 NDefines.NAir.CAPACITY_PENALTY=0.869
@@ -662,8 +667,8 @@ NDefines.NSupply.NUM_RAILWAYS_TRAIN_FACTOR = 0.03 -- the train usage is scaled b
 NDefines.NSupply.BASE_SUPPLY_MULT_FOR_TRUCK_DEFAULT_BUFFER = 1.0  -- initial value for wanted buffers over potential truck usage
 NDefines.NSupply.BASE_SUPPLY_MULT_FOR_TRUCK_MIN_BUFFER = 0.0 -- min and max values for buffer ratio
 NDefines.NSupply.BASE_SUPPLY_MULT_FOR_TRUCK_MAX_BUFFER = 100.0
-NDefines.NSupply.TRUCK_ATTRITION = 0.002 -- base truck attrition
-NDefines.NSupply.TRUCK_ATTRITION_FACTOR = 0.45 --a scale on total truck attrition
+NDefines.NSupply.TRUCK_ATTRITION = 0.001 -- base truck attrition
+NDefines.NSupply.TRUCK_ATTRITION_FACTOR = 0.3 --a scale on total truck attrition
 NDefines.NSupply.BASE_TRUCK_HP = 100.0
 NDefines.NSupply.TRUCK_HP_PER_ARMOR = 2
 NDefines.NSupply.BASE_TRAIN_HP = 100.0

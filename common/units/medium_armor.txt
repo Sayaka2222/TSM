@@ -75,6 +75,10 @@ sub_units = {
 		amphibious = {
 			attack = -2
 		}
+		island = {
+			attack = -0.8
+			defence = -0.8
+		}
 	}
 
 

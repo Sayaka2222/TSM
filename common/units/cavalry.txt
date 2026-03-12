@@ -75,6 +75,10 @@ sub_units = {
 		amphibious = {
 			attack = -0.4
 		}
+		island = {
+			attack = -0.8
+			defence = -0.8
+		}
 	}
 	motorized = {
 		sprite = motorized
@@ -152,6 +156,10 @@ sub_units = {
 		}
 		amphibious = {
 			attack = -0.2
+		}
+		island = {
+			attack = -0.8
+			defence = -0.8
 		}
 	}
 
@@ -238,6 +246,10 @@ sub_units = {
 		}
 		amphibious = {
 			attack = -0.4
+		}
+		island = {
+			attack = -0.8
+			defence = -0.8
 		}
 
 		#hardness = 0.2 moving these buffs to unit stats

@@ -75,6 +75,10 @@ sub_units = {
 		desert = {
 			attack = 0.1
 		}
+		island = {
+			attack = -0.8
+			defence = -0.8
+		}
 	}
 
 	amphibious_medium_armor = {
@@ -150,5 +154,9 @@ sub_units = {
 		amphibious = {
 			attack = 0.5
 		}	
+		island = {
+			attack = -0.8
+			defence = -0.8
+		}
 	}
 }

@@ -77,5 +77,9 @@ sub_units = {
 		desert = {
 			attack = 0.1
 		}
+		island = {
+			attack = -0.8
+			defence = -0.8
+		}
 	}
 }

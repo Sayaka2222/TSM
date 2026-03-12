@@ -78,6 +78,10 @@ sub_units = {
 		amphibious = {
 			attack = 0.5
 		}
+		island = {
+			attack = -0.8
+			defence = -0.8
+		}
 
 		#hardness = 0.2 this is now rolled into normal stats
 	}

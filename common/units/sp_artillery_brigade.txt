@@ -78,6 +78,10 @@ sub_units = {
 		desert = {
 			attack = 0.1
 		}
+		island = {
+			attack = -0.8
+			defence = -0.8
+		}
 	}
 
 	light_sp_artillery_brigade = {
@@ -160,6 +164,10 @@ sub_units = {
 			attack = 0.1
 			movement = -0.15
 		}
+		island = {
+			attack = -0.8
+			defence = -0.8
+		}
 	}
 	
 	medium_sp_artillery_brigade = {
@@ -233,6 +241,10 @@ sub_units = {
 		}
 		amphibious = {
 			attack = -2
+		}
+		island = {
+			attack = -0.8
+			defence = -0.8
 		}
 	}
 	
@@ -314,6 +326,10 @@ sub_units = {
 		fort = {
 			attack = 0.1
 		}
+		island = {
+			attack = -0.8
+			defence = -0.8
+		}
 	}
 	
 	super_heavy_sp_artillery_brigade = {
@@ -393,6 +409,10 @@ sub_units = {
 		fort = {
 			attack = 0.2
 		}
+		island = {
+			attack = -0.8
+			defence = -0.8
+		}
 	}
 	
 	modern_sp_artillery_brigade = {
@@ -462,6 +482,10 @@ sub_units = {
 		}
 		amphibious = { 
 			attack = -0.7
+		}
+		island = {
+			attack = -0.8
+			defence = -0.8
 		}
 	}
 
