@@ -386,7 +386,7 @@ characters={
 	SIA_Somsak_Chaiyaporn={
 		advisor={
 			slot = political_advisor
-			idea_token = Somchai_Saetang
+			idea_token = SIA_Somsak_Chaiyaporn
 			allowed  = {
 				original_tag  = SIA
 			}
