@@ -155,7 +155,7 @@ if = {
 	}
 	give_guarantee = ALB
 }
-set_convoys = 300
+set_convoys = 500
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0
 	amount = 55000

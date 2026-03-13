@@ -70,7 +70,7 @@ capital = 43
 	special_forces_paratroopers = 1
  }
  add_to_tech_sharing_group = axis_research
- set_convoys = 100
+ set_convoys = 150
  add_equipment_to_stockpile = {
 	type = train_equipment
 	amount = 50

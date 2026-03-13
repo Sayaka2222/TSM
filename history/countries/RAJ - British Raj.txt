@@ -137,7 +137,7 @@ recruit_character = ENG_geoffry_scoones
 recruit_character = RAJ_sir_mohammed_iqbal
 recruit_character = RAJ_arjan_singh_vibhusan
 
-set_convoys = 100
+set_convoys = 150
 add_equipment_to_stockpile = {
 	type = motorized_equipment_1
 	amount = 250

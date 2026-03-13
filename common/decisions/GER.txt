@@ -494,6 +494,8 @@ operations = {
 				}
 				}
 				POL={declare_war_on_enemy_faction =yes}
+				FRA = { add_to_war = { targeted_alliance = ENG enemy = GER } }
+				ITA = { add_to_war = { targeted_alliance = GER enemy = ENG } }
 				ENG = {
 					transfer_state = 263
 					transfer_state = 475

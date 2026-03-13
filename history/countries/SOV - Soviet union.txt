@@ -151,7 +151,7 @@ if = {
 		armored_car1 = 1
 	}
 }
-set_convoys = 400
+set_convoys = 500
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
 	amount = 10000

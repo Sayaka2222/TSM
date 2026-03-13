@@ -109,7 +109,7 @@ if = {
 	add_ideas = peace_training
 	add_ideas = SAF_divided_parliament
 }
-set_convoys = 100
+set_convoys = 150
 add_equipment_to_stockpile = {
 	type = motorized_equipment_1
 	amount = 250

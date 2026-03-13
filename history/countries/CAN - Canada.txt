@@ -116,7 +116,7 @@ set_politics = {
 set_popularities = {
 	democratic = 100
 }
-set_convoys = 100
+set_convoys = 150
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0
 	amount = 3000

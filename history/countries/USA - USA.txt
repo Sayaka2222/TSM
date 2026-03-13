@@ -100,7 +100,7 @@ if = {
 		basic_fire_control_system = 1
 	}
 }
-set_convoys = 700
+set_convoys = 1000
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
 	amount = 1500

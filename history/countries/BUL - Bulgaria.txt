@@ -89,7 +89,7 @@ add_equipment_to_stockpile = {
 	amount = 1000
 	producer = BUL
 }
-set_convoys = 100
+set_convoys = 150
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1931.6.21"

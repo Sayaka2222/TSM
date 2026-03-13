@@ -140,8 +140,7 @@ technologies = {
 			tank_heavy_howitzer2
 			tank_medium_howitzer_2
 			tank_heavy_close_support_gun1
-			tank_close_support_gun2
-			tank_small_cannon_2
+			tank_close_support_gun3
 		}
 		path = {
 			leads_to_tech = artillery3
@@ -182,10 +181,6 @@ technologies = {
 		}
 	}
 	artillery3 = {
-		enable_equipment_modules = {
-			tank_close_support_gun3
-			tank_small_cannon_3
-		}
 		artillery = {
 			soft_attack = 0.1
 		}
@@ -868,7 +863,6 @@ technologies = {
 			tank_heavy_cannon_2
 			tank_medium_cannon_2
 			tank_small_cannon_3
-			tank_buster_1
 		}
 		path = {
 			leads_to_tech = antitank2
@@ -1166,7 +1160,6 @@ technologies = {
 			tank_high_velocity_cannon_h3
 			tank_heavy_cannon_3
 			tank_medium_cannon_3
-			tank_buster_2
 		}
 		#on_research_complete = {
 		#	custom_effect_tooltip = at2_upgrade_tt
