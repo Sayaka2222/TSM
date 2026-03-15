@@ -131,7 +131,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SIA_guarantee_army_loyalty
         search_filters = { FOCUS_FILTER_MANPOWER }
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -271,7 +271,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SIA_thai_legacy
 
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 2
 		}
@@ -419,7 +419,7 @@ focus_tree = {
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = 150
 		}
 	}
 	
@@ -431,7 +431,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SIA_solidify_the_dictatorship
         search_filters = { FOCUS_FILTER_MANPOWER }
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 5
@@ -454,7 +454,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SIA_rise_of_phibun
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 8
@@ -557,7 +557,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SIA_curb_civilian_wing
         search_filters = { FOCUS_FILTER_POLITICAL }
-		cost = 10
+		cost = 5
 		
 
 		ai_will_do = {

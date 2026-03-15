@@ -1776,7 +1776,6 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {idea = ENG_compass days = 60}
 			hidden_effect = {
-				FRA = {add_timed_idea = {idea = ENG_compass days = 60}}
 				SAF = {add_timed_idea = {idea = ENG_compass days = 60}}
 				RAJ = {add_timed_idea = {idea = ENG_compass days = 60}}
 				CAN = {add_timed_idea = {idea = ENG_compass days = 60}}
