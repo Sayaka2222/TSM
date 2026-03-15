@@ -57,7 +57,7 @@ NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profi
 NDefines.NNavy.CONVOY_HIT_PROFILE = 207 -- vanilla 120
 NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- number of hours for a gun to be ready after shooting
 		1.0,	-- big guns
-		1.0,	-- torpedos
+		2.0,	-- torpedos
 		1.0,	-- small guns
 	}
 NDefines.NNavy.CARRIER_ONLY_COMBAT_ACTIVATE_TIME = 0

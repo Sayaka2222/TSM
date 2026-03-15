@@ -329,13 +329,13 @@ anti_aircraft_cruisers = {
     	}
     	sustained_engagements = {
 			heavy_cruiser = {
-				naval_torpedo_damage_reduction_factor = -0.2
+				naval_torpedo_damage_reduction_factor = 0.2
     		}
 			light_cruiser = {
-    			naval_torpedo_damage_reduction_factor = -0.2
+    			naval_torpedo_damage_reduction_factor = 0.2
     		}
 			destroyer = {
-				naval_torpedo_damage_reduction_factor = -0.2
+				naval_torpedo_damage_reduction_factor = 0.2
     		}
     	}
     }
