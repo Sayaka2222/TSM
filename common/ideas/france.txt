@@ -96,7 +96,20 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				production_factory_max_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.025
+			}
+		}
+		FRA_Metropolitan_industry_2 = {
+			picture = FRA_factory_strikes
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+			allowed_civil_war = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.075
 			}
 		}
 		FRA_small_businesses_focus = {
@@ -123,7 +136,8 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				production_factory_max_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.025
+				production_factory_efficiency_gain_factor = -0.1
 			}
 		}
 		FRA_small_businesses_focus_1 = {
@@ -1382,9 +1396,9 @@ ideas = {
 				}
 			}
 			modifier = {
-				production_factory_efficiency_gain_factor = 0.3
+				production_factory_efficiency_gain_factor = 0.2
 				consumer_goods_factor = 0.05
-				industrial_capacity_factory = -0.05
+				industrial_capacity_factory = -0.1
 			}
 		}
 		FRA_mechanisation_effort = {
