@@ -245,18 +245,18 @@ focus_tree = {
 			
 
 			24 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 		}
 		30 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 		}
@@ -287,7 +287,7 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = FRA_increased_shifts
-				days = 180
+				days = 90
 			}
 		}
 	}
@@ -333,22 +333,6 @@ focus_tree = {
 					instant_build = yes
 				}
 		}
-		18 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-		}
-		14 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-		}
 		}
 	}
 
@@ -378,22 +362,6 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			24 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-		}
-		30 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-		}
 		18 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -1537,7 +1505,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 31
 		y = 0
-		cost = 2.9
+		cost = 5
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		complete_tooltip = {
@@ -1593,7 +1561,7 @@ focus_tree = {
 		icon = GFX_focus_GER_panzerschiff
 		x = 1
 		y = 1
-		cost = 2.9
+		cost = 5
 		prerequisite = { focus = FRA_naval_rearmament }
 		mutually_exclusive = { focus = FRA_the_old_school }
 		relative_position_id = FRA_naval_rearmament
@@ -1627,7 +1595,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = FRA_naval_rearmament
-		cost = 2.9
+		cost = 5
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
@@ -1672,7 +1640,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = FRA_the_old_school
-		cost = 2.9
+		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
 			set_technology = {
@@ -1695,7 +1663,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = FRA_the_old_school
-		cost = 2.9
+		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
 			466 = {
@@ -1715,7 +1683,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = FRA_capital_ship_focus
-		cost = 2.9
+		cost = 5
 		available_if_capitulated = no
 		completion_reward = {
 			create_equipment_variant = {
@@ -1767,7 +1735,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = FRA_carrier_focus
-		cost = 2.9
+		cost = 5
 		available_if_capitulated = no
 		completion_reward = {
 			set_technology = {
@@ -1818,7 +1786,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = FRA_rush_the_richelieus
-		cost = 2.9
+		cost = 5
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		available_if_capitulated = yes
 		completion_reward = {
@@ -1879,7 +1847,7 @@ focus_tree = {
 		prerequisite = { focus = FRA_appeal_to_the_french_nation }
 		mutually_exclusive = { }
 		relative_position_id = FRA_appeal_to_the_french_nation
-		cost = 5
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
@@ -1936,18 +1904,18 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_STABILITY }
 		completion_reward = {
 		687 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 		}
 		693 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 		}
@@ -2239,6 +2207,10 @@ focus_tree = {
 			add_ideas = { FRA_colonial_recruitment }
 			add_war_support = 0.1
 			add_stability = 0.1
+			swap_ideas = { 
+				remove_idea = FRA_Metropolitan_industry
+				add_idea = FRA_Metropolitan_industry_2
+			}
 		}
 	}
 	focus = {
@@ -2325,6 +2297,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = FRA_egalite_liberte_solidarite
+			
 		}
 	}
 	focus = {
