@@ -1481,7 +1481,7 @@ equipment_modules = {
  			ap_attack = 115
  			build_cost_ic = 5
  			maximum_speed = -0.3
- 			reliability = -0.55
+ 			reliability = -0.7
  		}
  		xp_cost = 0
  		can_convert_from = {
@@ -1553,7 +1553,7 @@ equipment_modules = {
  			ap_attack = 140
  			build_cost_ic = 5
  			maximum_speed = -0.45
- 			reliability = -0.55
+ 			reliability = -0.7
  		}
  		xp_cost = 0
  		can_convert_from = {
@@ -1628,7 +1628,7 @@ equipment_modules = {
  			ap_attack = 30
  			build_cost_ic = 5
  			maximum_speed = -0.4
- 			reliability = -0.55
+ 			reliability = -0.7
  		}
  		xp_cost = 0
  		can_convert_from = {
@@ -1757,7 +1757,7 @@ equipment_modules = {
  			ap_attack = 195
  			build_cost_ic = 7
  			maximum_speed = -0.4
- 			reliability = -0.6
+ 			reliability = -0.8
  		}	
  		
  		xp_cost = 0
@@ -1830,7 +1830,7 @@ equipment_modules = {
  			ap_attack = 170
  			build_cost_ic = 7
  			maximum_speed = -0.5
- 			reliability = -0.6
+ 			reliability = -0.8
  		}
  		xp_cost = 0
  		can_convert_from = {
@@ -1910,7 +1910,7 @@ equipment_modules = {
  			ap_attack = 60
  			build_cost_ic = 5.5
  			maximum_speed = -0.5
- 			reliability = -0.6
+ 			reliability = -0.8
  		}
  		xp_cost = 0
  		can_convert_from = {

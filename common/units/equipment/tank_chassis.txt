@@ -1484,7 +1484,7 @@ equipments = {
  		maximum_speed = 5
  		build_cost_ic = 6
  		breakthrough = 7
- 		reliability = 1.7
+ 		reliability = 1.9
  		armor_value = 80
  		resources = {
  			steel = 10
@@ -2254,7 +2254,7 @@ equipments = {
 			special_type_slot_3 = extra_ammo_storage
  		}
  		build_cost_ic = 13
- 		reliability = 1.7
+ 		reliability = 1.9
  		armor_value = 120
  		breakthrough = 12
  		resources = {
