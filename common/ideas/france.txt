@@ -136,7 +136,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				production_factory_max_efficiency_factor = 0.025
+				production_factory_max_efficiency_factor = 0.05
 				production_factory_efficiency_gain_factor = -0.1
 			}
 		}
@@ -264,7 +264,42 @@ ideas = {
 			}
 			picture = generic_production_bonus
 		}
-
+		FRA_obsolete_doctrine = {
+			removal_cost = -1
+			allowed = {
+				always = no # Added via focus
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			picture = generic_army_problems
+			modifier = {
+				army_armor_attack_factor = -0.05
+			}
+			equipment_bonus = {
+				category_all_armor = {
+					hardness = -0.1
+				}
+			}
+		}
+		FRA_learned_doctrine = {
+			removal_cost = -1
+			allowed = {
+				always = no # Added via focus
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			picture = generic_armor_bonus
+			modifier = {
+				army_armor_attack_factor = 0.025
+			}
+			equipment_bonus = {
+				category_all_armor = {
+					hardness = 0.05
+				}
+			}
+		}
 		 FRA_Rhineland_Offensive = {
 			removal_cost = -1
 			allowed = {

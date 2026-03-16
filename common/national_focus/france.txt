@@ -2382,6 +2382,10 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_obsolete_doctrine
+				add_idea = FRA_learned_doctrine
+			}
 			create_corps_commander = {
 				name = "Marie-Pierre Koenig"
 				GFX = GFX_portrait_fra_marie_pierre_koenig

@@ -164,6 +164,7 @@ add_ideas = {
 	FRA_full_employment
 	FRA_political_violence
 	FRA_inefficient_economy_2
+	FRA_obsolete_doctrine
 }
 
 

@@ -2016,6 +2016,14 @@ focus = {
 							transfer_troops = no
 						}
 					}
+					if = {
+						limit = {
+							has_global_flag = bulgaria_annex
+						}
+						ITA = {
+							add_research_slot = 1
+						}
+					}
 				}
 				HUN = {
 					transfer_state = 45

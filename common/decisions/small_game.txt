@@ -46,6 +46,21 @@ SPR_civil_war = {
 		days_remove = 14
  		remove_effect = {
  			country_event = spain.ai
+			every_country = {
+				limit = {
+					AND = {
+						NOT = {
+							is_in_faction_with = GER
+						}
+						NOT = {
+							tag = JAP
+						}
+					}
+				}
+				add_mastery = {
+					amount = 100
+				}
+			}
  		}
  	}
 	SPR_surrender_rep = {
