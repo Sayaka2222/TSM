@@ -20,7 +20,21 @@
 		#		...
 		#	}
 	# }
-
+small_game = {
+	name = "Small Game"
+	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+	icon = "GFX_release_nations"
+	default = {
+		name = NO
+		text = "No"
+		desc = "Normal Game"
+	}
+	option = {
+		name = YES
+		text = "Yes"
+		desc = "Small Game"
+	}
+}
 allow_wargoals = {
 	name = "RULE_ALLOW_WARGOALS"
 	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"

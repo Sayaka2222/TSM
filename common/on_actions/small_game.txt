@@ -1,0 +1,207 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					SPR = {
+						is_ai = yes
+					}
+					has_game_rule = {rule = small_game option = YES}
+				}
+				SPR = {
+					activate_mission = SPR_start
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						ROM = {
+							is_ai = yes
+						}
+
+						has_game_rule = {rule = small_game option = YES}
+					}
+				}
+				HUN = {
+					annex_country = { target = ROM transfer_troops = yes }
+					every_state = {
+						limit = {
+							AND = {
+								OR = {
+									is_core_of = ROM
+								}
+								controlled_by = HUN
+							}
+						}
+						add_core_of = HUN
+					}
+					add_ideas = {
+						minor_annexed
+					}
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						SIA = {
+							is_ai = yes
+						}
+						has_game_rule = {rule = small_game option = YES}
+					}
+				}
+				JAP = {
+					annex_country = { target = SIA transfer_troops = yes }
+					every_state = {
+						limit = {
+							AND = {
+								OR = {
+									is_core_of = SIA
+								}
+								controlled_by = JAP
+							}
+						}
+						add_compliance = 100
+					}
+					add_ideas = {
+						siam_annexed
+					}
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						MAN = {
+							is_ai = yes
+						}
+						has_game_rule = {rule = small_game option = YES}
+					}
+				}
+				JAP = {
+					annex_country = { target = MAN transfer_troops = yes }
+					every_state = {
+						limit = {
+							AND = {
+								OR = {
+									is_core_of = MAN
+								}
+								controlled_by = JAP
+							}
+						}
+						
+						add_core_of = JAP
+					}
+					add_ideas = {
+						minor_annexed
+					}
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						SAF = {
+							is_ai = yes
+						}
+						has_game_rule = {rule = small_game option = YES}
+					}
+				}
+				CAN = {
+					annex_country = { target = SAF transfer_troops = yes }
+					every_state = {
+						limit = {
+							AND = {
+								OR = {
+									is_core_of = SAF
+								}
+								controlled_by = CAN
+							}
+						}
+						add_core_of = CAN
+					}
+					add_ideas = {
+						minor_annexed
+					}
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						AST = {
+							is_ai = yes
+						}
+						has_game_rule = {rule = small_game option = YES}
+					}
+				}
+				RAJ = {
+					annex_country = { target = AST transfer_troops = yes }
+					every_state = {
+						limit = {
+							AND = {
+								OR = {
+									is_core_of = AST
+								}
+								controlled_by = RAJ
+							}
+						}
+						add_core_of = RAJ
+					}
+					add_ideas = {
+						minor_annexed
+					}
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						MEX = {
+							is_ai = yes
+						}
+						has_game_rule = {rule = small_game option = YES}
+					}
+				}
+				USA = {
+					annex_country = { target = MEX transfer_troops = yes }
+					every_state = {
+						limit = {
+							AND = {
+								OR = {
+									is_core_of = MEX
+								}
+								controlled_by = USA
+							}
+						}
+						add_core_of = USA
+					}
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						BUL = {
+							is_ai = yes
+						}
+						has_game_rule = {rule = small_game option = YES}
+					}
+				}
+				ITA = {
+					annex_country = { target = BUL transfer_troops = yes }
+					every_state = {
+						limit = {
+							AND = {
+								OR = {
+									is_core_of = BUL
+								}
+								controlled_by = ITA
+							}
+						}
+						add_core_of = ITA
+						
+					}
+					add_ideas = {
+						minor_annexed
+					}
+					set_global_flag = bulgaria_annex
+				}
+			}
+		}
+	}
+}

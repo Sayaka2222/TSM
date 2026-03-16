@@ -20,4 +20,14 @@ GER_reichswerke_four_year_plan = {
 	}
 	scripted_gui = ger_reichswerke_decision_ui
 }
+SPR_civil_war = {
+	allowed = {
+		original_tag = GER
+	}
+	visible = {
+		SPR = {
+			is_ai = yes
+		}
+	}
+}
 

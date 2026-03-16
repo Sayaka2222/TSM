@@ -1,0 +1,74 @@
+SPR_civil_war = {
+	SPR_start = {
+ 		icon = spr_the_inevitable_civil_war
+ 		priority = 10
+		days_mission_timeout = 140
+		fire_only_once = yes
+		available = {
+			hidden_trigger = { always = no }
+		}
+		visible = {
+			tag = SOV
+			tag = GER
+			tag = ENG
+			tag = SPR
+			tag = JAP
+		}
+
+		cancel_if_not_visible = no
+
+		is_good = yes
+
+		timeout_effect = {
+			SPR = {
+				country_event = spain.1
+			}
+		}
+ 	}
+	SPR_surrender_nat = {
+ 		icon = spr_the_inevitable_civil_war
+ 		fire_only_once = no
+ 		allowed = { tag = GER }
+ 		available = {date < 1939.6.1}
+ 		visible={
+			AND = {
+				SPR = {
+					has_war = yes
+				}
+				SPR = {
+					is_ai = yes
+				}
+				tag = GER
+			}
+			
+		}
+ 		cost = 0
+		days_remove = 14
+ 		remove_effect = {
+ 			country_event = spain.ai
+ 		}
+ 	}
+	SPR_surrender_rep = {
+ 		icon = spr_the_inevitable_civil_war
+ 		fire_only_once = no
+ 		allowed = { tag = SOV }
+ 		available = {date < 1939.6.1}
+ 		visible={
+			AND = {
+				SPR = {
+					has_war = yes
+				}
+				SPR = {
+					is_ai = yes
+				}
+				tag = SOV
+			}
+			
+		}
+ 		cost = 0
+		days_remove = 14
+ 		remove_effect = {
+ 			country_event = spain.ai
+ 		}
+ 	}
+}
