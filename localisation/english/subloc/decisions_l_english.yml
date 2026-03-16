@@ -1,9 +1,11 @@
 ﻿l_english:
  remove_barb_buff:0 "Remove Barbarossa Buff"
  SPR_civil_war:0 "The Spanish Civil War"
+ SOV_civil_war:0 "The Spanish Civil War"
  SPR_surrender_nat:0 "Axis Surrender in Spain"
- SPR_surrender_rep:0 "Allied Surrender in Spain"
+ SOV_surrender_rep:0 "Allied Surrender in Spain"
  SPR_start:0 "Countdown to Civil War"
+ SOV_start:0 "Countdown to Civil War"
  ENG_annex_nzl:0 "Annex New Zealand"
  improved_worker_conditions_cancel:0 "Cancel Improved Worker Conditions"
  ENG_annex_can:0 "Annex Canada"

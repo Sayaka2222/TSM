@@ -35,7 +35,7 @@ SOV_purge = {
 		SOV = { has_completed_focus = SOV_collectivist_propaganda }
 	}
 }
-SPR_civil_war = {
+SOV_civil_war = {
 	allowed = {
 		original_tag = SOV
 	}

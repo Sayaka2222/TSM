@@ -3,13 +3,18 @@ on_actions = {
 		effect = {
 			if = {
 				limit = {
-					SPR = {
-						is_ai = yes
+					AND = {
+						SPR = {
+							is_ai = yes
+						}
+						has_game_rule = {rule = small_game option = YES}
 					}
-					has_game_rule = {rule = small_game option = YES}
 				}
 				SPR = {
 					activate_mission = SPR_start
+				}
+				SOV = {
+					activate_mission = SOV_start
 				}
 			}
 			if = {
