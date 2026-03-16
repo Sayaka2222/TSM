@@ -277,9 +277,19 @@ ideas = {
 				army_armor_attack_factor = -0.05
 			}
 			equipment_bonus = {
-				category_all_armor = {
+				medium_tank_chassis = {
 					hardness = -0.1
+					instant = yes
 				}
+				light_tank_chassis = {
+					hardness = -0.1
+					instant = yes
+				}
+				heavy_tank_chassis = {
+					hardness = -0.1
+					instant = yes
+				}
+				
 			}
 		}
 		FRA_learned_doctrine = {
@@ -293,11 +303,6 @@ ideas = {
 			picture = generic_armor_bonus
 			modifier = {
 				army_armor_attack_factor = 0.025
-			}
-			equipment_bonus = {
-				category_all_armor = {
-					hardness = 0.05
-				}
 			}
 		}
 		 FRA_Rhineland_Offensive = {
