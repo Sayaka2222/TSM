@@ -35,7 +35,7 @@ on_actions = {
 								OR = {
 									is_core_of = ROM
 								}
-								controlled_by = HUN
+								is_owned_and_controlled_by = HUN
 							}
 						}
 						add_core_of = HUN
@@ -62,7 +62,7 @@ on_actions = {
 								OR = {
 									is_core_of = SIA
 								}
-								controlled_by = JAP
+								is_owned_and_controlled_by = JAP
 							}
 						}
 						add_compliance = 100
@@ -89,7 +89,7 @@ on_actions = {
 								OR = {
 									is_core_of = MAN
 								}
-								controlled_by = JAP
+								is_owned_and_controlled_by = JAP
 							}
 						}
 						
@@ -117,7 +117,7 @@ on_actions = {
 								OR = {
 									is_core_of = SAF
 								}
-								controlled_by = CAN
+								is_owned_and_controlled_by = CAN
 							}
 						}
 						add_core_of = CAN
@@ -144,7 +144,7 @@ on_actions = {
 								OR = {
 									is_core_of = AST
 								}
-								controlled_by = RAJ
+								is_owned_and_controlled_by = RAJ
 							}
 						}
 						add_core_of = RAJ
@@ -171,7 +171,7 @@ on_actions = {
 								OR = {
 									is_core_of = MEX
 								}
-								controlled_by = USA
+								is_owned_and_controlled_by = USA
 							}
 						}
 						add_core_of = USA
@@ -195,7 +195,7 @@ on_actions = {
 								OR = {
 									is_core_of = BUL
 								}
-								controlled_by = ITA
+								is_owned_and_controlled_by = ITA
 							}
 						}
 						add_core_of = ITA

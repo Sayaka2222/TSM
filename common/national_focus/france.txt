@@ -1242,6 +1242,30 @@ focus_tree = {
 		cost = 5
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
+		653 = {
+			set_building_level = {
+			type = naval_base
+			level = 2
+			province =9100
+			instant_build = yes
+			}
+		}
+		21 = {
+			set_building_level = {
+			type = naval_base
+			level = 10
+			province =867
+			instant_build = yes
+			}
+		}
+		21 = {
+			set_building_level = {
+			type = naval_base
+			level = 3
+			province =10740
+			instant_build = yes
+			}
+		}
 		466 = {
 			set_state_category = city
 		}
