@@ -244,6 +244,10 @@ adjacency_rule=
 				tag = USA
 				date<1942.6.1
 			}
+			AND = {
+				tag = FRA
+				date<1942.6.1
+			}
 		}
 		tooltip = disable_canal_tt
 	}
@@ -292,6 +296,10 @@ adjacency_rule=
 			#}
 			AND = {
 				tag = USA
+				date<1942.6.1
+			}
+			AND = {
+				tag = FRA
 				date<1942.6.1
 			}
 		}
