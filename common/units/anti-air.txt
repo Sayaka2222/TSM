@@ -20,9 +20,11 @@ sub_units = {
 		same_support_type = anti_air
 		
 		group = support
+		regimental = no
 
 		categories = {
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_anti_air
 			category_support_artillery

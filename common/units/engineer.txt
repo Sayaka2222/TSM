@@ -14,10 +14,12 @@ sub_units = {
 		}
 
 		group = support
+		regimental = no
 
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_engineers
 		}
@@ -121,12 +123,15 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 		
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_marines
+			category_marines_and_amphibious
 			category_engineers
 		}
 
@@ -209,9 +214,11 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 		
 		categories = {
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 		}
 
@@ -289,10 +296,12 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 		
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_divisional_support_battalions
 			category_tanks
 			category_all_armor
 			category_army
@@ -393,10 +402,12 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 		
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_divisional_support_battalions
 			category_tanks
 			category_all_armor
 			category_army

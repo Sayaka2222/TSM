@@ -2396,16 +2396,6 @@ CRO = {
 }
 
 
-SLO = {
-	male = {
-		names = { "Karol" "Jozef" "Slavomír" "Jaroslav" "Ján" "Vladimír" "Alojz" "Matúš" "Vojtech" }
-		surnames = { "Nemec" "Horváth" "Majer" "Kocian" "Chalupa" "Ferko" "Horňák" }
-	}
-	female = {
-		names = { "Maria" "Anna" "Hana" "Božena" "Alžbeta" "Marta" }
-		surnames = { "Nemcová" "Horváthová" "Majerová" "Kocianová" "Chalupová" "Ferková" "Horňáková" }
-	}
-}
 
 
 POL = {
@@ -3162,18 +3152,6 @@ CZE = {
 }
 
 # Bohemia-Moravia
-RKH = {
-	male = {
-		names = { "Karel" "Josef" "Jaroslav" "František" "Rostislav" "Václav" "Antonín" "Milan" "Stanislav" "Slavomír" "Jan" "Vilém" "Bořivoj" "Vladimír" "Alois" "Matúš" "Vojtěch" }
-		surnames = { "Havlíček" "Dvořák" "Novák" "Kolář" "Novotný" "Macháček" "Veselý" "Vaněk" "Němec" "Malý" "Adamec" "Suchý" "Havlík"
-		"Horváth" "Majer" "Kocian" "Chalupa" "Ferko" }
-	}
-	female = {
-		names = { "Marie" "Anna" "Hana" "Božena" "Alžběta" "Marta" }
-		surnames = { "Havlíčková" "Dvořáková" "Nováková" "Kolářová" "Novotná" "Macháčková" "Veselá" "Vaňková" "Němcová" "Malá" "Adamcová" "Suchá" "Havlíková"
-		"Horváthová" "Majerová" "Kocianová" "Chalupová" "Ferková" }
-	}
-}
 
 
 AUS = {
@@ -5281,16 +5259,6 @@ ROA = {
 	callsigns = { }
 }
 
-PRC = {
-	male = {
-		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
-	}
-	female = {
-		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
-	}
-	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
-	callsigns = { }
-}
 
 SHX = {
 	male = {
@@ -7562,28 +7530,6 @@ HAI = {
 ###############################################################
 # South America
 ###############################################################
-BRA = {
-	male = {
-		names = {
-			Afonso Antônio Artur Augusto Aurélio Benjamin Cândido Carlos Celso Custódio
-			Delfim Deodoro Eduardo Emílio Epitácio Ernesto Fábio Fernando Filipe Floriano
-			"Francisco de Paula" "Francisco Xavier" Federico Gaspar Gastão Getúlio Henrique Hermes Humberto Isaías
-			João Joaquim José Júlio Juscelino Luís Manuel "Marco Antônio" Mário Miguel
-			Nereu Nilo Paulo Pedro Prudente Silviano Tancredo Urbano Venceslau Vital
-		  }
-	}
-	female = {
-		names = { Aldara Beatriz Berengaria Branca Blanche Constance Estevainha Stephania Fruilhe Guiomar Joana Leonor Margarida Maria Sancha Teresa Constança }
-	}
-	surnames = {
-		Barreto Bernardes Bittencourt Brandão Bras "Cabral da Silva" Caldwell Constant Costa "da Camara"
-		"da Costa" "da Fonseca" "de Aguiar" "de Barros" "de Beaurepaire-Rohan" "de Bragança" "de Carvalho" "de Itapevi" "de Lima e Silva" "de Melo"
-		"de Noronha" "de Oliveira" "de Orleans" "de Souza Neto" "de Suruf" Dutra Fragoso Frontin Galvão Jordão
-		Labatut Lopes Maciel Mallet Marques "Marques de Sousa" Maurity Moreira Osório Peixoto
-		Pena Pessoa Pinto Rondon "Saldanha da Gama" Santos Soares Tavares Vargas Wandenkolk
-	}
-	callsigns = { }
-}
 
 # KLEIN-VENEDIG REICHSKOMMISSARIAT
 RKV = {

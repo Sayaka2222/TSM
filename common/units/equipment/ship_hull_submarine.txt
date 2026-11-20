@@ -1108,5 +1108,21 @@ equipments = {
 			chromium = 2
 		}	
 	}
+
+	# Hidden unbuildable stub for 1.17+ engine/DLC compatibility (not unlocked by any TSM tech)
+	ship_hull_carrier_submarine = {
+		abbreviation = "hefnx"
+		year = 1944
+		archetype = ship_hull_submarine
+		type = { submarine carrier }
+		priority = 2650
+		is_buildable = no
+		active = no
+		can_be_produced = {
+			always = no
+		}
+		module_slots = inherit
+		default_modules = inherit
+	}
  }
 

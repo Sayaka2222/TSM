@@ -478,6 +478,7 @@ sub_units = {
 			category_army
 			category_special_forces
 			category_marines
+			category_marines_and_amphibious
 		}
 
 		combat_width = 2
@@ -536,6 +537,7 @@ sub_units = {
 			category_army
 			category_special_forces
 			category_marines
+			category_marines_and_amphibious
 		}
 		
 		

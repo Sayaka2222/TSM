@@ -185,6 +185,13 @@ guiTypes = {
 		}
 
 		iconType = {
+			name = "operative_target_flag"
+			quadTextureSprite = "GFX_flag_small"
+			position = { x=43 y=115 }
+			scale = 0.7
+		}
+
+		iconType = {
 			name = "portrait_frame"
 			position = { x = -3 y = 40 }
 			spriteType = "GFX_operative_frame"
@@ -234,18 +241,18 @@ guiTypes = {
 		buttonType = {
 			name = "portrait_btn"
 			position = { x=3 y=5 }
-			spriteType = "GFX_leader_unknown"
+			spriteType = "GFX_operative_unknown"
 			alwaystransparent = no
 			scale = 0.33
 			clicksound = click_default
 		}
-		
+
 		buttonType = {
 			name = "portrait_dismiss_btn"
 			position = {x=2 y=53}
 			spriteType = "GFX_NV_btn_delete"
 			scale = 0.85
-		}		
+		}
 
 		iconType = {
 			name = "leader_captured"
@@ -279,7 +286,7 @@ guiTypes = {
 		buttonType = {
 			name = "portrait_btn"
 			position = { x=3 y=5 }
-			spriteType = "GFX_leader_unknown"
+			spriteType = "GFX_operative_unknown"
 			alwaystransparent = no
 			scale = 0.42
 			clicksound = click_default
@@ -299,13 +306,13 @@ guiTypes = {
 			quadTextureSprite ="GFX_leader_en_route"
 			alwaystransparent = yes
 		}
-		
+
 		buttonType = {
 			name = "portrait_dismiss_btn"
 			position = {x=2 y=53}
 			spriteType = "GFX_NV_btn_delete"
 			scale = 0.85
-		}		
+		}
 	}
 
 	containerWindowType = {
@@ -373,7 +380,7 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "btn_mission_2" 
+			name = "btn_mission_2"
 			spriteType = "GFX_operative_mission_button_background"
 			clicksound = click_default
 			position = { x=109 y=@btn_mission_y }
@@ -384,14 +391,14 @@ guiTypes = {
 			name = "icn_mission_2"
 			spriteType = "GFX_operative_mission_icons"
 			frame = 2
-			position = { x=116 y=@icn_mission_y }  
+			position = { x=116 y=@icn_mission_y }
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "icn_mission_active_2"
 			spriteType = "GFX_operative_mission_active"
 			frame = 1
-			position = { x=109 y=@btn_mission_y  }
+			position = { x=109 y=@btn_mission_y }
 			alwaystransparent = yes
 		}
 
@@ -446,18 +453,18 @@ guiTypes = {
 			spriteType = "GFX_operative_mission_button_background"
 			clicksound = click_default
 			position = { x=258 y=@btn_mission_y }
-			frame = 1 
+			frame = 1
 			shortcut = "n"
 		}
 		iconType = {
 			name = "icn_mission_4"
 			spriteType = "GFX_operative_mission_icons"
-			frame = 4 
+			frame = 4
 			position = { x=265 y=@icn_mission_y }
 			alwaystransparent = yes
 		}
 		iconType = {
-			name = "icn_mission_active_4" 
+			name = "icn_mission_active_4"
 			spriteType = "GFX_operative_mission_active"
 			frame = 1
 			position = { x=258 y=@btn_mission_y }
@@ -493,7 +500,7 @@ guiTypes = {
 			clicksound = click_default
 			position = { x=350 y=@btn_mission_y }
 			frame = 1
-			shortcut = "d"
+			keybind = "operative_mission_diplomatic_pressure"
 		}
 		iconType = {
 			name = "icn_mission_7"

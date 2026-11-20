@@ -1,0 +1,28 @@
+ideas = {
+	hidden_ideas = {
+		GEN_cheaper_amphib = {
+			allowed = {
+				always = no # Triggered via Special Forces Marines subdoctrine
+			}
+			cancel = {
+				NOT = {
+					has_mastery_level = {
+						amount = 5
+						sub_doctrine = marines_1
+					}
+				}
+			}
+			picture = generic_fascism_drift_bonus
+			equipment_bonus = {
+				amphibious_mechanized_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

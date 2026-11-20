@@ -1039,5 +1039,20 @@ equipments = {
 		}
 		manpower = 6000
 	}
+
+	# Hidden unbuildable stub for 1.17+ engine/DLC compatibility (not unlocked by any TSM tech)
+	ship_hull_escort_carrier = {
+		abbreviation = "hacve"
+		year = 1936
+		archetype = ship_hull_carrier
+		priority = 1000
+		is_buildable = no
+		active = no
+		can_be_produced = {
+			always = no
+		}
+		module_slots = inherit
+		default_modules = inherit
+	}
  }
 

@@ -4,7 +4,16 @@
 SPR_civil_war = {
 	priority = 10
 	allowed = {
-		original_tag = SPR
+		OR = {
+			original_tag = SPR
+			original_tag = GER
+		}
+	}
+	visible = {
+		OR = {
+			original_tag = SPR
+			SPR = { is_ai = yes }
+		}
 	}
 }
 SPR_opposition_civil_war_preparations = {

@@ -146,4 +146,32 @@ critical_parts = {
 		org_damage_multiplier = 0.25
 		str_damage_multiplier = 0.25
 	}
+
+	leaking_pressure_hull = {
+		icon = "GFX_default_critical_damage_icons"
+		frame = 14
+		stat_penalties = {
+			sub_visibility = 0.66
+		}
+		modifier = {
+			naval_retreat_chance = -0.4
+		}
+		
+		org_damage_multiplier = 0.25
+		str_damage_multiplier = 0.25
+	}
+
+	battery_leak = {
+		icon = "GFX_default_critical_damage_icons"
+		frame = 6
+		stat_penalties = {
+			sub_visibility = 0.33
+		}
+		modifier = {
+			naval_retreat_chance = -0.4
+		}
+		
+		org_damage = 5
+		org_damage_multiplier = 2
+	}
 }

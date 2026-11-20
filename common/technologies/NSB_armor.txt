@@ -1201,7 +1201,8 @@ technologies = {
 		
 		enable_subunits = {
 			amphibious_mechanized
-			amphibious_armor
+			amphibious_light_armor
+			amphibious_medium_armor
 		}
 		enable_equipment_modules = {
 			amphibious_drive

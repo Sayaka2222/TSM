@@ -13,10 +13,12 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 
 		categories = {
 			category_tanks
 			category_support_battalions
+			category_divisional_support_battalions
 			category_front_line
 			category_all_armor
 			category_army

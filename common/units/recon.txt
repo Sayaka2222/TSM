@@ -13,10 +13,12 @@ sub_units = {
 		}
 
 		group = support
+		regimental = no
 
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_recon
 		}
@@ -101,10 +103,12 @@ sub_units = {
 		}
 
 		group = support
+		regimental = no
 
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_recon
 		}
@@ -180,10 +184,12 @@ sub_units = {
 		}
 
 		group = support
+		regimental = no
 
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_recon
 		}
@@ -278,10 +284,12 @@ sub_units = {
 		#}
 		
 		group = support
+		regimental = no
 
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_all_armor
 			category_recon
@@ -363,10 +371,12 @@ sub_units = {
 		}
 
 		group = support
+		regimental = no
 
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_all_armor
 			category_recon
@@ -448,10 +458,12 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 		
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_recon
 			category_mountaineers
@@ -526,10 +538,12 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 		
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 		}
 
@@ -595,10 +609,12 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 		
 		categories = {
 			category_front_line
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_recon
 		}
@@ -698,9 +714,11 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 		
 		categories = {
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_recon
 			category_helicopter_support_companies

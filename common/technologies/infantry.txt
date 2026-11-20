@@ -417,6 +417,14 @@ technologies = {
 			hard_attack = 0.25
 			ap_attack = 1
 		}
+		fire_support = {
+			hard_attack = 0.15
+			ap_attack = 0.5
+		}
+		mot_fire_support = {
+			hard_attack = 0.15
+			ap_attack = 0.5
+		}
 		research_cost = 1.5
 		start_year = 1942
 		categories = {
@@ -450,6 +458,14 @@ technologies = {
 		category_all_infantry = {
 			hard_attack = 0.5
 			ap_attack = 1
+		}
+		fire_support = {
+			hard_attack = 0.15
+			ap_attack = 0.5
+		}
+		mot_fire_support = {
+			hard_attack = 0.15
+			ap_attack = 0.5
 		}
 		research_cost = 1.5
 		start_year = 1945
@@ -1141,6 +1157,10 @@ technologies = {
 		}
 	}
 	support_weapons = {
+		enable_subunits = {
+			fire_support
+			mot_fire_support
+		}
 		infantry = {
 			defense = 0.08
 			breakthrough = 0.08
@@ -1206,6 +1226,16 @@ technologies = {
 		}
 	}
 	support_weapons2 = {
+		fire_support = {
+			defense = 0.15
+			breakthrough = 0.15
+			soft_attack = 0.1
+		}
+		mot_fire_support = {
+			defense = 0.15
+			breakthrough = 0.05
+			soft_attack = 0.1
+		}
 		infantry = {
 			defense = 0.08
 			breakthrough = 0.08
@@ -1278,6 +1308,16 @@ technologies = {
 		}
 	}
 	support_weapons3 = {
+		fire_support = {
+			defense = 0.15
+			breakthrough = 0.15
+			soft_attack = 0.1
+		}
+		mot_fire_support = {
+			defense = 0.15
+			breakthrough = 0.05
+			soft_attack = 0.1
+		}
 		infantry = {
 			defense = 0.08
 			breakthrough = 0.08
@@ -1344,6 +1384,16 @@ technologies = {
 		}
 	}
 	support_weapons4 = {
+		fire_support = {
+			defense = 0.15
+			breakthrough = 0.15
+			soft_attack = 0.1
+		}
+		mot_fire_support = {
+			defense = 0.15
+			breakthrough = 0.05
+			soft_attack = 0.1
+		}
 		infantry = {
 			defense = 0.08
 			breakthrough = 0.08
@@ -1535,6 +1585,9 @@ technologies = {
 		}
 	}
 	motorised_infantry = {
+		mot_fire_support = {
+			breakthrough = 0.1
+		}
 
 		enable_subunits = {
 			mechanized
@@ -1798,6 +1851,10 @@ technologies = {
 	#	}
 	#}
 	mechanised_infantry = {
+		mot_fire_support = {
+			breakthrough = 0.1
+			soft_attack = 0.05
+		}
 		enable_equipments = {
 			mechanized_equipment_1
 		}
@@ -1906,6 +1963,10 @@ technologies = {
 		}
 	}
 	mechanised_infantry2 = {
+		mot_fire_support = {
+			breakthrough = 0.1
+			soft_attack = 0.05
+		}
 		enable_equipments = {
 			mechanized_equipment_2
 		}
@@ -1937,6 +1998,10 @@ technologies = {
 		}
 	}
 	mechanised_infantry3 = {
+		mot_fire_support = {
+			breakthrough = 0.1
+			soft_attack = 0.05
+		}
 		enable_equipments = {
 			mechanized_equipment_3
 		}

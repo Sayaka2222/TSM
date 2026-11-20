@@ -44,8 +44,8 @@ guiTypes = {
 			pdx_tooltip = "[ST_TOOLTIP]"
 			shortcut = "RETURN"				
 			web_link="https://player.twitch.tv/?channel=0lennard&enableExtensions=false&parent=twitch.tv&player=popout&quality=160p30&volume=0.0"
-			clicksound = click_okafasf
-			oversound = ui_menu_overasf
+			clicksound = click_ok
+			oversound = ui_menu_over
 		}
 		
 

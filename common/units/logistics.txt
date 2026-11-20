@@ -14,9 +14,11 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 		
 		categories = {
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 		}
 
@@ -71,9 +73,11 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 		
 		categories = {
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_helicopter_support_companies
 		}

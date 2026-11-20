@@ -245,14 +245,9 @@ ability = {
 			is_border_war = no
 		}
 		unit_modifiers = {
-				army_morale_factor  = -0.5
-			}
-		one_time_effect = {
-			add_temporary_buff_to_units = {
-				org_damage_multiplier = -0.2
-				str_damage_multiplier = 0.1
-				days = 7
-			}
+			army_morale_factor = -0.5
+			org_damage_multiplier = -0.2
+			str_damage_multiplier = 0.1
 		}
 		cost = 0.05
 		duration = 144

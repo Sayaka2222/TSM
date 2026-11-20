@@ -49,9 +49,6 @@ set_technology = {
 	tech_trucks = 1
 	coastal_defense_ships = 1
 	engine_tech_1 = 1
-	special_forces_mountaineers = 1
-	special_forces_marines = 1
-	special_forces_paratroopers = 1
 }
 set_variable = {
 	var = min_fuel

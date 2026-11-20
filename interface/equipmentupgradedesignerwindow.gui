@@ -30,7 +30,7 @@ guiTypes = {
 			maxWidth = 250
 			maxHeight = 36
 		}
-	
+
 		iconType ={
 			name ="experience_bg"
 			spriteType = "GFX_generic_box_smallest"
@@ -118,7 +118,7 @@ guiTypes = {
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
 		}
-		
+
 		buttonType = {
 			name = "select_model_button"
 			position = { x=-61 y=80 }
@@ -153,24 +153,37 @@ guiTypes = {
 		containerWindowType = {
 			name = "equipment_select_model"
 			position = { x=537 y=0 }
-			size = { width=538 height=416 }
+			size = { width=567 height=416 }
 			
 			background = {
-				name = "Background"		
+				name = "Background"
 				spriteType ="GFX_tiled_window"
 				position = { x=0 y=0 }
 			}
-			
+
+			containerWindowType = {
+				name = "border_container"
+				position = { x=21 y=13 }
+				size = { width = 524 height = 222 }
+
+				background = {
+					name ="bg_tech_button"
+					spriteType = "GFX_division_3d_bg"
+					position = { x=0 y=0 }
+					size = { x=100%% y=100%%}
+				}
+			}
+
 			iconType = {
 				name ="3d_view"
 				quadTextureSprite = "GFX_3d_view_placeholder"
-				position = { x= 14 y = 14 }
+				position = { x= 28 y = 20 }
 			}
 
 			containerWindowType = {
 				name = "grid_container"
-				position = { x=14 y=235}	
-				size = { width=520 height=176 }
+				position = { x=17 y=235}
+				size = { width=533 height=176 }
 				verticalScrollbar = "right_vertical_slider"
 				scroll_wheel_factor = 42
 				smooth_scrolling = yes
@@ -180,12 +193,12 @@ guiTypes = {
 					spriteType ="GFX_tiled_window_transparent"
 				}
 				
-				gridBoxType = { 
+				gridBoxType = {
 					name = "buttons_grid"
 					position = { x = 0 y = 0 }
-					size = { width = 490 height = 100%% }
-					slotsize = { width = 490 height = 42 }
-					max_slots_horizontal = 1
+					size = { width = 510 height = 100%% }
+					slotsize = { width = 255 height = 42 }
+					max_slots_horizontal = 2
 					format = "UPPER_LEFT"
 					
 				}
@@ -260,7 +273,7 @@ guiTypes = {
 				clicksound = click_default
 			}
 		}
-		
+
 		containerWindowType = {
 			name = "tank_reliability_upgrade"
 			position = { x = 30 y = 100 }
@@ -2008,19 +2021,20 @@ guiTypes = {
 			font = "hoi4_typewriter16_inverted"
 			borderSize = {x = 0 y = 0}
 			text = "Name"
-			maxWidth = 150
+			maxWidth = 130
 			maxHeight = 20
 			format = left
+			fixedsize = yes
 		}
 	
 		instantTextboxType = {
 			name = "count"
-			position = { x = 96 y = 6 }
+			position = { x = 126 y = 6 }
 			textureFile = ""
 			font = "hoi4_typewriter16_inverted"
 			borderSize = {x = 0 y = 0}
 			text = "count"
-			maxWidth = 150
+			maxWidth = 120
 			maxHeight = 20
 			fixedsize = yes
 			format = right

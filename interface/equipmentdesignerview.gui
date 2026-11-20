@@ -42,20 +42,53 @@ guiTypes = {
 			position = { x=33 y=85 }
 			quadTextureSprite = "GFX_3d_view_placeholder"
 		}
-		
-		containerWindowType = {
-			name = "border_container"
+				
+		buttonType = {
+			name = "toggle_model_selector_button"
 			position = { x=30 y=82 }
-			size = { width = 111 height = 58 }
-
-			background = {
-				name ="bg_tech_button"
-				spriteType = "GFX_division_3d_bg"
-				position = { x=0 y=0 }
-				size = { x=100%% y=100%% }
-				pdx_tooltip = "SELECT_3D_MODEL"
-			}
+			size = { x = 111 y = 58 }
+			quadTextureSprite ="GFX_division_3d_bg"	
+			pdx_tooltip = "TOGGLE_MODEL_SELECTOR"
+			clicksound = click_default
 		}
+
+		iconType = {
+			name = "resources_bg"
+			position = { x = 540 y = 501 }
+			SpriteType = "GFX_resources_bg"
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "production_resources"
+			position = { x= 548 y= 510 }
+			font = "hoi_18mbs"
+			maxWidth = 90
+			maxHeight = 25
+			pdx_tooltip = "EQUIPMENT_DESIGNER_PRODUCTION_RESOURCE_DESC"
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "refit_cost"
+			position = { x= 630 y=510 }
+			font = "hoi_18mbs"
+			maxWidth = 210
+			maxHeight = 25
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "production_value"
+			position = { x= 800 y=510 }
+			font = "hoi_18mbs"
+			maxWidth = 270
+			maxHeight = 25
+			#pdx_tooltip = "EQUIPMENT_DESIGNER_PRODUCTION_COST_DESC"
+			format = right
+			orientation = center_right
+		}
+
 
 		containerWindowType = {
 			name = "icon_selection_container"
@@ -79,7 +112,7 @@ guiTypes = {
 			}
 		}
 
-
+		
 		iconType = {
 			name = "role_icon_bg"
 			spriteType = "GFX_role_icon_bg"
@@ -220,7 +253,7 @@ guiTypes = {
 			}
 
 		}
-
+		
 		iconType = {
 			name = "ship_category_icon"
 			spriteType = "GFX_ship_category_icon_small"
@@ -310,7 +343,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "base_stats"
 				position = { x = 10 y = 55 }
-				size = { width = 182 height = 224 }
+				size = { width = 171 height = 224 }
 				clipping = yes
 
 				background = {
@@ -322,9 +355,9 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "stats_grid"
-					position = { x = 2 y = 0 }
-					size = { width = 165 height = 100%% }
-					slotsize = { width = 165 height = 20 }
+					position = { x = 5 y = 0 }
+					size = { width = 155 height = 100%% }
+					slotsize = { width = 155 height = 20 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -332,7 +365,7 @@ guiTypes = {
 
 			instantTextboxType = {
 					name = "combat_stats_label"
-					position = { x = 197 y = 34 }
+					position = { x = 187 y = 34 }
 					font = "hoi4_typewriter22"
 					text = "DESIGNER_COMBAT_STATS_LABEL"
 					maxWidth = 165
@@ -343,8 +376,8 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "combat_stats"
-				position = { x = 193 y = 55 }
-				size = { width = 184 height = 224 }
+				position = { x = 183 y = 55 }
+				size = { width = 174 height = 224 }
 				clipping = yes
 
 				background = {
@@ -356,9 +389,9 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "stats_grid"
-					position = { x = 2 y = 0 }
-					size = { width = 165 height = 100%% }
-					slotsize = { width = 165 height = 20 }
+					position = { x = 5 y = 0 }
+					size = { width = 155 height = 100%% }
+					slotsize = { width = 155 height = 20 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -366,7 +399,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "misc_stats_label"
-				position = { x = 382 y = 34 }
+				position = { x = 362 y = 34 }
 				font = "hoi4_typewriter22"
 				text = "FE_MISC_STATS"
 				maxWidth = 165
@@ -377,8 +410,8 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "misc_stats"
-				position = { x = 376 y = 55 }
-				size = { width = 182 height = 224 }
+				position = { x = 356 y = 55 }
+				size = { width = 172 height = 224 }
 				clipping = yes
 
 				background = {
@@ -390,9 +423,9 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "stats_grid"
-					position = { x = 2 y = 0 }
-					size = { width = 165 height = 100%% }
-					slotsize = { width = 165 height = 20 }
+					position = { x = 5 y = 0 }
+					size = { width = 155 height = 100%% }
+					slotsize = { width = 155 height = 20 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -432,11 +465,11 @@ guiTypes = {
 				}
 			}
 		}
-
+		
 		containerWindowType = {
 			name = "equipment_select_model"
 			position = { x=538 y=40 }
-			size = { width=567 height=460 }
+			size = { width=567 height=510 }
 			
 			background = {
 				name = "Background"		
@@ -466,20 +499,44 @@ guiTypes = {
 				
 			buttonType = {
 				name = "back_button"
-				position = { x=395 y=412 }
+				position = { x=395 y=25 }
 				size = { x=504 y=22 }
 				font = "hoi_16mbs"				
-				buttontext = "BACK"
+				buttontext = "CLOSE"
 				quadTextureSprite = "GFX_button_123x34"
 				clicksound = click_close
 			}		
 
+			containerWindowType = {
+				name = "best_match_window"
+				position = { x=382 y=204 }
+				size = { width = 123 height = 34 }
+				clipping = no
 
+				buttonType = {
+					name = "best_match_button"
+					position = { x=-11 y=-3 }
+					font = "hoi_16mbs"			
+					quadTextureSprite = "GFX_generic_checkbox"
+					clicksound = click_default
+					pdx_tooltip = "USE_DEFAULT_MODEL_IN_EQUIPMENT_DESIGNER_TOOLTIP"
+				}	
+				
+				instantTextboxType = {
+					name = "best_match_text"
+					position = { x = 28 y = 6 }
+					font = "hoi_16mbs"
+					text = "USE_DEFAULT_MODEL_IN_EQUIPMENT_DESIGNER"
+					fixedsize = yes
+					format = left
+					alwaystransparent = yes
+				}
+			}
 
 			containerWindowType = {
 				name = "grid_container"
 				position = { x=5 y=235}	
-				size = { width=533 height=176 }
+				size = { width=533 height=260 }
 				verticalScrollbar = "right_vertical_slider"
 				scroll_wheel_factor = 42
 				smooth_scrolling = yes
@@ -493,9 +550,9 @@ guiTypes = {
 				gridBoxType = { 
 					name = "buttons_grid"
 					position = { x = 0 y = 0 }
-					size = { width = 490 height = 100%% }
-					slotsize = { width = 490 height = 42 }
-					max_slots_horizontal = 1
+					size = { width = 510 height = 100%% }
+					slotsize = { width = 255 height = 42 }
+					max_slots_horizontal = 2
 					format = "UPPER_LEFT"
 					
 				}
@@ -563,7 +620,7 @@ guiTypes = {
 				}
 			}
 		}
-
+		
 		containerWindowType = {
 			name = "historical_select_design"
 			position = { x=538 y=40 }
@@ -602,7 +659,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_button_123x34"
 				clicksound = click_close
 			}		
-
+			
 			containerWindowType = {
 				name = "border_container"
 				position = { x=0 y=20 }
@@ -640,7 +697,7 @@ guiTypes = {
 					
 				}
 			}
-
+			
 			containerWindowType = {
 				name = "folder_container"
 				position = {x=3 y=28}
@@ -674,7 +731,7 @@ guiTypes = {
 					format = "UPPER_RIGHT"
 				}
 			}
-
+			
 		}
 		
 		containerWindowType = {
@@ -750,7 +807,7 @@ guiTypes = {
 			clicksound = click_checkbox
 			frame = 1
 		}
-
+		
 		iconType = {
 			name = "nubbin"
 			quadTextureSprite ="GFX_tank_designer_nubbin"
@@ -915,8 +972,8 @@ guiTypes = {
 					position = { x = 0 y = 0 }
 				} #TODO remove
 			}
-				}
-
+		}
+		
 		instantTextboxType = {
 			name = "position_version"
 			position = { x = 212 y = 56 }
@@ -937,7 +994,7 @@ guiTypes = {
 			clicksound = click_default
 			pdx_tooltip = "EQUIPMENT_COMPARISON"
 		}
-
+		
 		buttonType = {
 			name = "close_button"
 			position = { x = -44 y = 6 }
@@ -947,43 +1004,6 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
-		}
-
-		iconType = {
-			name = "resources_bg"
-			position = { x = 540 y = 501 }
-			SpriteType = "GFX_resources_bg"
-			alwaystransparent = yes
-		}
-
-		instantTextboxType = {
-			name = "production_resources"
-			position = { x= 548 y= 510 }
-			font = "hoi_18mbs"
-			maxWidth = 90
-			maxHeight = 25
-			pdx_tooltip = "EQUIPMENT_DESIGNER_PRODUCTION_RESOURCE_DESC"
-			format = left
-		}
-
-		instantTextboxType = {
-			name = "refit_cost"
-			position = { x= 630 y=510 }
-			font = "hoi_18mbs"
-			maxWidth = 210
-			maxHeight = 25
-			format = center
-		}
-
-		instantTextboxType = {
-			name = "production_value"
-			position = { x= 800 y=510 }
-			font = "hoi_18mbs"
-			maxWidth = 270
-			maxHeight = 25
-			#pdx_tooltip = "EQUIPMENT_DESIGNER_PRODUCTION_COST_DESC"
-			format = right
-			orientation = center_right
 		}
 
 		# Module selection sub-window
@@ -1046,7 +1066,7 @@ guiTypes = {
 			}
 
 		}
-
+		
 		containerWindowType = {
 			name = "designer_intel_container"
 			size = { width = 317 height = 540 }
@@ -1239,7 +1259,7 @@ guiTypes = {
 				name = "background"
 				quadTextureSprite = "GFX_tank_designer_stat_card"
 			}
-			
+
 			instantTextboxType = {
 				name = "base_stats_label"
 				position = { x = 15 y = 5 }
@@ -1370,10 +1390,10 @@ guiTypes = {
 			quadTextureSprite ="GFX_flag_small"
 			position = { x = 5 y = 2 }
 		}
-
+		
 		instantTextboxType = {
 			name = "name"
-			position = { x = 35 y = 5 }
+			position = { x = 35 y = 5 } 
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -1612,24 +1632,48 @@ guiTypes = {
 	containerWindowType = {
 		name = "equipment_designer_3d_model_entry"
 		position = { x=0 y=0 }
-		size = { width=510 height=44 }
+		size = { width=250 height=42 }
 
-		background = {
-			name = "Background"		
-			spriteType ="GFX_division_3d_entry"
+		buttonType = {
+			name = "button"
+			spriteType ="GFX_division_3d_entry_half_width"
+		}
+
+		iconType = {
+			position = { x = 5 y = 4 }
+			name ="sprite"
+			quadTextureSprite = "GFX_3d_view_placeholder"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			position = { x = 5 y = 4 }
+			name = "icon_slot_shadow"
+			quadTextureSprite = "GFX_division_3d_entry_icon_sh"
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "name"
+			position = { x = 92 y = 5 } 
+			font = "hoi_16mbs"
+			maxWidth = 150
+			maxHeight = 42
+			format = left
+			alwaystransparent = yes
+			fixedsize = yes
 		}
 		
 		instantTextboxType = {
-			name = "name"
-			position = { x = 19 y = 11 }
-			textureFile = ""
-			font = "hoi_20b"
-			borderSize = {x = 0 y = 0}
-			text = "Maus"
-			maxWidth = 365
+			name = "priority"
+			position = { x = 173 y = 23 }
+			font = "hoi_16mbs"
+			format = right
+			maxWidth = 75
 			maxHeight = 20
+			text_color_code = L
 			alwaystransparent = yes
-		}			
+		}
 	}
 	
 	containerWindowType = {
@@ -1660,6 +1704,19 @@ guiTypes = {
 			maxHeight = 20
 			alwaystransparent = yes
 		}				
+				
+		instantTextboxType = {
+			name = "priority"
+			position = { x = 25 y = 6 }
+			textureFile = ""
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			format = right
+			maxWidth = 365
+			maxHeight = 20
+			text_color_code = L
+			alwaystransparent = yes
+		}
 	}
 
 	containerWindowType = {

@@ -126,7 +126,7 @@ guiTypes = {
 			name = "background1" 
 			position = {x=0 y=0}
 			quadTextureSprite ="GFX_mini_tooltip"
-			size = { width = 100 height = 30}
+			size = { x = 100 y = 30 }
             pdx_tooltip = "stockpile_aluminium_tt"
 		}
 		iconType = {
@@ -176,7 +176,7 @@ guiTypes = {
 			name = "background2" 
 			position = {x=0 y=0}
 			quadTextureSprite ="GFX_mini_tooltip"
-			size = { width = 100 height = 30}
+			size = { x = 100 y = 30 }
             pdx_tooltip = "stockpile_rubber_tt"
 		}
 		
@@ -226,7 +226,7 @@ guiTypes = {
 			name = "background3" 
 			position = {x=0 y=0}
 			quadTextureSprite ="GFX_mini_tooltip"
-			size = { width = 100 height = 30}
+			size = { x = 100 y = 30 }
             pdx_tooltip = "stockpile_tungsten_tt"
 		}
 			
@@ -275,7 +275,7 @@ guiTypes = {
 			name = "background3" 
 			position = {x=0 y=0}
 			quadTextureSprite ="GFX_mini_tooltip"
-			size = { width = 100 height = 30}
+			size = { x = 100 y = 30 }
             pdx_tooltip = "stockpile_steel_tt"
 		}
 		
@@ -323,7 +323,7 @@ guiTypes = {
 			name = "background4" 
 			position = {x=0 y=0}
 			quadTextureSprite ="GFX_mini_tooltip"
-			size = { width = 100 height = 30}
+			size = { x = 100 y = 30 }
             pdx_tooltip = "stockpile_chromium_tt"
 		}
 		iconType = {

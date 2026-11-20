@@ -1,0 +1,9 @@
+# TSM 1.20 Special Forces Mastery System & base compatibility triggers
+can_unlock_second_track_of_sf_doctrine = {
+	always = yes
+}
+
+# Referenced by base game music/toa_songs.txt (missing due to replace_path="common/scripted_triggers")
+should_play_south_american_music = {
+	always = no
+}

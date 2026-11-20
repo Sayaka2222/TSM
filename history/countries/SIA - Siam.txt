@@ -1,4 +1,4 @@
-﻿capital = 276
+capital = 276
 set_stability = 0.3
 set_war_support = 0.4
 
@@ -67,9 +67,6 @@ set_technology = {
 	early_ship_hull_light = 1
 	armored_car1 = 1
 	basic_light_tank_chassis = 1
-	special_forces_mountaineers = 1
-	special_forces_marines = 1
-	special_forces_paratroopers = 1
 }
 add_ideas = peace_training
 set_rule = {can_be_spymaster = no}

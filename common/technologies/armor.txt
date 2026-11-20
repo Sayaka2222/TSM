@@ -410,7 +410,8 @@ technologies = {
 			amphibious_tank_equipment_1
 		}
 		enable_subunits = {
-			amphibious_armor
+			amphibious_light_armor
+			amphibious_medium_armor
 		}
 		path = {
 			leads_to_tech = amphibious_tank_2

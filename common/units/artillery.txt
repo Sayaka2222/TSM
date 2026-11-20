@@ -15,9 +15,11 @@ sub_units = {
 		}
 
 		group = support
+		regimental = no
 
 		categories = {
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_artillery
 			category_support_artillery
@@ -62,9 +64,11 @@ sub_units = {
 		}
 		same_support_type = artillery
 		group = support
+		regimental = no
 
 		categories = {
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_artillery
 			category_support_artillery
@@ -108,9 +112,11 @@ sub_units = {
 		}
 		same_support_type = artillery
 		group = support
+		regimental = no
 
 		categories = {
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_artillery
 			category_support_artillery
@@ -156,9 +162,11 @@ sub_units = {
 		}
 		same_support_type = artillery
 		group = support
+		regimental = no
 
 		categories = {
 			category_support_battalions
+			category_divisional_support_battalions
 			category_all_armor
 			category_mobile_artillery
 			category_army
@@ -204,9 +212,11 @@ sub_units = {
 		}
 		same_support_type = artillery
 		group = support
+		regimental = no
 
 		categories = {
 			category_support_battalions
+			category_divisional_support_battalions
 			category_all_armor
 			category_army
 			category_mobile_artillery
@@ -252,9 +262,11 @@ sub_units = {
 		}
 		same_support_type = artillery
 		group = support
+		regimental = no
 
 		categories = {
 			category_support_battalions
+			category_divisional_support_battalions
 			category_all_armor
 			category_army
 			category_mobile_artillery
@@ -299,9 +311,11 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 		
 		categories = {
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_artillery
 			category_support_artillery
@@ -346,9 +360,11 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 		
 		categories = {
 			category_support_battalions
+			category_divisional_support_battalions
 			category_army
 			category_artillery
 			category_support_artillery
