@@ -79,11 +79,10 @@ country_event = {
 			motorized = { x = 4 y = 3 }
 			}
 			support = {
-			light_tank_recon = { x = 0 y = 0 }
-			engineer = { x = 0 y = 1 }
-			artillery = { x = 0 y = 2 }
-			logistics_company = { x = 0 y = 3 }
-			signal_company = { x = 0 y = 4 }
+				light_tank_recon = { x = 0 y = 0 }
+				engineer = { x = 0 y = 1 }
+				logistics_company = { x = 0 y = 2 }
+				signal_company = { x = 0 y = 3 }
 			}
 		}
 	division_template = {
@@ -110,11 +109,13 @@ country_event = {
 		anti_air_brigade = { x = 3 y = 4 }
 		artillery_brigade = { x = 3 y = 3 }
 	}
+	regimental_support = {
+		artillery = { x = 0 y = 0 }
+		anti_air = { x = 1 y = 0 }
+		anti_tank = { x = 2 y = 0 }
+	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
-		anti_air = { x = 0 y = 2 }
-		anti_tank = { x = 0 y = 3 }
 	}
 	}
 	load_oob = "sov_spawn"
@@ -145,11 +146,10 @@ country_event = {
 		motorized = { x = 4 y = 3 }
 		}
 		support = {
-		light_tank_recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-		logistics_company = { x = 0 y = 3 }
-		signal_company = { x = 0 y = 4 }
+			light_tank_recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+			logistics_company = { x = 0 y = 2 }
+			signal_company = { x = 0 y = 3 }
 		}
 	}
 	division_template = {
@@ -176,11 +176,13 @@ country_event = {
 		anti_air_brigade = { x = 3 y = 4 }
 		artillery_brigade = { x = 3 y = 3 }
 	}
+	regimental_support = {
+		artillery = { x = 0 y = 0 }
+		anti_air = { x = 1 y = 0 }
+		anti_tank = { x = 2 y = 0 }
+	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
-		anti_air = { x = 0 y = 2 }
-		anti_tank = { x = 0 y = 3 }
 	}
 	}
 	load_oob = "jap_spawn"

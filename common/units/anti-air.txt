@@ -17,14 +17,14 @@ sub_units = {
 			infantry
 			support
 		}
-		same_support_type = anti_air
 		
 		group = support
-		regimental = no
+		divisional = no
+		allowed_battalion_groups = { infantry combat_support }
 
 		categories = {
 			category_support_battalions
-			category_divisional_support_battalions
+			category_regimental_support_battalions
 			category_army
 			category_anti_air
 			category_support_artillery

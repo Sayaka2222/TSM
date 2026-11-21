@@ -10,19 +10,18 @@ sub_units = {
 		affects_speed = no
 
 		group = support
-		regimental = no
+		divisional = no
+		allowed_battalion_groups = { infantry combat_support }
 
 		type = {
 			infantry
 			support
 		}
-
-		same_support_type = anti_tank
 		
 		categories = {
 			category_front_line
 			category_support_battalions
-			category_divisional_support_battalions
+			category_regimental_support_battalions
 			category_army
 			category_support_artillery
 		}
@@ -66,13 +65,14 @@ sub_units = {
 			infantry
 			support
 		}
-		same_support_type = anti_tank
 		group = support
-		regimental = no
+		divisional = no
+		allowed_battalion_groups = { armor armor_combat_support }
 
 		categories = {
 			category_support_battalions
-			category_divisional_support_battalions
+			category_regimental_support_battalions
+			category_tank_destroyer_regimental_support
 			category_all_armor
 			category_mobile_artillery
 			category_army
@@ -115,13 +115,14 @@ sub_units = {
 			infantry
 			support
 		}
-		same_support_type = anti_tank
 		group = support
-		regimental = no
+		divisional = no
+		allowed_battalion_groups = { armor armor_combat_support }
 
 		categories = {
 			category_support_battalions
-			category_divisional_support_battalions
+			category_regimental_support_battalions
+			category_tank_destroyer_regimental_support
 			category_all_armor
 			category_army
 			category_mobile_artillery
@@ -164,13 +165,14 @@ sub_units = {
 			infantry
 			support
 		}
-		same_support_type = anti_tank
 		group = support
-		regimental = no
+		divisional = no
+		allowed_battalion_groups = { armor armor_combat_support }
 
 		categories = {
 			category_support_battalions
-			category_divisional_support_battalions
+			category_regimental_support_battalions
+			category_tank_destroyer_regimental_support
 			category_all_armor
 			category_army
 			category_mobile_artillery

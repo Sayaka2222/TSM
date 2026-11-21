@@ -2375,9 +2375,8 @@ focus_tree = {
 					support = {
 						light_tank_recon = { x = 0 y = 0 }
 						engineer = { x = 0 y = 1 }
-						artillery = { x = 0 y = 2 }
-						logistics_company = { x = 0 y = 3 }
-						signal_company = { x = 0 y = 4 }
+						logistics_company = { x = 0 y = 2 }
+						signal_company = { x = 0 y = 3 }
 					}
 				}
 				551 = {

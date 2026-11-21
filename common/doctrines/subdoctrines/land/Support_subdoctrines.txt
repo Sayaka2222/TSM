@@ -39,11 +39,14 @@ mobile_recon_and_assault = {
     rewards = {
 
         motorization_support = {
-            category_support_battalions = {
-                max_organisation= 10
+            category_divisional_support_battalions = {
+                max_organisation = 10
                 default_morale = 0.1
             }
-
+            category_regimental_support_battalions = {
+                max_organisation = 5
+                default_morale = 0.05
+            }
         }
         long_range_reconnaissance = {
             armored_car_recon = {

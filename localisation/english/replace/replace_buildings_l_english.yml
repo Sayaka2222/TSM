@@ -1,0 +1,7 @@
+﻿l_english:
+ INSERT_CONVERSION:0 "§GCtrl+Click§! to convert and place at the beginning of the queue.\n§GAlt+Click§! to convert and place at the end of the queue."
+ INSERT_CONSTRUCTION:0 "§GCtrl+Click§! to build and place at the beginning of the queue.\n§GAlt+Click§! to build and place at the end of the queue."
+ BUILDING_CURRENT_MAX_LEVEL:0 "Max level for $BUILDING|Y$: $MAXLEVEL|Y$"
+ fuel_silo:0 "Silo"
+ fuel_silo_plural:0 "Silos"
+ fuel_silo_desc:0 "This building provides your nation with more room for stockpiling §HFuel§! and other §HResources§!. \n \nResource Stockpile: §G+5000§!"

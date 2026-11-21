@@ -15,11 +15,13 @@ sub_units = {
 		}
 
 		group = support
-		regimental = no
+		divisional = no
+		allowed_battalion_groups = { infantry combat_support }
 
 		categories = {
 			category_support_battalions
-			category_divisional_support_battalions
+			category_regimental_support_battalions
+			category_regimental_support_artillery
 			category_army
 			category_artillery
 			category_support_artillery
@@ -46,7 +48,6 @@ sub_units = {
 		soft_attack = -0.6
 		hard_attack = -0.6
 
-		same_support_type = artillery
 		can_be_parachuted = yes
 	}
 
@@ -62,13 +63,14 @@ sub_units = {
 			infantry
 			support
 		}
-		same_support_type = artillery
 		group = support
-		regimental = no
+		divisional = no
+		allowed_battalion_groups = { infantry combat_support }
 
 		categories = {
 			category_support_battalions
-			category_divisional_support_battalions
+			category_regimental_support_battalions
+			category_regimental_support_artillery
 			category_army
 			category_artillery
 			category_support_artillery
@@ -110,13 +112,13 @@ sub_units = {
 			infantry
 			support
 		}
-		same_support_type = artillery
 		group = support
-		regimental = no
+		divisional = no
+		allowed_battalion_groups = { mobile mobile_combat_support }
 
 		categories = {
 			category_support_battalions
-			category_divisional_support_battalions
+			category_regimental_support_battalions
 			category_army
 			category_artillery
 			category_support_artillery
@@ -160,13 +162,13 @@ sub_units = {
 			infantry
 			support
 		}
-		same_support_type = artillery
 		group = support
-		regimental = no
+		divisional = no
+		allowed_battalion_groups = { armor armor_combat_support }
 
 		categories = {
 			category_support_battalions
-			category_divisional_support_battalions
+			category_regimental_support_battalions
 			category_all_armor
 			category_mobile_artillery
 			category_army
@@ -210,13 +212,13 @@ sub_units = {
 			infantry
 			support
 		}
-		same_support_type = artillery
 		group = support
-		regimental = no
+		divisional = no
+		allowed_battalion_groups = { armor armor_combat_support }
 
 		categories = {
 			category_support_battalions
-			category_divisional_support_battalions
+			category_regimental_support_battalions
 			category_all_armor
 			category_army
 			category_mobile_artillery
@@ -260,16 +262,17 @@ sub_units = {
 			infantry
 			support
 		}
-		same_support_type = artillery
 		group = support
-		regimental = no
+		divisional = no
+		allowed_battalion_groups = { armor armor_combat_support }
 
 		categories = {
 			category_support_battalions
-			category_divisional_support_battalions
+			category_regimental_support_battalions
 			category_all_armor
 			category_army
 			category_mobile_artillery
+			category_support_artillery
 			category_sp_support_artillery
 		}		
 

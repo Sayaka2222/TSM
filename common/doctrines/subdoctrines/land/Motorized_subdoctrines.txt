@@ -49,6 +49,11 @@ mobile_defense = {
                 defense = 0.05
                 default_morale = 0.05
             }
+            mot_fire_support = {
+                defense = 0.05
+                soft_attack = 0.05
+                default_morale = 0.05
+            }
         }
         combined_anti_armor = {
             category_mobile_infantry = {

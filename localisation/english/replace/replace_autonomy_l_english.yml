@@ -1,0 +1,4 @@
+﻿l_english:
+ MONTHLY_LL_FREEDOM_DESC:0 "Monthly after full delivery $COUNTRY|H$ gets £autonomy_texticon $VALUE|H+=2$ "
+ COLONIAL_FORCES_GENERAL_DESCRIPTION:2 "§GClick to view templates of subjects and Governments in Exile§!\n\nDivisions created with colonial templates can include more manpower from the colony if the colony's autonomy is lowered."
+ CONSTRUCTION_MASTER_BUILDING_REDUCE_LEVELS:0 "We are allowed to reduce this construciton level only by $LVL|R$."

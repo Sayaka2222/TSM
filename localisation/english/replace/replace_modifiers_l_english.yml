@@ -1,0 +1,9 @@
+﻿l_english:
+ political_power_cost_tt:0 " $MODIFIER_POLITICAL_POWER_COST$: $RIGHT|+=%1$"
+ experience_gain_navy_factor_tt:0 "$MODIFIER_XP_GAIN_NAVY_FACTOR$: $RIGHT|+=%1$"
+ navy_capital_ship_defence_factor_tt:0 " $MODIFIER_NAVY_CAPITAL_SHIP_DEFENCE_FACTOR$: $RIGHT|+=%1$"
+ no_supply_grace_tt:0 " $MODIFIER_NO_SUPPLY_GRACE$: $RIGHT|+=1$"
+ MODIFIER_AIR_INVASION_PREPARATION_DAYS_DESC:0 "How many days does it take to to plan and prepare an airborne invasion."
+ recruitable_population_factor_tt:0 "$MODIFIER_RECRUITABLE_POPULATION_FACTOR$: $RIGHT|+=%2$"
+ resource_trade_cost_bonus_per_factory_tt:0 "$MODIFIER_RESOURCE_TRADE_COST_BONUS_PER_FACTORY$: $RIGHT|+=0$"
+ MODIFIER_SPECIAL_PROJECT_FACILITY_SUPPLY_CONSUMPTION_FACTOR:0 "Facility Supply Consumption: $FACTOR$"

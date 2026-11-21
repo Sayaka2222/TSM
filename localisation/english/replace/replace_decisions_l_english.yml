@@ -1,0 +1,11 @@
+﻿l_english:
+ DECISION_KEEP_NOTIFIED:1 "§HNotify§!\n\n§GClick§! to §Rnot be notified§! when it is possible to take this decision.\n"
+ DECISION_NOT_KEEP_NOTIFIED:1 "§HNotify§!\n\n§GClick§! to §Gbe notified§! when it is possible to take this decision.\n"
+ NEWS_POPUP_CHECKBOX_TOOLTIP:0 "§GClick§! to toggle News notifications."
+ EVENT_POPUP_CHECKBOX_TOOLTIP:0 "§GClick§! to toggle Event notifications."
+ MINOR_EVENT_POPUP_CHECKBOX_TOOLTIP:0 "§GClick§! to toggle minor event notifications, such as Ace Pilot events."
+ CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING:0 "§GClick§! to toggle notification status for all decisions under this category."
+ GER_operation_weserubung:0 "Operation Weserübung"
+ GER_operation_weserubung_desc:0 "Invasion of Denmark and Norway"
+ decision_cost_ie_500_MP_500_CP_25_tooltip:0 "It costs £infantry_equipment_text_icon  §Y500§! £infantry_equipment_text_icon  §Y500§! £manpower_texticon  §Y500§! £command_power §Y25§! to take the decision"
+ JAP_balance_range:0 "Proper Balance"

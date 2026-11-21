@@ -1,0 +1,5 @@
+﻿l_english:
+ NAVAL_COMBAT_SHIP_STRENGTH:0 "£strenght_texticon  Strength: $STR|%Y$"
+ NAVAL_COMBAT_SHIP_ORGANIZATION_FACTOR:0 " - £organization_texticon  Organization: $ORG|%Y$"
+ UNIT_ORG:0 "£organization_texticon  Organization: $VALUE|H$"
+ ARMY_UNIT_ORG:0 "£organization_texticon  Organization: $VALUE|%H$"

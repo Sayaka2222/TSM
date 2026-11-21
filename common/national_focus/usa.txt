@@ -2169,13 +2169,15 @@ focus = {
 					artillery_brigade = { x = 4 y = 2 }
 					artillery_brigade = { x = 4 y = 3 }
 				}
+				regimental_support = {
+					artillery = { x = 0 y = 0 }
+					anti_tank = { x = 1 y = 0 }
+				}
 				support = {
 					recon = { x = 0 y = 0 }
 					engineer = { x = 0 y = 1 }
-					artillery = { x = 0 y = 2 }
-					logistics_company = { x = 0 y = 3 }
-					signal_company = { x = 0 y = 4 }
-					anti_tank = {x = 0 y = 5}
+					logistics_company = { x = 0 y = 2 }
+					signal_company = { x = 0 y = 3 }
 				}
 			}
 			116 = {
@@ -2409,13 +2411,15 @@ focus = {
 					artillery_brigade = { x = 4 y = 2 }
 					artillery_brigade = { x = 4 y = 3 }
 				}
+				regimental_support = {
+					artillery = { x = 0 y = 0 }
+					anti_tank = { x = 1 y = 0 }
+				}
 				support = {
 					recon = { x = 0 y = 0 }
 					engineer = { x = 0 y = 1 }
-					artillery = { x = 0 y = 2 }
-					logistics_company = { x = 0 y = 3 }
-					signal_company = { x = 0 y = 4 }
-					anti_tank = {x = 0 y = 5}
+					logistics_company = { x = 0 y = 2 }
+					signal_company = { x = 0 y = 3 }
 				}
 			}
 			273 = {

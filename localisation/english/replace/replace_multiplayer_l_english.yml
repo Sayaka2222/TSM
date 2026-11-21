@@ -1,0 +1,8 @@
+﻿l_english:
+ SERVER_ID_COPY:0 "Right-click to copy Server ID to clipboard."
+ COUNTRY_CONTROLLER:0 "$PLAYER|H$ is the Alpha of $COUNTRY|H$."
+ COUNTRY_CO_PLAYER:0 "$PLAYER|H$ is a Beta of $COUNTRY|H$."
+ COUNTRY_PROMOTE:0 "§GClick§! to promote $PLAYER|H$ to be the main controller of $COUNTRY|H$."
+ OOS_36:0 "Size of owner areas"
+ OOS_56:0 "Number of Army Leaders"
+ OOS_57:0 "Number of Naval Leaders"

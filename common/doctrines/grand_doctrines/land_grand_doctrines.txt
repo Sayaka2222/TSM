@@ -293,8 +293,11 @@ superior_firepower = {
                 hard_attack = 0.1
                 breakthrough = 0.1
             }  
-            category_support_battalions = {
+            category_divisional_support_battalions = {
                 max_organisation = 10
+            }
+            category_regimental_support_battalions = {
+                max_organisation = 5
             }            
             effect = {
                 if = {
@@ -751,7 +754,8 @@ grand_battleplan = {
         {
             #support
             signal_company = { initiative = 0.1 }
-            category_support_battalions = { breakthrough = 0.2}
+            category_divisional_support_battalions = { breakthrough = 0.2 }
+            category_regimental_support_battalions = { defense = 0.1 breakthrough = 0.1 }
             effect = {
                 if = {
                     limit = {
@@ -885,6 +889,7 @@ mass_assault = {
         {
             #Artillery/Support
 			category_line_artillery = { default_morale = 0.1 }
+			category_regimental_support_battalions = { default_morale = 0.05 }
             
             enable_tactic = tactic_elastic_defense
 

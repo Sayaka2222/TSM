@@ -452,12 +452,15 @@ sub_units = {
 		}
 
 		group = support
-		allowed_battalion_groups = { armor mobile_combat_support armor_combat_support }
+		allowed_battalion_groups = { armor armor_combat_support }
 		categories = {
 			category_all_armor
 			category_army
+			category_mobile_artillery
 			category_support_battalions
 			category_regimental_support_battalions
+			category_support_artillery
+			category_sp_support_artillery
 			category_self_propelled_anti_air_regimental_support
 		}
 
@@ -498,12 +501,15 @@ sub_units = {
 		}
 
 		group = support
-		allowed_battalion_groups = { armor mobile_combat_support armor_combat_support }
+		allowed_battalion_groups = { armor armor_combat_support }
 		categories = {
 			category_all_armor
 			category_army
+			category_mobile_artillery
 			category_support_battalions
 			category_regimental_support_battalions
+			category_support_artillery
+			category_sp_support_artillery
 			category_self_propelled_anti_air_regimental_support
 		}
 
@@ -545,13 +551,16 @@ sub_units = {
 		}
 
 		group = support
-		allowed_battalion_groups = { armor mobile_combat_support armor_combat_support }
+		allowed_battalion_groups = { armor armor_combat_support }
 
 		categories = {
 			category_all_armor
 			category_army
+			category_mobile_artillery
 			category_support_battalions
 			category_regimental_support_battalions
+			category_support_artillery
+			category_sp_support_artillery
 			category_self_propelled_anti_air_regimental_support
 		}
 
@@ -591,13 +600,16 @@ sub_units = {
 		}
 
 		group = support
-		allowed_battalion_groups = { armor mobile_combat_support armor_combat_support }
+		allowed_battalion_groups = { armor armor_combat_support }
 
 		categories = {
 			category_all_armor
 			category_army
+			category_mobile_artillery
 			category_support_battalions
 			category_regimental_support_battalions
+			category_support_artillery
+			category_sp_support_artillery
 			category_self_propelled_anti_air_regimental_support
 		}
 

@@ -159,7 +159,7 @@ NDefines.NProduction.MILITARY_FACTORY_COHERENCY_BONUS = 0							-- Value we add 
 NDefines.NProduction.RESOURCE_TO_ENERGY_COEFFICIENT = 1		-- How much energy per coal produces
 NDefines.NProduction.BASE_COUNTRY_ENERGY_PRODUCTION = 0.01 		 	-- The base energy production of a country
 NDefines.NProduction.ENERGY_SCALING_COST_BY_FACTORY_COUNT = 0.0 -- Scales energy cost based on the total number of factories
-NDefines.NProduction.BASE_ENERGY_COST = 0.01
+NDefines.NProduction.BASE_ENERGY_COST = 0.0
 
 
 

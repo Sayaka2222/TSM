@@ -3,9 +3,6 @@ technologies = {
 		enable_equipments = {
 			artillery_equipment_1
 		}
-		enable_subunits = {
-			field_guns
-		}
 		enable_equipment_modules = {
 			tank_heavy_howitzer
 			tank_medium_howitzer
@@ -56,9 +53,6 @@ technologies = {
 		}
 		mot_artillery_brigade = {
 			soft_attack = 0.1
-		}
-		field_guns = {
-			soft_attack = 0.05
 		}
 		path = {
 			leads_to_tech = artillery1
@@ -142,9 +136,6 @@ technologies = {
 		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
-		field_guns = {
-			soft_attack = 0.05
-		}
 		enable_equipment_modules = {
 			tank_heavy_howitzer2
 			tank_medium_howitzer_2
@@ -198,9 +189,6 @@ technologies = {
 		}
 		mot_artillery_brigade = {
 			soft_attack = 0.1
-		}
-		field_guns = {
-			soft_attack = 0.05
 		}
 		path = {
 			leads_to_tech = artillery4
@@ -289,9 +277,6 @@ technologies = {
 		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
-		field_guns = {
-			soft_attack = 0.05
-		}
 		research_cost = 1
 		start_year = 1943
 		categories = {
@@ -343,9 +328,6 @@ technologies = {
 		enable_equipments = {
 			rocket_artillery_equipment_1
 		}
-		enable_subunits = {
-			rocket_battery
-		}
 		enable_equipment_modules = {
 			tank_rocket_launcher
 			tank_light_rocket_launcher
@@ -382,9 +364,6 @@ technologies = {
 	rocket_artillery2 = {
 		rocket_artillery = {
 			soft_attack = 0.15
-		}
-		rocket_battery = {
-			soft_attack = 0.1
 		}
 		rocket_artillery_brigade = {
 			soft_attack = 0.15
@@ -423,9 +402,6 @@ technologies = {
 	rocket_artillery3 = {
 		rocket_artillery = {
 			soft_attack = 0.15
-		}
-		rocket_battery = {
-			soft_attack = 0.1
 		}
 		rocket_artillery_brigade = {
 			soft_attack = 0.15
@@ -497,9 +473,6 @@ technologies = {
 	interwar_antiair = {
 		enable_equipments = {
 			anti_air_equipment_1
-		}
-		enable_subunits = {
-			anti_air_battery
 		}
 		enable_equipment_modules = {
 			ship_anti_air_2
@@ -818,9 +791,6 @@ technologies = {
 	interwar_antitank = {
 		enable_equipments = {
 			anti_tank_equipment_1
-		}
-		enable_subunits = {
-			anti_tank_battery
 		}
 		enable_equipment_modules = {
 			tank_high_velocity_cannon_l1

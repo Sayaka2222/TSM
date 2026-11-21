@@ -40,11 +40,13 @@ division_template = {
 		artillery_brigade = { x = 2 y = 4 }
 		artillery_brigade = { x = 3 y = 4 }
 	}
+	regimental_support = {
+		artillery = { x = 0 y = 0 }
+		anti_air = { x = 1 y = 0 }
+	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
-		anti_air = { x = 0 y = 3 }
+		recon = { x = 0 y = 1 }
 	}
 }
 division_template = {
@@ -75,7 +77,6 @@ division_template = {
 	support = {
 		engineer = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
 	}
 }
 instant_effect = {

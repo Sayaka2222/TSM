@@ -9143,3 +9143,119 @@ XIC = {
 	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
 	callsigns = { }
 }
+
+###############################################################
+# TSM Custom Tags
+###############################################################
+SPN = {
+	male = {
+		names = {
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Arturo Augusto Aureliano
+			Baldomero Baltasar Benancio Benigno Benito Bernardino Bernardo
+			Calixto Cándido Carlos Celestino Claudio Cristóbal Dámaso Diego Dionisio Domingo
+			Eduardo Eleazar Emilio Ernesto Estanislao Esteban Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Herminio Ignacio Isidro
+			Jacobo Jaime Joaquín "Jorge Mariano" José "José Antonio" "Jose María" Juan "Juan Manuel" Julián Julio Leopoldo Lorenzo Luis
+			Manuel Marcelo Mariano Mario "Mario Eduardo" Mateo Melchor Miguel Nicolás Norberto Pablo Pascual Pedro
+			Rafael Raimundo Ramón Ricardo Salvador Sandalio Santiago Sebastián Segismundo Segundo Valeriano Vicente
+		}
+	}
+	female = {
+		names = {
+			Adelita Amalia Amaranta Ana Araceli Aurelia Auxilio Beatriz Belén Blanca
+			Camila Candelaria Cándida Carmen Chavela Cirila Consuelo Cristina Delfina Dolores
+			Eduarda Esperanza Felipa Fidelia Froilana Graciela Herminia Inés Isabel Irene Isadora Isabella
+			Jimena Justa Justina Luciana Lucrecia María "María del Carmen" "María del Mar" "María Dolores" Marisol Mercedes
+			Noemí Nohemi Primitiva Rebeca Remedios Rocío Salvadora Socorro Sofía Soledad
+			Teodora Teófila Úrsula Valentina Valeria Vicenta Ximena
+		}
+	}
+	surnames = {
+		Acuña Aguirre Allendesalazar Alonso Álvarez Aranda Arcadio Asensio Aznar
+		Blázquez Barradas Basaraz Bugallal Burruezo Caballero Cabrera Calvo Cano Castillo Castro Cervera Cevallos Cortés
+		"de Albornoz" "de Carvajal" "de la Fuente" "de Irujo" "de la Llave" "de Orleans" Díaz Domínguez Espartero Fernández Franco
+		Gallego García Garrido González Grande Guisado Heredia Hernández Herrera Hevia Iglesias Jiménez Lasarte Letamendía Linares López
+		Maroto Márquez Martínez-Campos Maura Martín Martínez Menéndez Mercado Miaja Millán-Astray Mina Mola Molina Moreno Muñoz
+		Narváez Núñez O'Donnell Ortega Pavía Pérez Ramírez Rodríguez Rojo Romero Ruiz Sánchez Sanjurjo Serrano Silvestre Suárez
+		Topete Torres Urkiaga Valdés Varela Vázquez Velasco Villapol Villar Weyler Yagüe Zapatero
+	}
+	callsigns = { }
+}
+
+EFR = {
+	male = {
+		names = {
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin Aurelien
+			Charles Daniel Denis Édouard Éttiene Elie Eugène Fernand François Frédéric
+			Félicien Félix Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean Joseph
+			Jules Julien Lazare Leroy Louis Lucien Léopold Matthieu Michel Napoléon Nicolas
+			Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		}
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère"
+		Boulanger Bourbaki Bouët-Willaumez Bugeaud Caillard Canrobert Courbet
+		Cousin-Mountauban Delay "de Castellane" "de Castelnau"  "de Langle de Cary"
+		"de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Davout Dubail Dubois
+		Duchêne Dupetit-Thouars Exelmans Foch Forey "Franchet d'Espèrey" Gallieni Gouraud
+		Guillaumat Hamelin Harispe Hoche Humbert Jaurès Joffre Lebouef Lyautey Murat
+		"Ney d'Elchingen" Nivelle Péllissier Petain Ropert Vaillant
+	}
+	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter" }
+}
+
+RCC = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu }
+	}
+	female = {
+		names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+USP = {
+	male = {
+		names = {
+			Abner Adam Albert Alexander Alfred Allison Ambrose Amos Augustus Benjamin Braxton
+			Cadmus Carnot Charles Chester Christopher Cyrus Daniel Donald Edmund Edward
+			Elkanah Eugene Evander Ezra Felix Francis Frank George Gideon Hamilton Henry
+			Hinchie Hiram Horace Howard Isaac James Jeffrey Jerome Jesse John Jonas Jonathan
+			Joseph Joshua Jubal Kirby Lafayette Lawrence Lemual Leonida Leslie Lewis Louis
+			Lucas Luke Malvin Mark Matthew Michael Nathan Nathaniel Norton Oscar Patrick
+			Peter Pierre Rand Randolph Raphael Richard Robert Russell Samuel Simon Sterling
+			Steven Stonewall Thomas Ulysses Wade Walter Wilburn William Wilton Zach
+		}
+	}
+	female = {
+		names = { Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret }
+	}
+	surnames = {
+		Abbott Abercrombie Allen Ames Anderson Andrews Appleton Archer Armistead
+		Armstrong Arthur Asboth Atkins Babcock Baker Banks Barkhauer Barksdale Barnard
+		Barnes Barnum Barry Barstow Bartlett Bates Baxter Beatty Beauregard Bee Belknap Bender
+		Benning Benton Blair Blunt Bowie Bradley Bragg Breckenridge Brown Buckner Buell
+		Buford Burnside Butler Caldwell Campbell Carr Chamberlain Chapman Cheatham
+		Chipman Clayton Cleburne Clemens Coburn Connor Conrad Cook Cooper Crittenden
+		Custer Davies Davis Dotson Doubleday Early Ector Ewell Ewing Farnsworth Floyd
+		Ford Forrest Forsyth Foster Franklin French Fry Gano Garnett Gibbs Gilbert Gordon
+		Granbury Grant Green Gregg Griffin Halleck Hamlin Hampton Hancock Hardee Hardeman
+		Harrison Hatch Hayes Hays Heintzelman Heth Hill Hindman Holmgren Hood Hooker
+		Houston Howard Hunter Imboden Iverson Jackson Jenkins Johnson Johnston Jones
+		Kemper Kershaw Keyes Kimball King Lane Law Lee Longstreet Loring Lyon Mabry
+		Magruder Mahone Maxey McArthur McClellan McCook McCulloch McDowell McLaws Meade
+		Mitchell Moore Morgan Mosby Nelson Paine Pemberton Pender Pettigrew Phelps
+		Pickett Pillow Polk Pope Porter Posey Potter Powell Price Randal Reynolds Rhodes
+		Rice Robertson Robinson Rodes Rosencrans Ross Rosser Saloman Scales Schenck
+		Schofield Scott Scurry Sedgwick Semmes Seward Sheridan Sherman Sibley Sickles
+		Smith Sprague Steele Stevens Stevenson Stone Stuart Sullivan Taylor Terrell
+		Travis Trimble Tyler "Van Dorn"  Wade Wadsworth Walker Wallace Ward Warner
+		Washington Waterhouse Waul Wells Wharton Wheeler Whitfield Wigfall Wilcox
+		Williams Wilson Wise Wofford Wright Young Zoidberg
+	}
+	callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog" }
+}

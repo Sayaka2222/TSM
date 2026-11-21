@@ -1,0 +1,5 @@
+﻿l_english:
+ swpi_research_desc:0 "Reduced research time for technologies researched by other countries in the South-West Pacific Initative."
+ TECH_SHARNG_RESEARCH_BONUS_VALUE_DESC:0 "Technology Sharing: $VALUE|+%0$\n"
+ TECH_SHARNG_RESEARCH_BONUS_VALUE_DETAILED_DESC:0 "\n$NAME|H$ membership provides $VALUE|G%0$ bonus (max $MAX|H%0$) from countries:"
+ spr_research_desc:0 "Reduced research time for technologies researched by [SOV.GetNameDef]."

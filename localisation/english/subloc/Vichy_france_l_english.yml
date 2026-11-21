@@ -1,12 +1,4 @@
 ﻿l_english:
-##note bretagne: Olier Mordrel ideological crusader fascism
-##François Debeauvais, Raymond Delaporte
-##Yann Fouere a voir, Abbé Perotte ---> milice Cadudal/Perotte
-
-##notes Vichy: René Belin Captain of Industry
-
-##Vichy France
-## Copy of france text to match cosmetic tags so vichy will have correct ideas
  EFR_fascism:1 "Vichy France"
  EFR_fascism_DEF:1 "The French State"
  EFR_democratic:0 "French Republic"
@@ -19,7 +11,6 @@
  EFR_democratic_ADJ:0 "French"
  EFR_neutrality_ADJ:0 "French"
  EFR_communism_ADJ:0 "French"
-
  EFR_communism_party_long:0 "Parti Communiste Français"
  EFR_communism_party:0 "PCF"
  EFR_democratic_party_long:0 "Parti Démocrate Populaire"
@@ -27,18 +18,13 @@
  EFR_fascism_party:0 "Mouvement Franciste"
  EFR_neutrality_party:0 "Action Française"
  FRA_fascism_party_long:0 "Parti Populaire Français"
- FRA_fascism_party:0 "PPF"
- FRA_neutrality_party:0 "Action Française"
-
  efficient_colonial_administrator:0 "Efficient Colonial Administrator"
-
  andre_marty:0 "André Marty"
  FRA_FREE_rene_cassin:0 "René Cassin"
  FRA_FREE_felix_eboue:0 "Félix Éboué"
  FRA_FREE_adolphe_cise:0 "Adolphe Cisé"
  FRA_FREE_georges_catroux:0 "Georges Catroux"
  FRA_FREE_edgard_de_larminat:0 "Edgard de Larminat"
-
  EFR_joseph_darnand:0 "Joseph Darnand"
  EFR_pierre_laval:0 "Pierre Laval"
  EFR_jacques_doriot:0 "Jacques Doriot"
@@ -53,12 +39,10 @@
  EFR_gabriel_auphan:0 "Gabriel Auphan"
  EFR_marcel_deat:0 "Marcel Déat"
  EFR_henri_bineau:0 "Henri Bineau"
- EFR_emile_mollard:0 "Emile Mollard" ## Should change to free france at some point.
+ EFR_emile_mollard:0 "Emile Mollard"
  EFR_paul_gastin:0 "Paul Gastin"
-
  FRA_FREE_army:0 "French Liberation Army"
  FRA_FREE_henry_de_rancourt_de_mimerand:0 "Henry de Rancourt de Mimérand"
-
  EFR_aviation_effort:0 "Rebuild an Air Force"
  EFR_fighter_focus:0 "Fighter Focus"
  EFR_bomber_focus:0 "Bomber Focus"
@@ -73,7 +57,6 @@
  EFR_cruiser_effort:0 "Cruiser Effort"
  EFR_destroyer_effort:0 "Destroyer Effort"
  EFR_capital_ships_effort:0 "Capital Ships"
-
  EFR_marechal_nous_voila:0 "Maréchal, Nous Voilà!"
  EFR_travail:0 "Travail"
  EFR_recycling:0 "War Recycling"
@@ -95,7 +78,6 @@
  EFR_German_war_reparations_desc:0 "As an ally of Germany, it is our duty to help in the war. This way, our people will reinforce the German industry."
  EFR_german_economic_help:0 "German Economic Help"
  EFR_german_economic_help_desc:0 "The Germans accepted our earlier request for help. Perhaps they can help us in further ways."
-
  EFR_patrie_focus:0 "Patrie"
  EFR_armistice_army:0 "Armistice Army"
  EFR_armistice_army_tt:0 "Will gain Divisions in all the French territories"
@@ -117,8 +99,6 @@
  EFR_technology_sharing:0 "Technology Sharing"
  EFR_research_collaboration:0 "Research Collaboration"
  EFR_STO_tt:0 "Germany will gain a French volunteer army and our army will improve their morale."
-
-
  EFR_a_new_regime:0 "A New Regime"
  EFR_collectivist_ethos:0 "Collectivist Ethos"
  EFR_internationalism_focus:0 "Internationalism"
@@ -132,7 +112,6 @@
  EFR_volunteer_corps:0 "Volunteer Corps"
  EFR_foreign_expeditions:0 "Foreign Expeditions"
  EFR_why_we_fight:0 "Why We Fight"
-
  EFR_collaboration:0 "French Collaboration"
  idea_EFR_STO:0 "Service du Travail Obligatoire I"
  idea_EFR_STO2:0 "Service du Travail Obligatoire II"
@@ -143,25 +122,19 @@
  idea_EFR_recycling:0 "War Recycling"
  EFR_war_repairs:0 "War Repairs"
  EFR_german_war_repairs:0 "French War Repairs"
-
  autonomy_collabo:0 "Collaboration"
-
  axis_minors_vichy_france.2.t:0 "Félix Éboué Joins the Free French Forces"
  axis_minors_vichy_france.2.desc:0 "Félix Éboué, governor of French Equatorial Africa has announced that he will continue the fight against Germany, granting [From.GetLeader] with some territories that will act as a basis for the liberation of France."
  axis_minors_vichy_france.2.a:0 "Free France will continue the fight on land, air and sea."
-
  axis_minors_vichy_france.3.t:0 "One Legitimate France"
  axis_minors_vichy_france.3.desc:0 "With the defeat of the Marechalists, our government can exert autority over France and the empire. While some collaborators are still somewhere in exile, repression of Pétain's supporters by the 'French Forces of the Interior' (FFI) have lead to mass arrestations, executions. In addition, women who had affairs with the ennemy were often shaven to be struck for months by the seal of infamy."
  axis_minors_vichy_france.3.a:0 "Vive la France!"
-
  axis_minors_vichy_france.4.t:0 "The General Juin Joins the Free French Forces"
  axis_minors_vichy_france.4.desc:0 "The general Alphonse Juin, who served in the Vichyst armistice army had decided to continue fight against the tyranny of Fascism."
  axis_minors_vichy_france.4.a:0 "France Must be Freed!"
-
  axis_minors_vichy_france.5.t:0 "The General Juin Joins the Free French Forces"
  axis_minors_vichy_france.5.desc:0 "The general Alphonse Juin, betrayed us and joined the so called "Free French Forces". He is now our ennemy as every one of those traitors who seeks to destroy the national revolution and deny France its place in the new european order by serving the interests of the [Root.GetFactionName]."
  axis_minors_vichy_france.5.a:0 "Traitors will be exectued!"
-
  EFR_AMX:0 "AMX"
  EFR_AMX_desc:0 "Atelier de Construction d'Issy-les-Moulineaux"
  EFR_gaston_henry_haye:0 "Gaston Henry-Haye"
@@ -190,7 +163,6 @@
  EFR_factory_strikes:0 "Factory Strikes"
  EFR_matignon_agreements:0 "Matignon Agreements"
  EFR_communism_banned:0 "Communism Banned"
-
  EFR_infantry_equipment_0:0 "Mle 1886 M93"
  EFR_infantry_equipment_0_short:0 "Mle 1886 M93"
  EFR_infantry_equipment_1:0 "MAS-36"
@@ -203,23 +175,19 @@
  EFR_support_weapons2:0 "Hotchkiss M1914 & Brandt Mle 1935"
  EFR_support_weapons3:0 "FM 24/29 & Brandt Mle 27/31"
  EFR_support_weapons4:0 "Hotchkiss M1922 & Brandt Mle 1942"
- #artillery
  EFR_artillery_equipment_1:0 "Canon de 75 modèle 1897"
  EFR_artillery_equipment_1_short:0 "Canon de 75 mle 1897"
  EFR_artillery_equipment_2:0 "Canon de 105 L mle 1936"
  EFR_artillery_equipment_3:0 "Canon de 155mm GPF"
-#anti-air
  EFR_anti_air_equipment_1:0 "Hotchkiss 25mm"
  EFR_anti_air_equipment_1_short:0 "Hotchkiss 25 mm"
  EFR_anti_air_equipment_2:0 "Schneider 37 mm"
  EFR_anti_air_equipment_3:0 "Canon de 75 CA modèle 1940"
-#anti-tank
  EFR_anti_tank_equipment_1:0 "Canon de 25 mm"
  EFR_anti_tank_equipment_1_short:0 "Canon de 25 mm"
  EFR_anti_tank_equipment_2:0 "47mm SA 37"
  EFR_anti_tank_equipment_3:0 "Canon de 76 mm modèle 1943"
  EFR_anti_tank_equipment_3_short:0 "Canon de 76 mm mle 1943"
-
  EFR_mechanized_equipment_1:0 "Citroen P107"
  EFR_mechanized_equipment_1_short:0 "Citroen P107"
  EFR_mechanized_equipment_2:0 "SOMUA MCG"
@@ -227,7 +195,6 @@
  EFR_mechanized_equipment_3:0 "AMX-VCI"
  EFR_mechanized_equipment_3_short:0 "AMX-VCI"
  EFR_motorized_equipment_1:0 "Citroen U23"
-
  EFR_EQUIPMENT_VERSION_1:0 "série A"
  EFR_EQUIPMENT_VERSION_2:0 "série B"
  EFR_EQUIPMENT_VERSION_3:0 "série C"
@@ -241,7 +208,6 @@
  EFR_EQUIPMENT_VERSION_11:0 "série K"
  EFR_EQUIPMENT_VERSION_12:0 "série L"
  EFR_EQUIPMENT_VERSION_13:0 "série M"
-
  EFR_heavy_tank_artillery_equipment_1:0 "Canon de 194 mle GPF"
  EFR_heavy_tank_artillery_equipment_1_short:0 "Canon de 194"
  EFR_light_tank_destroyer_equipment_2:0 "AMR 35 ZT-3"
@@ -252,7 +218,6 @@
  EFR_medium_tank_destroyer_equipment_1_short:0 "W15 TCC"
  EFR_medium_tank_artillery_equipment_1:0 "ARL V39"
  EFR_medium_tank_artillery_equipment_1_short:0 "ARL V39"
-
  EFR_gw_tank_equipment:0 "Renault FT-17"
  EFR_gw_tank_equipment_short:0 "FT-17"
  EFR_light_tank_equipment_1:0 "Hotchkiss H35"
@@ -277,8 +242,6 @@
  EFR_super_heavy_tank_equipment_1_short:0 "FCM-F1"
  EFR_modern_tank_equipment_1_short:0 "AMX 50t"
  EFR_modern_tank_equipment_1:0 "AMX 50t"
-
- ### FRA - FRANCE ###
  EFR_CAS_equipment_1:0 "Breguet Br.693"
  EFR_CAS_equipment_1_short:0 "Br.693"
  EFR_CAS_equipment_2:0 "Loire-Nieuport LN.401"
@@ -342,27 +305,18 @@
  EFR_cv_fighter_equipment_3:0 "Dewoitine D.525"
  EFR_cv_fighter_equipment_3_short:0 "D.525"
  EFR_transport_plane_equipment_1:0 "MB. 220"
-
-
  EFR_submarine_1:0 "600 Series"
  EFR_submarine_1_desc:0 "The 600-ton Series of submarines were France's first modern post WWI submarines. They were medium sized, displacing around 600tons. Though they were seagoing ones, they were designated as coastal submarines and used mostly in warm waters of the Mediterranean. Three classes of 4 ships each built of this type: Sirène, Ariane and Circé classes. They were the basis of the bigger 630-ton Series the Argonaute, Diane and Orion classes."
- #EFR_submarine_1b: "630 Series"
- #EFR_submarine_1c: "Redoutable Class"
  EFR_submarine_2:0 "Minerve Class"
  EFR_submarine_2_desc:0 "The Minerve-class submarines (project name T2) were based on the 630-ton Series though they had better engines and different torpedo layout. These submarines were the first part of the standardization program resulting of a centralized design of the DCAN (Direction des Constructions et Armes Navale) rather than shipyard specific designs of the previous classes."
- #EFR_submarine_2b: "Aurore Class"
  EFR_submarine_3:0 "Roland Morillot Class"
  EFR_submarine_3_desc:0 "The Roland Morillot-class submarines (Project name Z2) were large ocean going submarines based on the earlier Redoubtable-class submarines. They were large submarines displacing 1,800-2,400 tons and carried a formidable armament of 10 torpedo tubes. The Fall of France occurred before any were finished."
  EFR_submarine_4:0 "Phénix Class"
  EFR_submarine_4_desc:0 "The Phénix-class submarines were medium sized ocean-going and long range boats authorized in the 1939-40 naval programs but the start of the war and the Fall of France resulted in the cancellation of these boats. They were similar to the Redoutable class though they were smaller and displaced 1,200 tons. They carried a similarly heavy torpedo armament."
  EFR_destroyer_1:0 "Bourrasque Class"
  EFR_destroyer_1_desc:0 "The Bourrasque-class destroyers were part of the 1,500-ton Series, and launched in the mid 1920's. Together with the preceding Chacal and following L'Adroit classes, they were the backbone of the new modern post war French fleet. They were fast and well-armed for their time, but their torpedo armament is smaller compared to similar vessels in the other navies."
- #EFR_destroyer_1b: "Chacal Class"
- #EFR_destroyer_1c: "Aigle & Vauquelin Class"
  EFR_destroyer_2:0 "Le Fantasque Class"
  EFR_destroyer_2_desc:0 "The Le Fantasque-class destroyers were essentially improved versions of the earlier super destroyers of the 2,400-ton Series (Guépard, Aigle, Vauquelin) built under the 1930 naval program. They were large, heavily-armed, and very fast destroyers, perfect for escorting the new high speed units of the French fleet. Their armament consisted of newly developed guns, adequate AA, and torpedo armament."
- #EFR_destroyer_2b: "Le Hardi Class"
- #EFR_destroyer_2c: "Mogador Class"
  EFR_destroyer_3:0 "L'Intrépide Class"
  EFR_destroyer_3_desc:0 "The L'Intrépide-class destroyers ware a modified version of the earlier Le Hardi class destroyers. They were authorized in the 1938 and 1939 naval programs but the war and Fall of France resulted in the cancellation of these vessels. They would have been focused more on an anti-aircraft role, and had an increase in displacement to 2,800-2,900 tons had larger engines."
  EFR_destroyer_4:0 "Hoche Class"
@@ -389,7 +343,6 @@
  EFR_battle_cruiser_2_desc:0 "The Dunkerques were designed to counter the German Deutschland-class pocket battleships. They were the apex of a series design studies from the mid 1920's to early 1930's. Authorized in the 1931 and 1934 naval programs, they were similar to the British Nelson-class battleships, with all of their main turrets concentrated forward. This resulted in a shorter belt armor and thus a smaller ship to fit into the Naval Treaties limitations."
  EFR_battleship_1:0 "Courbet Class"
  EFR_battleship_1_desc:0 "The Courbet-class battleships were the first super-dreadnoughts built for the French Navy before and during the First World War. Authorized in the 1910 and 1911 naval programs, they saw limited service during World War I, but were active during WW2. Though they had thicker armor and stronger guns than the previous Dante class battleships, they were still inferior to contemporary USN and RN battleships. They displaced just over 22,000 tons and their only modernizations before WW2 were an improved AA armament and improved boilers."
- #EFR_battleship_1b: "Bretagne Class"
  EFR_battleship_2:0 "Richelieu Class"
  EFR_battleship_2_desc:0 "The Richelieu-class battleships were the last battleships commissioned into the French Navy. They were an improved design of the Dunkerque and authorized under the 1935 and 1938 naval programs. They had excellent AA armament, speed and range, which made it an excellent capital ship. Out of the four ordered, only two were launched and one was completed before the Fall of France. There were numerous attempts to finish the remaining ships using different designs, proposed for use as anti-aircraft battleships, battleship-carrier hybrids, or full scale carriers."
  EFR_battleship_3:0 "Gascogne Class"

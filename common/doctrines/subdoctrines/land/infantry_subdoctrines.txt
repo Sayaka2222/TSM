@@ -193,10 +193,18 @@ assault_infantry = {
             category_light_infantry = {
                 soft_attack = 0.1
                 breakthrough = 0.05
-                }
             }
+            fire_support = {
+                soft_attack = 0.1
+                breakthrough = 0.05
+            }
+        }
         organic_battalion_fire_support = {
-			category_light_infantry = {
+            category_light_infantry = {
+                default_morale = 0.05
+                max_organisation = 5
+            }
+            fire_support = {
                 default_morale = 0.05
                 max_organisation = 5
             }
@@ -204,6 +212,9 @@ assault_infantry = {
 
         integrated_support_batteries = {
             category_light_infantry = {
+                soft_attack = 0.1
+            }
+            category_regimental_support_artillery = {
                 soft_attack = 0.1
             }
         }

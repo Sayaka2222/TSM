@@ -2020,10 +2020,12 @@ focus = {
                     infantry = { x = 3 y = 4 }
                     
                 }
+                regimental_support = {
+                	artillery = { x = 0 y = 0 }
+                	anti_air = { x = 1 y = 0 }
+                }
                 support = {
-                    artillery = { x = 0 y = 0 }
-                    engineer = { x = 0 y = 1 }
-                    anti_air = { x = 0 y = 2 }
+                	engineer = { x = 0 y = 0 }
                 }
             }
 
