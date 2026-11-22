@@ -2057,7 +2057,6 @@ focus_tree = {
 				bonus = 0.5
 				uses = 5
 				technology = antitank1
-				technology = antitank2
 				technology = antitank3
 				technology = antitank4
 				technology = antitank5

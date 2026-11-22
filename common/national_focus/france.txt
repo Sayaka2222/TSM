@@ -566,8 +566,8 @@ focus_tree = {
 			army_experience = 200
 			add_tech_bonus = {
 				technology = antitank1
-				technology = antitank2
 				technology = antitank3
+				technology = antitank4
 				bonus = 1
 				uses = 2
 			}

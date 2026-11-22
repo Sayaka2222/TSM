@@ -164,6 +164,7 @@ technology_categories = {
 	transport_planes_cat
 }
 
+# If you update the folder order (=logical order), consider updating the .gui ordering (=visual order) to maintain consistency
 technology_folders = {
 	infantry_folder = {
 		ledger = army
@@ -174,9 +175,7 @@ technology_folders = {
 	armour_folder = {
 		ledger = army
 		available = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
+			always = no
 		}
 	}
 	nsb_armour_folder = {
@@ -188,15 +187,9 @@ technology_folders = {
 	artillery_folder = {
 		ledger = army
 	}
-	air_techs_folder = {
-		ledger = air
-	}
-	bba_air_techs_folder = {
-		ledger = air
-	}
 	naval_folder = {
 		available = {
-			not = { has_dlc = "Man the Guns" }
+			always = no
 		}
 		ledger = navy
 	}
@@ -212,15 +205,27 @@ technology_folders = {
 		}
 		ledger = navy
 	}
+	air_techs_folder = {
+		available = {
+			always = no
+		}
+		ledger = air
+	}
+	bba_air_techs_folder = {
+		available = {
+			has_dlc = "By Blood Alone"
+		}
+		ledger = air
+	}
+	electronics_folder = {
+		ledger = civilian
+	}
 	industry_folder = {
 		ledger = civilian
 	}
 	air_doctrine_folder = {
 		ledger = air
 		doctrine = yes
-	}
-	electronics_folder = {
-		ledger = civilian
 	}
 	#secret_weapons_folder
 }
