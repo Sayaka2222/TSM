@@ -239,4 +239,104 @@ spriteTypes = {
 		texturefile = "gfx/texticons/nato_unit_motorized_icon_small.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_unit_category_mobile_artillery_icon_small"
+		texturefile = "gfx/texticons/unit_mot_artillery_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_category_mobile_artillery_icon_small"
+		texturefile = "gfx/texticons/nato_unit_motorized_artillery_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_category_support_tanks_icon_small"
+		texturefile = "gfx/texticons/unit_medium_flame_tank_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_category_support_tanks_icon_small"
+		texturefile = "gfx/texticons/nato_unit_medium_armor_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_category_sp_support_artillery_icon_small"
+		texturefile = "gfx/texticons/support_unit_medium_spart_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_category_sp_support_artillery_icon_small"
+		texturefile = "gfx/texticons/nato_unit_motorized_artillery_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_sniper_recon_icon_small"
+		texturefile = "gfx/texticons/unit_recon_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_sniper_recon_icon_small"
+		texturefile = "gfx/texticons/nato_unit_recon_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_category_engineers_icon_small"
+		texturefile = "gfx/texticons/support_engineer_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_category_engineers_icon_small"
+		texturefile = "gfx/texticons/nato_unit_engineer_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_light_sp_artillery_icon_small"
+		texturefile = "gfx/texticons/support_unit_light_spart_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_light_sp_artillery_icon_small"
+		texturefile = "gfx/texticons/nato_unit_motorized_artillery_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_medium_sp_artillery_icon_small"
+		texturefile = "gfx/texticons/support_unit_medium_spart_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_medium_sp_artillery_icon_small"
+		texturefile = "gfx/texticons/nato_unit_motorized_artillery_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_heavy_sp_artillery_icon_small"
+		texturefile = "gfx/texticons/support_unit_heavy_spart_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_heavy_sp_artillery_icon_small"
+		texturefile = "gfx/texticons/nato_unit_motorized_artillery_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_category_sp_support_artillery"
+		texturefile = "gfx/interface/counters/divisions_large/support_unit_medium_spart_icon.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_engineers"
+		texturefile = "gfx/interface/counters/divisions_large/unit_engineer_icon.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
 }
