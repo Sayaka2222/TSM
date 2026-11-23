@@ -8,31 +8,32 @@ mobile_defense = {
     xp_type = army
 
     available = {
-        always = yes
+        OR = {
+            has_doctrine = tsm_asymmetric_attrition
+            has_doctrine = superior_firepower
+            has_doctrine = grand_battleplan
+            has_doctrine = mass_assault
+        }
     }
 
-        ai_will_do = {
-
+    ai_will_do = {
         base = 1
         modifier = {
             factor = 25
             original_tag = USA
         }
-
         modifier = {
             factor = 0.5
             is_major = no
         }
-
     }
 
     category_mobile_infantry = {
-                max_organisation = 10
-                default_morale = 0.05
-            }
+        max_organisation = 10
+        default_morale = 0.05
+    }
 
-        rewards = {
-
+    rewards = {
         mechanized_offensive = {
             category_mobile_infantry = {
                 defense = 0.1
@@ -67,9 +68,10 @@ mobile_defense = {
                 soft_attack = 0.05
                 breakthrough = 0.05
             }
-        }    
         }
+    }
 }
+
 armored_cavalry = {
     track = motorized
     name = SUBDOCTRINE_ARMORED_CAVALRY
@@ -80,59 +82,65 @@ armored_cavalry = {
     xp_type = army
 
     available = {
-        always = yes
+        OR = {
+            has_doctrine = tsm_combined_arms_shock
+            has_doctrine = tsm_asymmetric_attrition
+            has_doctrine = new_mobile_warfare
+            has_doctrine = grand_battleplan
+        }
     }
-    
 
     ai_will_do = {
-
         base = 1
         modifier = {
             factor = 25
             OR = {
-                original_tag = ITA 
-                original_tag = JAP 
+                original_tag = ITA
+                original_tag = JAP
             }
         }
-
     }
 
-    category_vehicle_infantry=  {
+    category_mobile_infantry = {
         max_organisation = 5
         default_morale = 0.1
+        maximum_speed = 0.05
     }
-    # EFFECTS
+
     rewards = {
         cruiser_tanks = {
             category_mobile_infantry = {
-                Breakthrough = 0.1
+                breakthrough = 0.1
                 max_organisation = 5
             }
         }
         quick_response_force = {
             category_mobile_infantry = {
                 default_morale = 0.05
-            }         
+                soft_attack = 0.05
+            }
         }
         speed_as_armour = {
             category_mobile_infantry = {
                 breakthrough = 0.05
-				hardness = 0.05
-            } 
+                hardness = 0.05
+            }
         }
         fighting_reconnaissance = {
             category_mobile_infantry = {
                 soft_attack = 0.05
-            } 
+                hard_attack = 0.05
+            }
         }
         sustained_deployments = {
-        category_mobile_infantry = {
+            category_mobile_infantry = {
                 breakthrough = 0.1
                 default_morale = 0.05
-            } 
+            }
         }
     }
 }
+
 mobile_infantry = {
     track = motorized
     name = SUBDOCTRINE_MOBILE_INFANTRY
@@ -143,10 +151,15 @@ mobile_infantry = {
     xp_type = army
 
     available = {
-        always = yes
+        OR = {
+            has_doctrine = tsm_combined_arms_shock
+            has_doctrine = new_mobile_warfare
+            has_doctrine = superior_firepower
+            has_doctrine = mass_assault
+        }
     }
 
-    ai_will_do = { 
+    ai_will_do = {
         base = 1
         modifier = {
             factor = 95
@@ -156,28 +169,25 @@ mobile_infantry = {
             factor = 0.5
             is_major = no
         }
-    
     }
 
-    # EFFECTS
     enable_tactic = tactic_overwhelming_fire
-    effect = {
-           }
     category_mobile_infantry = {
-                initiative = 0.05
-                max_organisation = 5
-                default_morale = 0.1
-            }
+        initiative = 0.05
+        max_organisation = 5
+        default_morale = 0.1
+    }
+
     rewards = {
         cavalry_charge = {
             category_mobile_infantry = {
-               max_organisation = 5
-               breakthrough = 0.1
+                max_organisation = 5
+                breakthrough = 0.1
             }
         }
         combined_arms_planning = {
             category_mobile_infantry = {
-				max_organisation = 5
+                max_organisation = 5
                 breakthrough = 0.05
             }
         }
@@ -196,104 +206,5 @@ mobile_infantry = {
                 defense = 0.1
             }
         }
-
     }
 }
-# mounted_infantry = {
-    # track = motorized
-    # name = SUBDOCTRINE_MOUNTED_INFANTRY
-    # description = SUBDOCTRINE_MOUNTED_INFANTRY_DESC
-    # icon = GFX_doctrine_mounted_infantry_medium
-
-    # xp_cost = 100
-    # xp_type = army
-
-
-    # mastery = {
-        # categories = {
-            # category_cavalry
-            # category_all_infantry
-        # }
-    # }
-    # available = {
-        # always = yes
-    # }
-    # visible = {
-        
-    # }
-
-    # ai_will_do = { 
-        # base = 1
-        # modifier = {
-            # factor = 0.5
-            # is_major = yes
-        # }
-    # }
-    # category_cavalry = {
-        # soft_attack = 0.1
-        # breakthrough = 0.1
-    # }
-
-    # unit_cavalry_design_cost_factor = -1
-
-    # # EFFECTS
-
-    # rewards = {
-        # dragoon_traditions = {
-            # category_cavalry = {
-                # breakthrough = 0.20
-                # defense = 0.1
-            # }
-        # }
-        # mounted_skirmish_groups = {
-            # recon = {
-                # max_organisation = 10
-                # soft_attack = 0.2
-                # battalion_mult = {
-                    # category = category_light_infantry
-                    # soft_attack = 0.1
-                    # defense = 0.1
-                # }
-                # battalion_mult = {
-                    # category = category_light_infantry
-                    # max_organisation = 5
-                    # add = yes
-                # }
-            # } 
-            # category_cavalry = {
-                # max_organisation = 5
-            # }
-        # }
-        # anti_mechanized_cavalry_groups = {
-            # category_cavalry = {
-                # hard_attack = 0.2
-                # ap_attack = 0.2
-            # }
-
-        # }
-        # beasts_of_war = {
-            # category_cavalry = {
-                # maximum_speed = 0.5 
-                # max_strength = 0.05 
-            # }
-            # recon = {
-                # maximum_speed = 0.5
-            # }
-        # }
-        # limbered_combat_support = {
-            # artillery_brigade = {
-                # maximum_speed = 0.5
-            # }
-            # anti_tank_brigade = {
-                # maximum_speed = 0.5
-            # }
-            # anti_air_brigade = {
-                # maximum_speed = 0.5
-            # }
-            # rocket_artillery_brigade = {
-                # maximum_speed = 0.5
-            # }
-        # }
-
-    # }
-# }

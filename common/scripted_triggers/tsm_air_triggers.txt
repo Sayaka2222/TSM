@@ -1,0 +1,11 @@
+is_air_major = {
+	OR = {
+		tag = GER
+		tag = ITA
+		tag = JAP
+		tag = SOV
+		tag = ENG
+		tag = USA
+		tag = FRA
+	}
+}

@@ -24,7 +24,7 @@ naval = {
 
 air = {
     allowed = {
-        always = yes
+        is_air_major = yes
     }
     name = "air_doctrine_folder"
     ledger = air

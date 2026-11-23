@@ -8,7 +8,10 @@ air_subdoctrine_night_bombing = {
     xp_type = air
 
     available = {
-        always = yes
+        OR = {
+            has_doctrine = new_battlefield_support
+            has_doctrine = new_operational_integrity
+        }
     }
 
     ai_will_do = {
@@ -59,7 +62,7 @@ air_subdoctrine_carpet_bombing = {
     xp_type = air
 
     available = {
-        always = yes
+        has_doctrine = new_strategic_destruction
     }
 
     ai_will_do = {
@@ -116,7 +119,7 @@ air_subdoctrine_deep_air_raids = {
     xp_type = air
 
     available = {
-        always = yes
+        has_doctrine = new_strategic_destruction
     }
 
     ai_will_do = {
@@ -170,7 +173,7 @@ air_subdoctrine_flying_fortresses = {
     xp_type = air
 
     available = {
-        always = yes
+        has_doctrine = new_strategic_destruction
     }
 
     ai_will_do = {
@@ -222,12 +225,11 @@ air_subdoctrine_coastal_air_patrol = {
     xp_cost = 100
     xp_type = air
 
-    visible = {
-    	has_dlc = "By Blood Alone"
-    }
-
     available = {
-        always = yes
+        OR = {
+            has_doctrine = new_battlefield_support
+            has_doctrine = tsm_air_denial_command
+        }
     }
 
     ai_will_do = { base = 0 }
@@ -270,12 +272,11 @@ air_subdoctrine_open_ocean_air_patrol = {
     xp_cost = 100
     xp_type = air
 
-    visible = {
-    	has_dlc = "By Blood Alone"
-    }
-
     available = {
-        always = yes
+        OR = {
+            has_doctrine = new_operational_integrity
+            has_doctrine = tsm_air_denial_command
+        }
     }
 
     ai_will_do = { base = 0 }
@@ -317,12 +318,8 @@ air_subdoctrine_heavy_aircraft_focus = {
     xp_cost = 100
     xp_type = air
 
-    visible = {
-    	has_dlc = "By Blood Alone"
-    }
-
     available = {
-        always = yes
+        has_doctrine = new_operational_integrity
     }
 
     ai_will_do = {

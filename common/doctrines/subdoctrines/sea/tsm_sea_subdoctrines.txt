@@ -1,0 +1,214 @@
+# ==============================================================================
+# TSM GEMINI REWORK — 4 BRAND-NEW NAVAL SUBDOCTRINES (1 PER TRACK)
+# ==============================================================================
+
+tsm_fast_pocket_battleships = {
+    track = capital_ships
+    name = SUBDOCTRINE_TSM_FAST_SURFACE_FLOTILLAS
+    description = SUBDOCTRINE_TSM_FAST_SURFACE_FLOTILLAS_DESC
+    icon = GFX_doctrine_capital_ship_raiders_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+        OR = {
+            has_doctrine = tsm_littoral_ambush
+            has_doctrine = new_convoy_raiding
+        }
+    }
+
+    ai_will_do = { base = 1 }
+
+    heavy_cruiser = {
+        naval_speed = 0.10
+        hg_attack = 0.10
+    }
+    battle_cruiser = {
+        naval_speed = 0.10
+        hg_attack = 0.10
+    }
+
+    rewards = {
+        tsm_fsf_1 = {
+            heavy_cruiser = { max_organisation = 15 surface_visibility = -0.08 }
+            battle_cruiser = { max_organisation = 15 surface_visibility = -0.08 }
+        }
+        tsm_fsf_2 = {
+            naval_night_attack = 0.15
+            spotting_chance = 0.10
+        }
+        tsm_fsf_3 = {
+            heavy_cruiser = { hg_attack = 0.15 lg_attack = 0.10 }
+            battle_cruiser = { hg_attack = 0.15 lg_attack = 0.10 }
+        }
+        tsm_fsf_4 = {
+            naval_retreat_speed = 0.20
+            naval_retreat_chance_after_initial_combat = 0.15
+        }
+        tsm_fsf_5 = {
+            heavy_cruiser = { armor_value = 0.10 naval_speed = 0.08 }
+            battle_cruiser = { armor_value = 0.10 naval_speed = 0.08 }
+        }
+    }
+}
+
+tsm_escort_carrier_hunters = {
+    track = carriers
+    name = SUBDOCTRINE_TSM_ESCORT_CARRIER_HUNTERS
+    description = SUBDOCTRINE_TSM_ESCORT_CARRIER_HUNTERS_DESC
+    icon = GFX_doctrine_subsidiary_carrier_role_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+        OR = {
+            has_doctrine = tsm_littoral_ambush
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_base_strike
+        }
+    }
+
+    ai_will_do = { base = 1 }
+
+    convoy_escort_efficiency = 0.15
+    navy_submarine_detection_factor = 0.15
+
+    rewards = {
+        tsm_cve_1 = {
+            carrier = {
+                sub_detection = 0.25
+                anti_air_attack = 0.15
+            }
+        }
+        tsm_cve_2 = {
+            sortie_efficiency = 0.15
+            spotting_chance = 0.15
+        }
+        tsm_cve_3 = {
+            carrier = {
+                max_organisation = 15
+                surface_visibility = -0.10
+            }
+        }
+        tsm_cve_4 = {
+            naval_strike_targetting_factor = 0.15
+            convoy_escort_efficiency = 0.15
+        }
+        tsm_cve_5 = {
+            carrier = {
+                anti_air_attack = 0.20
+                naval_speed = 0.08
+            }
+        }
+    }
+}
+
+tsm_night_torpedo_flotillas = {
+    track = screens
+    name = SUBDOCTRINE_TSM_NIGHT_TORPEDO_FLOTILLAS
+    description = SUBDOCTRINE_TSM_NIGHT_TORPEDO_FLOTILLAS_DESC
+    icon = GFX_doctrine_escort_patrols_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+        OR = {
+            has_doctrine = tsm_littoral_ambush
+            has_doctrine = new_base_strike
+            has_doctrine = new_convoy_raiding
+        }
+    }
+
+    ai_will_do = { base = 1 }
+
+    naval_night_attack = 0.10
+    naval_torpedo_hit_chance_factor = 0.07
+
+    rewards = {
+        tsm_ntf_1 = {
+            destroyer = {
+                torpedo_attack = 0.12
+                surface_visibility = -0.05
+            }
+        }
+        tsm_ntf_2 = {
+            light_cruiser = {
+                torpedo_attack = 0.12
+                lg_attack = 0.08
+            }
+        }
+        tsm_ntf_3 = {
+            naval_torpedo_screen_penetration_factor = 0.12
+            screening_efficiency = 0.08
+        }
+        tsm_ntf_4 = {
+            destroyer = {
+                max_organisation = 10
+                naval_speed = 0.05
+            }
+            light_cruiser = {
+                max_organisation = 10
+                naval_speed = 0.05
+            }
+        }
+        tsm_ntf_5 = {
+            naval_night_attack = 0.10
+            naval_torpedo_hit_chance_factor = 0.08
+        }
+    }
+}
+
+tsm_midget_coastal_ambush = {
+    track = submarines
+    name = SUBDOCTRINE_TSM_LITTORAL_SUBS
+    description = SUBDOCTRINE_TSM_LITTORAL_SUBS_DESC
+    icon = GFX_doctrine_unrestricted_submarine_warfare_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+        OR = {
+            has_doctrine = tsm_littoral_ambush
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_fleet_in_being
+        }
+    }
+
+    ai_will_do = { base = 1 }
+
+    submarine = {
+        sub_visibility = -0.10
+        torpedo_attack = 0.15
+    }
+
+    rewards = {
+        tsm_lsub_1 = {
+            naval_torpedo_reveal_chance_factor = -0.15
+            submarine = { max_organisation = 15 }
+        }
+        tsm_lsub_2 = {
+            submarine = {
+                torpedo_attack = 0.20
+                surface_detection = 0.15
+            }
+        }
+        tsm_lsub_3 = {
+            naval_retreat_speed = 0.20
+            submarine = { sub_visibility = -0.10 }
+        }
+        tsm_lsub_4 = {
+            convoy_raiding_efficiency_factor = 0.15
+            naval_torpedo_hit_chance_factor = 0.12
+        }
+        tsm_lsub_5 = {
+            submarine = {
+                torpedo_attack = 0.20
+                naval_speed = 0.10
+            }
+        }
+    }
+}

@@ -8,7 +8,7 @@ air_subdoctrine_flying_artillery = {
     xp_type = air
 
     available = {
-        always = yes
+        has_doctrine = new_battlefield_support
     }
 
     ai_will_do = {
@@ -63,7 +63,7 @@ air_subdoctrine_dive_bombers = {
     xp_type = air
 
     available = {
-        always = yes
+        has_doctrine = new_battlefield_support
     }
 
     ai_will_do = {
@@ -114,7 +114,10 @@ air_subdoctrine_flexible_fire_support = {
     xp_type = air
 
     available = {
-        always = yes
+        OR = {
+            has_doctrine = new_strategic_destruction
+            has_doctrine = new_operational_integrity
+        }
     }
 
     ai_will_do = { base = 0 }
@@ -164,7 +167,10 @@ air_subdoctrine_carrier_strikes = {
     xp_type = air
 
     available = {
-        always = yes
+        OR = {
+            has_doctrine = new_battlefield_support
+            has_doctrine = new_operational_integrity
+        }
     }
 
      ai_will_do = { base = 0 }
@@ -213,7 +219,10 @@ air_subdoctrine_naval_strike_tactics = {
     xp_type = air
 
     available = {
-        always = yes
+        OR = {
+            has_doctrine = new_strategic_destruction
+            has_doctrine = tsm_air_denial_command
+        }
     }
 
     ai_will_do = {
@@ -267,7 +276,10 @@ air_subdoctrine_naval_torpedo_tactics = {
     xp_type = air
 
     available = {
-        always = yes
+        OR = {
+            has_doctrine = new_operational_integrity
+            has_doctrine = tsm_air_denial_command
+        }
     }
 
     ai_will_do = {

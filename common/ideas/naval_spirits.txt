@@ -1,0 +1,147 @@
+ideas = {
+	naval_academy_spirit = {
+		instilled_aggression_spirit = {
+			ledger = navy
+			modifier = {
+				navy_capital_ship_attack_factor = 0.05
+				navy_screen_attack_factor = 0.05
+			}
+			ai_will_do = { factor = 1 }
+		}
+		calculated_restraint_spirit = {
+			ledger = navy
+			modifier = {
+				navy_capital_ship_defence_factor = 0.05
+				navy_screen_defence_factor = 0.05
+				naval_retreat_speed = 0.10
+			}
+			ai_will_do = { factor = 1 }
+		}
+		signals_training_spirit = {
+			ledger = navy
+			modifier = {
+				naval_coordination = 0.10
+				positioning = 0.05
+			}
+			ai_will_do = { factor = 1 }
+		}
+		naval_academy_scholarships_spirit = {
+			ledger = navy
+			picture = generic_navy_bonus
+			modifier = {
+				experience_gain_navy_factor = 0.15
+				naval_mastery_gain_factor = 0.10
+			}
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	navy_spirit = {
+		fleet_in_being_navy_spirit = {
+			ledger = navy
+			available = {
+				has_doctrine = new_fleet_in_being
+			}
+			modifier = {
+				navy_capital_ship_attack_factor = 0.08
+				critical_receive_chance = -0.10
+			}
+			ai_will_do = { factor = 2 }
+		}
+		trade_interdiction_navy_spirit = {
+			ledger = navy
+			available = {
+				has_doctrine = new_convoy_raiding
+			}
+			modifier = {
+				convoy_raiding_efficiency_factor = 0.15
+				navy_submarine_attack_factor = 0.10
+			}
+			ai_will_do = { factor = 2 }
+		}
+		base_strike_navy_spirit = {
+			ledger = navy
+			available = {
+				has_doctrine = new_base_strike
+			}
+			modifier = {
+				sortie_efficiency = 0.15
+				navy_carrier_air_attack_factor = 0.10
+			}
+			ai_will_do = { factor = 2 }
+		}
+		tsm_littoral_ambush_navy_spirit = {
+			ledger = navy
+			picture = close_combat_navy_spirit
+			available = {
+				has_doctrine = tsm_littoral_ambush
+			}
+			modifier = {
+				naval_night_attack = 0.10
+				naval_torpedo_hit_chance_factor = 0.08
+				navy_screen_attack_factor = 0.05
+			}
+			ai_will_do = { factor = 2 }
+		}
+		efficient_communications_spirit = {
+			ledger = navy
+			modifier = {
+				spotting_chance = 0.15
+				naval_detection = 0.10
+			}
+			ai_will_do = { factor = 1 }
+		}
+		integrated_designers_spirit = {
+			ledger = navy
+			modifier = {
+				repair_speed_factor = 0.15
+				refit_speed = 0.15
+			}
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	naval_command_spirit = {
+		close_combat_navy_spirit = {
+			ledger = navy
+			modifier = {
+				navy_screen_attack_factor = 0.10
+				naval_torpedo_hit_chance_factor = 0.08
+			}
+			ai_will_do = { factor = 1 }
+		}
+		night_fighting_spirit = {
+			ledger = navy
+			modifier = {
+				naval_night_attack = 0.15
+				spotting_chance = 0.10
+			}
+			ai_will_do = { factor = 1 }
+		}
+		surprise_attacks_spirit = {
+			ledger = navy
+			modifier = {
+				naval_retreat_chance_after_initial_combat = 0.15
+				naval_strike_targetting_factor = 0.10
+			}
+			ai_will_do = { factor = 1 }
+		}
+		decisive_battle_spirit = {
+			ledger = navy
+			modifier = {
+				navy_capital_ship_attack_factor = 0.05
+				navy_capital_ship_defence_factor = 0.05
+				screening_efficiency = 0.10
+			}
+			ai_will_do = { factor = 1 }
+		}
+		surface_raiders_spirit = {
+			ledger = navy
+			modifier = {
+				naval_speed_factor = 0.08
+				navy_fuel_consumption_factor = -0.10
+			}
+			ai_will_do = { factor = 1 }
+		}
+	}
+}

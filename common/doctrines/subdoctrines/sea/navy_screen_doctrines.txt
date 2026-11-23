@@ -8,10 +8,10 @@ convoy_escort = {
     xp_type = navy
 
     available = {
-        always = yes
+        has_doctrine = new_fleet_in_being
     }
 
-    ai_will_do = { 
+    ai_will_do = {
         base = 1
         modifier = {
             factor = 95
@@ -19,49 +19,33 @@ convoy_escort = {
         }
     }
 
-    # EFFECTS
-	destroyer = {
-		sub_detection = 0.20
-		sub_attack = 0.20
-	}
-	equipment_bonus ={
-		ship_hull_light = {
-			max_strength = 0.2
-			build_cost_ic = 0.15
-		}
+    destroyer = {
+        sub_detection = 0.20
+        sub_attack = 0.20
+    }
+    equipment_bonus = {
+        ship_hull_light = {
+            max_strength = 0.15
+            instant = yes
+        }
     }
 
     rewards = {
-		anti_submarine_sweep_training = {
-			destroyer = {
-				torpedo_attack = 0.17
-				max_organisation = 10
-			}
-		}
+        anti_submarine_sweep_training = {
+            destroyer = { torpedo_attack = 0.15 max_organisation = 10 }
+        }
         escort_reclassification = {
-			destroyer = {
-				reliability = 0.1
-				max_organisation = 10
-			}
-		}
-		sweeping_duty = {
-			destroyer = {
-				surface_visibility = -0.05
-				max_organisation = 10
-			}
-		}
-		creeping_attack = {
-			destroyer = {
-				lg_attack = 0.17
-				max_organisation = 10
-			}
-		}
-		as_below_so_above = {
-			destroyer = {
-				anti_air_attack = 0.2
-				max_organisation = 10
-			}
-		}
+            destroyer = { reliability = 0.10 max_organisation = 10 }
+        }
+        sweeping_duty = {
+            destroyer = { surface_visibility = -0.05 max_organisation = 10 }
+        }
+        creeping_attack = {
+            destroyer = { lg_attack = 0.15 max_organisation = 10 }
+        }
+        as_below_so_above = {
+            destroyer = { anti_air_attack = 0.20 max_organisation = 10 }
+        }
     }
 }
 
@@ -75,64 +59,44 @@ support_integrated_operations = {
     xp_type = navy
 
     available = {
-        always = yes
+        OR = {
+            has_doctrine = new_base_strike
+            has_doctrine = new_convoy_raiding
+        }
     }
 
-    ai_will_do = { 
+    ai_will_do = {
         base = 1
         modifier = {
             factor = 95
-            original_tag = USA
-        }
-        modifier = {
-            factor = 95
-            original_tag = ITA
+            OR = {
+                original_tag = USA
+                original_tag = ITA
+            }
         }
     }
 
-    # EFFECTS
-	destroyer = {
-		reliability = 0.05
-	}
-	light_cruiser = {
-		reliability = 0.05
-	}
-	heavy_cruiser = {
-		reliability = 0.05
-	}
-	
+    destroyer = { reliability = 0.05 }
+    light_cruiser = { reliability = 0.05 }
+    heavy_cruiser = { reliability = 0.05 }
+
     rewards = {
         first_line_of_defense = {
-			destroyer = {
-				max_organisation = 30
-				naval_light_gun_hit_chance_factor = 0.15
-			}
-		}
-		first_line_of_attack = {
-			light_cruiser = {
-				max_organisation = 30
-				naval_light_gun_hit_chance_factor = 0.15
-			}
-		}
-		blue_water_training = {
-			heavy_cruiser = {
-				max_organisation = 30
-				naval_light_gun_hit_chance_factor = 0.15
-			}
-		}
-		fleet_coordination = {
-			screening_efficiency = 0.15
-		}
-		early_warning = {
-			equipment_bonus ={
-				ship_hull_light = {
-					naval_weather_penalty_factor = -0.25
-				}
-                ship_hull_cruiser = {
-				    naval_weather_penalty_factor = -0.25
-                }
-            }
-		}
+            destroyer = { max_organisation = 30 naval_light_gun_hit_chance_factor = 0.15 }
+        }
+        first_line_of_attack = {
+            light_cruiser = { max_organisation = 30 naval_light_gun_hit_chance_factor = 0.15 }
+        }
+        blue_water_training = {
+            heavy_cruiser = { max_organisation = 30 naval_light_gun_hit_chance_factor = 0.15 }
+        }
+        fleet_coordination = {
+            screening_efficiency = 0.15
+        }
+        early_warning = {
+            navy_weather_penalty = -0.20
+            naval_detection = 0.10
+        }
     }
 }
 
@@ -146,55 +110,43 @@ hunter_killers = {
     xp_type = navy
 
     available = {
-    
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = tsm_littoral_ambush
+        }
     }
 
-    visible = {
-    	always = no
-    }
-    ai_will_do = { 
+    ai_will_do = {
         base = 1
         modifier = {
             factor = 95
             OR = {
-            	original_tag = FRA
-            	original_tag = SOV
+                original_tag = FRA
+                original_tag = SOV
             }
         }
     }
 
-    # EFFECTS
-	naval_coordination = 0.10 
-	
+    naval_coordination = 0.10
+
     rewards = {
-		search_and_destroy = {
-			destroyer = {
-				sub_detection = 0.15
-			}
-		}
-		flotilla_leader = {
-			carrier = {
-				carrier_sub_detection = 0.15
-			}
-		}
-		group_operations = {
-			destroyer = {
-				sub_attack = 0.10
-			}
-		}
-		combat_readiness = {
-			carrier = {
-				max_organisation = 15
-			}
-		}
-		escort_group_patrols = {
-			carrier = {
-				patrol_coordination = 0.20
-			}
-			destroyer = {
-				patrol_coordination = 0.20
-			}
-		}
+        search_and_destroy = {
+            destroyer = { sub_detection = 0.20 }
+        }
+        flotilla_leader = {
+            carrier = { carrier_sub_detection = 0.20 }
+        }
+        group_operations = {
+            destroyer = { sub_attack = 0.15 max_organisation = 15 }
+        }
+        combat_readiness = {
+            carrier = { max_organisation = 15 }
+            light_cruiser = { max_organisation = 15 sub_detection = 0.15 }
+        }
+        escort_group_patrols = {
+            carrier = { patrol_coordination = 0.20 }
+            destroyer = { patrol_coordination = 0.20 }
+        }
     }
 }
 
@@ -207,60 +159,47 @@ torpedo_primacy = {
     xp_cost = 100
     xp_type = navy
 
-    ai_will_do = { 
-        base = 0
+    ai_will_do = {
+        base = 1
         modifier = {
             factor = 95
             original_tag = JAP
         }
     }
+
     available = {
-   		always = yes
+        OR = {
+            has_doctrine = tsm_littoral_ambush
+            has_doctrine = new_base_strike
+            has_doctrine = new_convoy_raiding
+        }
     }
-    visible = {
-    	
-    }
-    destroyer = {
-    	naval_torpedo_hit_chance_factor = 0.05
-    }
-	light_cruiser = {
-    	naval_torpedo_hit_chance_factor = 0.05
-    }
-	heavy_cruiser = {
-		naval_torpedo_hit_chance_factor = 0.05
-	}
+
+    destroyer = { naval_torpedo_hit_chance_factor = 0.05 }
+    light_cruiser = { naval_torpedo_hit_chance_factor = 0.05 }
+    heavy_cruiser = { naval_torpedo_hit_chance_factor = 0.05 }
 
     rewards = {
-    	modern_broadsides = {
-			destroyer = {
-				max_organisation = 20
-				torpedo_attack = 0.15
-			}
-    	}
-    	coordinated_fire_patterns = {
-			light_cruiser = {
-				max_organisation = 20
-				torpedo_attack = 0.15
-			}
-    	}	
-    	dedicated_torpedo_task_forces = {
-			heavy_cruiser = {
-				max_organisation = 20
-				torpedo_attack = 0.15
-			}
-    	}
-    	improved_escort_role = {
-    		naval_torpedo_screen_penetration_factor = 0.2
-    	}
-
-    	task_force_integration = {
-    		naval_night_attack = 0.1
-    	}
+        modern_broadsides = {
+            destroyer = { max_organisation = 20 torpedo_attack = 0.15 }
+        }
+        coordinated_fire_patterns = {
+            light_cruiser = { max_organisation = 20 torpedo_attack = 0.15 }
+        }
+        dedicated_torpedo_task_forces = {
+            heavy_cruiser = { max_organisation = 20 torpedo_attack = 0.15 }
+        }
+        improved_escort_role = {
+            naval_torpedo_screen_penetration_factor = 0.20
+        }
+        task_force_integration = {
+            naval_night_attack = 0.10
+        }
     }
 }
 
 anti_aircraft_cruisers = {
-	track = screens
+    track = screens
     name = SUBDOCTRINE_SCREEN_ANTI_AIRCRAFT_CRUISERS
     description = SUBDOCTRINE_SCREEN_ANTI_AIRCRAFT_CRUISERS_DESC
     icon = GFX_doctrine_massed_strikes_medium
@@ -269,254 +208,44 @@ anti_aircraft_cruisers = {
     xp_type = navy
 
     available = {
-   		always = yes
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_base_strike
+        }
     }
 
-    visible = {
-    	
+    equipment_bonus = {
+        ship_hull_cruiser = {
+            max_strength = 0.05
+            instant = yes
+        }
     }
-	equipment_bonus = {
-		ship_hull_cruiser = {
-			max_strength = 0.05
-		}
-	}
 
     rewards = {
-    	calibrated_deck_guns = {
-    		heavy_cruiser = {
-    			lg_attack = 0.05
-    		}
-    		light_cruiser = {
-    			lg_attack = 0.05
-    		}
-			destroyer = {
-    			lg_attack = 0.05
-    		}
-    	}
-    	priority_air_targets = {
-			heavy_cruiser = {
-    			anti_air_attack = 0.15
-    		}
-			light_cruiser = {
-    			anti_air_attack = 0.15
-    		}
-			destroyer = {
-    			anti_air_attack = 0.15
-    		}
-    	}
-    	evasion_techniques = {
-    		heavy_cruiser = {
-    			max_organisation = 30
-    		}
-    		light_cruiser = {
-    			max_organisation = 30
-    		}
-			destroyer = {
-				max_organisation = 30
-    		}
-    	}
-
-    	air_interdiction_screening = {
-    		heavy_cruiser = {
-    			lg_attack = 0.05
-    		}
-    		light_cruiser = {
-    			lg_attack = 0.05
-    		}
-			destroyer = {
-    			lg_attack = 0.05
-    		}
-    	}
-    	sustained_engagements = {
-			heavy_cruiser = {
-				naval_torpedo_damage_reduction_factor = 0.2
-    		}
-			light_cruiser = {
-    			naval_torpedo_damage_reduction_factor = 0.2
-    		}
-			destroyer = {
-				naval_torpedo_damage_reduction_factor = 0.2
-    		}
-    	}
+        calibrated_deck_guns = {
+            heavy_cruiser = { lg_attack = 0.05 }
+            light_cruiser = { lg_attack = 0.05 }
+            destroyer = { lg_attack = 0.05 }
+        }
+        priority_air_targets = {
+            heavy_cruiser = { anti_air_attack = 0.15 }
+            light_cruiser = { anti_air_attack = 0.15 }
+            destroyer = { anti_air_attack = 0.15 }
+        }
+        evasion_techniques = {
+            heavy_cruiser = { max_organisation = 30 }
+            light_cruiser = { max_organisation = 30 }
+            destroyer = { max_organisation = 30 }
+        }
+        air_interdiction_screening = {
+            heavy_cruiser = { lg_attack = 0.05 }
+            light_cruiser = { lg_attack = 0.05 }
+            destroyer = { lg_attack = 0.05 }
+        }
+        sustained_engagements = {
+            heavy_cruiser = { naval_torpedo_damage_reduction_factor = 0.20 }
+            light_cruiser = { naval_torpedo_damage_reduction_factor = 0.20 }
+            destroyer = { naval_torpedo_damage_reduction_factor = 0.20 }
+        }
     }
-}
-
-screen_support_focus = {
-	track = screens
-    name = SUBDOCTRINE_SCREEN_SUPPORT_FOCUS
-    description = SUBDOCTRINE_SCREEN_SUPPORT_FOCUS_DESC
-    icon = GFX_doctrine_convoy_escorts_medium
-
-    xp_cost = 100
-    xp_type = navy
-
-    available = {
-   		always = yes
-   		is_special_project_completed = sp:sp_naval_support_ships
-
-    }
-    visible = {
-    	always = no
-    }
-
-    navy_max_range_factor = 0.1
-
-    rewards = {
-    	close_support_integration = {
-    		naval_general_support_value_factor = 0.1
-    		destroyer = {
-    			max_organisation = 30
-    		}
-    	}
-    	sustainable_task_forces = {
-    		naval_general_support_factor = 0.1
-    		light_cruiser = {
-    			naval_range = 0.1
-    		}
-    	}
-    	maintenance_routines = {
-    		support_ship = {
-    			max_organisation = 20
-    			max_strength = 0.2
-    		}
-
-
-    	}
-    	protected_naval_expansion = {
-    		destroyer = {
-    			naval_range = 0.1
-    		}
-    		heavy_cruiser = {
-    			hg_attack = 0.1
-    		}
-
-    	}
-    	patrol_pattern_improvements = {
-    		destroyer = {
-    			patrol_coordination = 0.2
-    		}
-    		light_cruiser = {
-    			patrol_coordination = 0.2
-    		}	
-
-    	}
-    }
-}
-
-jeune_ecole = {
-	track = screens
-    name = SUBDOCTRINE_SCREEN_JEUNE_ECOLE
-    description = SUBDOCTRINE_SCREEN_JEUNE_ECOLE_DESC
-    icon = GFX_doctrine_battlefleet_concentration_medium
-    xp_cost = 100
-    xp_type = navy
-
-    available = {
-    	#TODO: special project
-   		always = yes
-    }
-
-	visible = {
-		always = no
-	}
-
-    convoy_raiding_efficiency_factor = 0.3
-
-    rewards = {
-
-    	commerce_raiding_priority = {
-    		light_cruiser = {
-    			convoy_raiding_coordination = 0.05
-    			max_organisation = 20
-    			lg_attack = 0.1
-    		}
-    	}
-    	large_torpedo_boats = {
-    		light_cruiser = {
-    			torpedo_attack = 0.1
-    		}
-            equipment_bonus = {
-                ship_hull_torpedo_cruiser = {
-                    torpedo_attack = 0.1
-                    lg_attack = 0.1
-                    instant = yes
-                }
-            }
-    	}
-    	total_economic_warfare = {
-    		destroyer = {
-    			convoy_raiding_coordination = 0.05
-    			max_organisation = 20
-    		}
-
-    	}
-    	sea_scabs = {
-    		convoy_retreat_speed = 0.10
-    		destroyer = {
-    			naval_speed = 0.1
-    			patrol_coordination = 0.1
-    		}
-    	}
-    	autonomous_cruisers = {
-    		battle_cruiser = {
-    			hg_attack = 0.1
-    			naval_range = 0.1
-    			naval_speed = 0.1
-    			convoy_raiding_coordination = 0.1
-
-    		}
-    	}
-    }
-
-}
-
-patrol_boats = {
-    track = screens
-    name = SUBDOCTRINE_SCREEN_PATROL_BOATS
-    description = SUBDOCTRINE_SCREEN_PATROL_BOATS_DESC
-    icon = GFX_doctrine_patrol_boats_medium
-    xp_cost = 50
-    xp_type = navy
-
-    available = {
-   		always = yes
-    }
-    visible = {
-    	always = no
-    }
-
-    naval_retreat_chance_after_initial_combat = 0.25
-    navy_max_range_factor = -0.10
-	destroyer = {
-    	naval_speed = 0.10
-    	fuel_consumption = -0.25
-    	supply_consumption = -0.01
-    }	
-
-    rewards = {
-
-    	hit_and_run = {
-    		naval_retreat_speed = 0.20	
-    	}
-    	small_craft_harassment = {
-    		amphibious_invasion_defence = 0.10
-    		destroyer = {
-    		    torpedo_attack = 0.20
-    		}
-    	}	
-    	lie_in_wait = {		
-			destroyer = {
-				surface_visibility = -0.05
-			}
-		}
-    	fast_sortie_turnaround = {
-    		naval_morale_factor = 0.10
-    		destroyer = {
-    			max_organisation = 10
-    		}
-    	}
-    	home_waters_defense = {
-    		industrial_capacity_dockyard = 0.05
-		}
-	}
 }

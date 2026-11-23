@@ -25,35 +25,34 @@ new_mobile_warfare = {
         combat_support
         armor
         motorized
-		support
-		operations
+        support
+        operations
     }
 
     # EFFECTS
-    
-	army_armor_speed_factor = 0.1
+    army_armor_speed_factor = 0.1
     org_loss_when_moving = -0.2
-	enable_tactic = tactic_unexpected_thrust
-	category_army = { 
-				default_morale = 0.05
-                max_organisation = 5
-				}
+    armor_track_mastery_gain_factor = 0.15
+    motorized_track_mastery_gain_factor = 0.15
+    enable_tactic = tactic_unexpected_thrust
+    category_army = {
+        default_morale = 0.05
+        max_organisation = 5
+    }
 
     milestones = {
         {
-            #Infantry
-            category_light_infantry = {max_organisation = 5}
+            #1 Infantry
+            category_light_infantry = {
+                max_organisation = 5
+            }
             dig_in_speed_factor = 0.25
             land_reinforce_rate = 0.05
             enable_tactic = tactic_delay
 
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = infantry_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = infantry_milestone_var } }
                     set_variable = { infantry_milestone_var = 1 }
                 }
                 else = {
@@ -62,35 +61,39 @@ new_mobile_warfare = {
             }
         }
         {
-            #Artillery/Support
-	        category_mobile_artillery = {soft_attack = 0.05 air_attack = 0.05 hard_attack = 0.05}
+            #2 Combat Support
+            category_mobile_artillery = {
+                soft_attack = 0.05
+                air_attack = 0.05
+                hard_attack = 0.05
+            }
             enable_tactic = tactic_overwhelming_fire
+
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = support_milestone_var
-                        }
-                    }
-                    set_variable = { support_milestone_var = 1 }
+                    limit = { NOT = { has_variable = combat_support_milestone_var } }
+                    set_variable = { combat_support_milestone_var = 1 }
                 }
                 else = {
-                    add_to_variable = { support_milestone_var = 1 }
+                    add_to_variable = { combat_support_milestone_var = 1 }
                 }
             }
         }
         {
-            #Armor
-            category_all_armor = {max_organisation = 5 default_morale =0.05 breakthrough = 0.1 maximum_speed = 0.1}
+            #3 Armor
+            category_all_armor = {
+                max_organisation = 5
+                default_morale = 0.05
+                soft_attack = 0.05
+                hard_attack = 0.05
+                breakthrough = 0.1
+                maximum_speed = 0.1
+            }
             enable_tactic = tactic_blitz
 
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = armor_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = armor_milestone_var } }
                     set_variable = { armor_milestone_var = 1 }
                 }
                 else = {
@@ -99,21 +102,21 @@ new_mobile_warfare = {
             }
         }
         {
-        #motorized
-        category_mobile_infantry = {max_organisation=5 default_morale = 0.05}
-        mechanized={
-			need = {
-				mechanized_equipment = -5
-			}
-		}
-        effect = {
-        custom_effect_tooltip = "Each Mechanized Batallion requires 5 less Mechanized Equipment"
+            #4 Motorized
+            category_mobile_infantry = {
+                max_organisation = 5
+                default_morale = 0.05
+            }
+            mechanized = {
+                need = {
+                    mechanized_equipment = -5
+                }
+            }
+
+            effect = {
+                custom_effect_tooltip = TSM_MW_MECH_NEED_TT
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = motorized_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = motorized_milestone_var } }
                     set_variable = { motorized_milestone_var = 1 }
                 }
                 else = {
@@ -122,16 +125,19 @@ new_mobile_warfare = {
             }
         }
         {
-            #support
-            category_support_tanks = {soft_attack = 0.05 hard_attack = 0.05}
-            category_sp_support_artillery = {soft_attack = 0.05 hard_attack = 0.05}
+            #5 Support
+            category_support_tanks = {
+                soft_attack = 0.05
+                hard_attack = 0.05
+            }
+            category_sp_support_artillery = {
+                soft_attack = 0.05
+                hard_attack = 0.05
+            }
+
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = support_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = support_milestone_var } }
                     set_variable = { support_milestone_var = 1 }
                 }
                 else = {
@@ -140,22 +146,18 @@ new_mobile_warfare = {
             }
         }
         {
-            #Operations
-            planning_speed = 1
+            #6 Operations
+            planning_speed = 1.0
             coordination_bonus = 0.06
-            category_army = { 
-				max_organisation = 5
-				default_morale = 0.05
-				}
-            enable_tactic = tactic_backhand_blow   
+            category_army = {
+                max_organisation = 5
+                default_morale = 0.05
+            }
+            enable_tactic = tactic_backhand_blow
 
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = operations_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = operations_milestone_var } }
                     set_variable = { operations_milestone_var = 1 }
                 }
                 else = {
@@ -165,6 +167,7 @@ new_mobile_warfare = {
         }
     }
 }
+
 superior_firepower = {
     folder = land
 
@@ -192,32 +195,34 @@ superior_firepower = {
         combat_support
         armor
         motorized
-		support
-		operations
+        support
+        operations
     }
 
     # EFFECTS
     enable_tactic = tactic_overwhelming_fire
-    category_army = { 
+    combat_support_track_mastery_gain_factor = 0.15
+    support_track_mastery_gain_factor = 0.15
+    category_army = {
         soft_attack = 0.05
-        hard_attack = 0.025
+        hard_attack = 0.03
         air_attack = 0.05
         max_organisation = 5
     }
-    
+
     milestones = {
         {
-            #Infantry
+            #1 Infantry
             enable_tactic = tactic_elastic_defense
-            category_light_infantry = { default_morale = 0.05 soft_attack = 0.1 defense = 0.1}
+            category_light_infantry = {
+                default_morale = 0.05
+                soft_attack = 0.1
+                defense = 0.1
+            }
 
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = infantry_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = infantry_milestone_var } }
                     set_variable = { infantry_milestone_var = 1 }
                 }
                 else = {
@@ -226,42 +231,36 @@ superior_firepower = {
             }
         }
         {
-            #Artillery/Support
-            
-            category_line_artillery = { soft_attack = 0.1 hard_attack = 0.1}
+            #2 Combat Support
+            category_line_artillery = {
+                soft_attack = 0.1
+                hard_attack = 0.1
+            }
             enable_tactic = tactic_barrage
 
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = support_milestone_var
-                        }
-                    }
-                    set_variable = { support_milestone_var = 1 }
+                    limit = { NOT = { has_variable = combat_support_milestone_var } }
+                    set_variable = { combat_support_milestone_var = 1 }
                 }
                 else = {
-                    add_to_variable = { support_milestone_var = 1 }
+                    add_to_variable = { combat_support_milestone_var = 1 }
                 }
             }
-
         }
         {
-            #Armor
+            #3 Armor
             enable_tactic = tactic_delay
             category_all_armor = {
                 soft_attack = 0.05
+                hard_attack = 0.05
                 air_attack = 0.05
                 breakthrough = 0.05
             }
 
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = armor_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = armor_milestone_var } }
                     set_variable = { armor_milestone_var = 1 }
                 }
                 else = {
@@ -270,67 +269,61 @@ superior_firepower = {
             }
         }
         {
-            #motorized
-            category_mobile_infantry = { default_morale = 0.05 soft_attack = 0.1 defense = 0.05}
+            #4 Motorized
+            category_mobile_infantry = {
+                default_morale = 0.05
+                soft_attack = 0.1
+                defense = 0.05
+            }
+
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = armor_milestone_var
-                        }
-                    }
-                    set_variable = { armor_milestone_var = 1 }
+                    limit = { NOT = { has_variable = motorized_milestone_var } }
+                    set_variable = { motorized_milestone_var = 1 }
                 }
                 else = {
-                    add_to_variable = { armor_milestone_var = 1 }
+                    add_to_variable = { motorized_milestone_var = 1 }
                 }
             }
         }
         {
-            #support
+            #5 Support
             category_support_artillery = {
                 soft_attack = 0.1
                 hard_attack = 0.1
                 breakthrough = 0.1
-            }  
+            }
             category_divisional_support_battalions = {
                 max_organisation = 10
             }
             category_regimental_support_battalions = {
                 max_organisation = 5
-            }            
+            }
+
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = armor_milestone_var
-                        }
-                    }
-                    set_variable = { armor_milestone_var = 1 }
+                    limit = { NOT = { has_variable = support_milestone_var } }
+                    set_variable = { support_milestone_var = 1 }
                 }
                 else = {
-                    add_to_variable = { armor_milestone_var = 1 }
+                    add_to_variable = { support_milestone_var = 1 }
                 }
             }
         }
         {
-            #Operations
+            #6 Operations
             enable_tactic = tactic_tactical_withdrawal
             land_reinforce_rate = 0.02
             coordination_bonus = 0.04
-            category_army = { 
-				default_morale = 0.05
-				}
+            category_army = {
+                default_morale = 0.05
+            }
             planning_decay_rate_factor = -0.25
             planning_speed = 0.5
 
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = operations_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = operations_milestone_var } }
                     set_variable = { operations_milestone_var = 1 }
                 }
                 else = {
@@ -338,7 +331,6 @@ superior_firepower = {
                 }
             }
         }
-
     }
 }
 
@@ -364,8 +356,8 @@ grand_battleplan = {
         combat_support
         armor
         motorized
-		support
-		operations
+        support
+        operations
     }
 
     # EFFECTS
@@ -373,92 +365,27 @@ grand_battleplan = {
     max_dig_in_factor = 0.1
     max_planning = 0.1
     command_power_gain = 0.25
-    category_army = { 
-                max_organisation = 10
-				}
+    infantry_track_mastery_gain_factor = 0.15
+    operations_track_mastery_gain_factor = 0.15
+    category_army = {
+        max_organisation = 10
+    }
+
     milestones = {
         {
-            #Infantry 
+            #1 Infantry
             enable_tactic = tactic_elastic_defense
-        infantry = {
-		
-			urban = {
-				attack = 0.025
-			}
-			jungle = {
-				attack = 0.025
-			}
-			mountain = {
-				attack = 0.025
-			}
-			hills = {
-				attack = 0.025
-			}
-			forest = {
-				attack = 0.025
-			}
-		}
-		marine = {
-		
-			urban = {
-				attack = 0.025
-			}
-			jungle = {
-				attack = 0.025
-			}
-			mountain = {
-				attack = 0.025
-			}
-			hills = {
-				attack = 0.025
-			}
-			forest = {
-				attack = 0.025
-			}
-		}
-		mountaineers = {
-		
-			urban = {
-				attack = 0.025
-			}
-			jungle = {
-				attack = 0.025
-			}
-			mountain = {
-				attack = 0.025
-			}
-			hills = {
-				attack = 0.025
-			}
-			forest = {
-				attack = 0.025
-			}
-		}
-		paratrooper = {
-		
-			urban = {
-				attack = 0.025
-			}
-			jungle = {
-				attack = 0.025
-			}
-			mountain = {
-				attack = 0.025
-			}
-			hills = {
-				attack = 0.025
-			}
-			forest = {
-				attack = 0.025
-			}
-		}
+            category_light_infantry = {
+                urban = { attack = 0.04 }
+                jungle = { attack = 0.04 }
+                mountain = { attack = 0.04 }
+                hills = { attack = 0.04 }
+                forest = { attack = 0.04 }
+            }
+
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = infantry_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = infantry_milestone_var } }
                     set_variable = { infantry_milestone_var = 1 }
                 }
                 else = {
@@ -467,160 +394,76 @@ grand_battleplan = {
             }
         }
         {
-            #Artillery
-        artillery_brigade = {
-		
-                urban = {
-                    attack = 0.025
-                }
-                jungle = {
-                    attack = 0.025
-                }
-                mountain = {
-                    attack = 0.025
-                }
-                hills = {
-                    attack = 0.025
-                }
-                forest = {
-                    attack = 0.025
-			}
-		}
-        mot_artillery_brigade = {
-		
-                urban = {
-                    attack = 0.025
-                }
-                jungle = {
-                    attack = 0.025
-                }
-                mountain = {
-                    attack = 0.025
-                }
-                hills = {
-                    attack = 0.025
-                }
-                forest = {
-                    attack = 0.025
-			}
-		}
-        rocket_artillery_brigade = {
-		
-                urban = {
-                    attack = 0.025
-                }
-                jungle = {
-                    attack = 0.025
-                }
-                mountain = {
-                    attack = 0.025
-                }
-                hills = {
-                    attack = 0.025
-                }
-                forest = {
-                    attack = 0.025
-			}
-		}
-        mot_rocket_artillery_brigade = {
-		
-                urban = {
-                    attack = 0.025
-                }
-                jungle = {
-                    attack = 0.025
-                }
-                mountain = {
-                    attack = 0.025
-                }
-                hills = {
-                    attack = 0.025
-                }
-                forest = {
-                    attack = 0.025
-			}
-		}
-        light_sp_artillery_brigade = {
-		
-                urban = {
-                    attack = 0.025
-                }
-                jungle = {
-                    attack = 0.025
-                }
-                mountain = {
-                    attack = 0.025
-                }
-                hills = {
-                    attack = 0.025
-                }
-                forest = {
-                    attack = 0.025
-			}
-		}
-        medium_sp_artillery_brigade = {
-		
-                urban = {
-                    attack = 0.025
-                }
-                jungle = {
-                    attack = 0.025
-                }
-                mountain = {
-                    attack = 0.025
-                }
-                hills = {
-                    attack = 0.025
-                }
-                forest = {
-                    attack = 0.025
-			}
-		}
-        heavy_sp_artillery_brigade= {
-		
-                urban = {
-                    attack = 0.025
-                }
-                jungle = {
-                    attack = 0.025
-                }
-                mountain = {
-                    attack = 0.025
-                }
-                hills = {
-                    attack = 0.025
-                }
-                forest = {
-                    attack = 0.025
-			}
-		}
-        motorized_rocket_brigade = {
-		
-                urban = {
-                    attack = 0.025
-                }
-                jungle = {
-                    attack = 0.025
-                }
-                mountain = {
-                    attack = 0.025
-                }
-                hills = {
-                    attack = 0.025
-                }
-                forest = {
-                    attack = 0.025
-			}
-		}
+            #2 Combat Support
             enable_tactic = tactic_overwhelming_fire
+            category_line_artillery = {
+                urban = { attack = 0.04 }
+                jungle = { attack = 0.04 }
+                mountain = { attack = 0.04 }
+                hills = { attack = 0.04 }
+                forest = { attack = 0.04 }
+            }
 
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = support_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = combat_support_milestone_var } }
+                    set_variable = { combat_support_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { combat_support_milestone_var = 1 }
+                }
+            }
+        }
+        {
+            #3 Armor
+            enable_tactic = tactic_breakthrough
+            category_all_armor = {
+                urban = { attack = 0.04 }
+                jungle = { attack = 0.04 }
+                mountain = { attack = 0.04 }
+                hills = { attack = 0.04 }
+                forest = { attack = 0.04 }
+            }
+
+            effect = {
+                if = {
+                    limit = { NOT = { has_variable = armor_milestone_var } }
+                    set_variable = { armor_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { armor_milestone_var = 1 }
+                }
+            }
+        }
+        {
+            #4 Motorized
+            category_mobile_infantry = {
+                urban = { attack = 0.04 }
+                jungle = { attack = 0.04 }
+                mountain = { attack = 0.04 }
+                hills = { attack = 0.04 }
+                forest = { attack = 0.04 }
+            }
+
+            effect = {
+                if = {
+                    limit = { NOT = { has_variable = motorized_milestone_var } }
+                    set_variable = { motorized_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { motorized_milestone_var = 1 }
+                }
+            }
+        }
+        {
+            #5 Support
+            signal_company = { initiative = 0.1 }
+            category_divisional_support_battalions = { breakthrough = 0.2 }
+            category_regimental_support_battalions = { defense = 0.1 breakthrough = 0.1 }
+
+            effect = {
+                if = {
+                    limit = { NOT = { has_variable = support_milestone_var } }
                     set_variable = { support_milestone_var = 1 }
                 }
                 else = {
@@ -629,163 +472,17 @@ grand_battleplan = {
             }
         }
         {
-            #Armor
-            enable_tactic = tactic_breakthrough
-            light_armor = {
-		
-                urban = {
-                    attack = 0.025
-                }
-                jungle = {
-                    attack = 0.025
-                }
-                mountain = {
-                    attack = 0.025
-                }
-                hills = {
-                    attack = 0.025
-                }
-                forest = {
-                    attack = 0.025
-			}
-		}
-            medium_armor = {
-		
-                urban = {
-                    attack = 0.025
-                }
-                jungle = {
-                    attack = 0.025
-                }
-                mountain = {
-                    attack = 0.025
-                }
-                hills = {
-                    attack = 0.025
-                }
-                forest = {
-                    attack = 0.025
-			}
-		}   
-            heavy_armor = {
-		
-                urban = {
-                    attack = 0.025
-                }
-                jungle = {
-                    attack = 0.025
-                }
-                mountain = {
-                    attack = 0.025
-                }
-                hills = {
-                    attack = 0.025
-                }
-                forest = {
-                    attack = 0.025
-			}
-		}
-            effect = {
-                if = {
-                    limit = {
-                        NOT = {
-                            has_variable = armor_milestone_var
-                        }
-                    }
-                    set_variable = { armor_milestone_var = 1 }
-                }
-                else = {
-                    add_to_variable = { armor_milestone_var = 1 }
-                }
+            #6 Operations
+            category_army = {
+                max_organisation = 5
             }
-            
-        }
-        {
-            mechanized = {
-		
-                urban = {
-                    attack = 0.025
-                }
-                jungle = {
-                    attack = 0.025
-                }
-                mountain = {
-                    attack = 0.025
-                }
-                hills = {
-                    attack = 0.025
-                }
-                forest = {
-                    attack = 0.025
-			}
-		}
-            cavalry = {
-		
-                urban = {
-                    attack = 0.025
-                }
-                jungle = {
-                    attack = 0.025
-                }
-                mountain = {
-                    attack = 0.025
-                }
-                hills = {
-                    attack = 0.025
-                }
-                forest = {
-                    attack = 0.025
-			}
-		}
-            effect = {
-                if = {
-                    limit = {
-                        NOT = {
-                            has_variable = armor_milestone_var
-                        }
-                    }
-                    set_variable = { armor_milestone_var = 1 }
-                }
-                else = {
-                    add_to_variable = { armor_milestone_var = 1 }
-                }
-            }
-        }
-        {
-            #support
-            signal_company = { initiative = 0.1 }
-            category_divisional_support_battalions = { breakthrough = 0.2 }
-            category_regimental_support_battalions = { defense = 0.1 breakthrough = 0.1 }
-            effect = {
-                if = {
-                    limit = {
-                        NOT = {
-                            has_variable = armor_milestone_var
-                        }
-                    }
-                    set_variable = { armor_milestone_var = 1 }
-                }
-                else = {
-                    add_to_variable = { armor_milestone_var = 1 }
-                }
-            }
-        }
-        {
-            #Operations
-            army_morale = 0.0
-            category_army = { 
-				max_organisation = 5
-				}
             coordination_bonus = 0.08
             max_planning = 0.1
             land_night_attack = 0.1
+
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = operations_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = operations_milestone_var } }
                     set_variable = { operations_milestone_var = 1 }
                 }
                 else = {
@@ -818,67 +515,67 @@ mass_assault = {
         combat_support
         armor
         motorized
-		support
-		operations
+        support
+        operations
     }
 
     # EFFECTS
     no_supply_grace = 48
     out_of_supply_factor = -0.10
-	supply_consumption_factor = -0.10
+    supply_consumption_factor = -0.10
+    infantry_track_mastery_gain_factor = 0.15
+    armor_track_mastery_gain_factor = 0.15
     enable_tactic = tactic_relentless_assault
     category_army = {
-				default_morale = 0.1
-                max_organisation = 5
-				}
-                
-        infantry ={
-            need = {infantry_equipment = -15}
-            max_strength = -3}
-        mountaineers = {
-            need = {support_equipment = -5}
-			max_strength = -4}
-        paratrooper = {
-            need = {support_equipment = -5}
-			max_strength = -4}
-		marine = {
-            need = {support_equipment = -5}
-			max_strength = -4}
-        artillery_brigade={
-            max_strength = -1.5
-			need = {
-				artillery_equipment = -4
-			}
-		}
-		anti_tank_brigade={
-            max_strength = -1.2
-			need = {
-				anti_tank_equipment  = -4
-			}
-		}
-		anti_air_brigade={
-            max_strength = -0.45
-			need = {
-				anti_air_equipment = -4
-			}
-		}
+        default_morale = 0.1
+        max_organisation = 5
+    }
+
+    infantry = {
+        need = { infantry_equipment = -10 }
+        max_strength = -1.5
+    }
+    mountaineers = {
+        need = { support_equipment = -5 }
+        max_strength = -2
+    }
+    paratrooper = {
+        need = { support_equipment = -5 }
+        max_strength = -2
+    }
+    marine = {
+        need = { support_equipment = -5 }
+        max_strength = -2
+    }
+    artillery_brigade = {
+        max_strength = -0.75
+        need = { artillery_equipment = -4 }
+    }
+    anti_tank_brigade = {
+        max_strength = -0.6
+        need = { anti_tank_equipment = -4 }
+    }
+    anti_air_brigade = {
+        max_strength = -0.25
+        need = { anti_air_equipment = -4 }
+    }
+
     effect = {
-            custom_effect_tooltip = "Artillery Batallion needs 4 less and each Anti-Tank and Anti-Air Batallion 4 less Equipment"
-            custom_effect_tooltip = "Each Infantry Batallion requires 15 less Infantry Equipment and each special Forces Battalion requires 5 less support equipment"
-                }
+        custom_effect_tooltip = TSM_MA_BASE_NEED_TT
+    }
+
     milestones = {
         {
-            #Infantry
+            #1 Infantry
             enable_tactic = tactic_human_wave_tactics
-            category_light_infantry = { default_morale = 0.1 }
+            category_light_infantry = {
+                default_morale = 0.1
+                defense = 0.05
+            }
 
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = infantry_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = infantry_milestone_var } }
                     set_variable = { infantry_milestone_var = 1 }
                 }
                 else = {
@@ -887,19 +584,84 @@ mass_assault = {
             }
         }
         {
-            #Artillery/Support
-			category_line_artillery = { default_morale = 0.1 }
-			category_regimental_support_battalions = { default_morale = 0.05 }
-            
+            #2 Combat Support
+            category_line_artillery = {
+                default_morale = 0.1
+                soft_attack = 0.05
+            }
+            category_regimental_support_battalions = {
+                default_morale = 0.05
+            }
             enable_tactic = tactic_elastic_defense
 
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = support_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = combat_support_milestone_var } }
+                    set_variable = { combat_support_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { combat_support_milestone_var = 1 }
+                }
+            }
+        }
+        {
+            #3 Armor
+            land_reinforce_rate = 0.03
+            category_all_armor = {
+                default_morale = 0.1
+                breakthrough = 0.05
+                armor_value = 0.05
+            }
+            enable_tactic = tactic_overwhelming_fire
+
+            effect = {
+                if = {
+                    limit = { NOT = { has_variable = armor_milestone_var } }
+                    set_variable = { armor_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { armor_milestone_var = 1 }
+                }
+            }
+        }
+        {
+            #4 Motorized
+            category_mobile_infantry = {
+                default_morale = 0.1
+                breakthrough = 0.05
+            }
+            mechanized = {
+                need = {
+                    mechanized_equipment = -5
+                }
+            }
+
+            effect = {
+                custom_effect_tooltip = TSM_MA_MECH_NEED_TT
+                if = {
+                    limit = { NOT = { has_variable = motorized_milestone_var } }
+                    set_variable = { motorized_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { motorized_milestone_var = 1 }
+                }
+            }
+        }
+        {
+            #5 Support
+            field_hospital = { need = { support_equipment = -5 } }
+            engineer = { need = { support_equipment = -5 } }
+            sniper_recon = { need = { support_equipment = -5 } }
+            recon = { need = { support_equipment = -5 } }
+            signal_company = { need = { support_equipment = -5 } }
+            maintenance_company = { need = { support_equipment = -5 } }
+            military_police = { need = { support_equipment = -5 } }
+            motorized_military_police = { need = { support_equipment = -5 } }
+
+            effect = {
+                custom_effect_tooltip = TSM_MA_SUP_NEED_TT
+                if = {
+                    limit = { NOT = { has_variable = support_milestone_var } }
                     set_variable = { support_milestone_var = 1 }
                 }
                 else = {
@@ -908,109 +670,19 @@ mass_assault = {
             }
         }
         {
-            #Armor
-            land_reinforce_rate = 0.02
-            category_all_armor = { default_morale = 0.1 breakthrough = 0.05}
-            enable_tactic = tactic_overwhelming_fire
-
-            effect = {
-                if = {
-                    limit = {
-                        NOT = {
-                            has_variable = armor_milestone_var
-                        }
-                    }
-                    set_variable = { armor_milestone_var = 1 }
-                }
-                else = {
-                    add_to_variable = { armor_milestone_var = 1 }
-                }
-            }
-        }
-        {
-            #motorized
-            category_mobile_infantry = {default_morale = 0.1 }
-		mechanized = {
-			need = {
-				motorized_rocket_equipment = 10
-				mechanized_equipment = -10
-			}
-		}
-            effect = {
-                custom_effect_tooltip = "Mechanized Batallions needs 10 less mech and 10 more Katyushas"
-                if = {
-                    limit = {
-                        NOT = {
-                            has_variable = armor_milestone_var
-                        }
-                    }
-                    set_variable = { armor_milestone_var = 1 }
-                }
-                else = {
-                    add_to_variable = { armor_milestone_var = 1 }
-                }
-            }
-        }
-        {
-            #support
-        field_hospital = {
-			need = {support_equipment = -5}
-		}
-		engineer = {
-			need = {support_equipment = -5}
-		}
-		sniper_recon = {
-			need = {support_equipment = -5}
-		}
-		recon = {
-			need = {support_equipment = -5}
-		}
-		signal_company = {
-			need = {support_equipment = -5}
-		}
-		maintenance_company = {
-			need = {support_equipment = -5}
-		}
-        Military_police = {
-			need = {support_equipment = -5}
-		}
-        motorized_Military_police = {
-			need = {support_equipment = -5}
-		}
-            effect = {
-                custom_effect_tooltip = "Support Companies require 5 less Support Equipment"
-                if = {
-                    limit = {
-                        NOT = {
-                            has_variable = armor_milestone_var
-                        }
-                    }
-                    set_variable = { armor_milestone_var = 1 }
-                }
-                else = {
-                    add_to_variable = { armor_milestone_var = 1 }
-                }
-            }
-        }
-        {
-        #Operations
+            #6 Operations
             enable_tactic = tactic_backhand_blow
             weekly_casualties_war_support = 0.001
             minimum_training_level = -0.2
-            category_army = { 
-				default_morale = 0.1
-			}
-            category_army = { 
-                max_organisation = 0.05 
+            category_army = {
+                default_morale = 0.1
+                max_organisation = 5
             }
             coordination_bonus = 0.04
+
             effect = {
                 if = {
-                    limit = {
-                        NOT = {
-                            has_variable = operations_milestone_var
-                        }
-                    }
+                    limit = { NOT = { has_variable = operations_milestone_var } }
                     set_variable = { operations_milestone_var = 1 }
                 }
                 else = {
@@ -1020,3 +692,4 @@ mass_assault = {
         }
     }
 }
+

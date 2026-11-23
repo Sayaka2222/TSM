@@ -1,0 +1,133 @@
+ideas = {
+	air_force_spirit = {
+		independent_air_force_spirit = {
+			ledger = air
+			available = { is_air_major = yes }
+			visible = { is_air_major = yes }
+			modifier = {
+				experience_gain_air_factor = 0.15
+				air_mastery_gain_factor = 0.15
+			}
+			ai_will_do = { factor = 1 }
+		}
+		air_crew_surveys_spirit = {
+			ledger = air
+			available = { is_air_major = yes }
+			visible = { is_air_major = yes }
+			modifier = {
+				air_accidents_factor = -0.20
+				air_wing_xp_loss_when_killed_factor = -0.15
+			}
+			ai_will_do = { factor = 1 }
+		}
+		centralized_control_spirit = {
+			ledger = air
+			available = { is_air_major = yes }
+			visible = { is_air_major = yes }
+			modifier = {
+				air_superiority_efficiency = 0.08
+				air_superiority_detect_factor = 0.10
+			}
+			ai_will_do = { factor = 1 }
+		}
+		steel_wings_steel_hearts_spirit = {
+			ledger = air
+			available = { is_air_major = yes }
+			visible = { is_air_major = yes }
+			modifier = {
+				air_cas_efficiency = 0.08
+				air_close_air_support_org_damage_factor = 0.08
+			}
+			ai_will_do = { factor = 1 }
+		}
+		home_defence_spirit = {
+			ledger = air
+			available = { is_air_major = yes }
+			visible = { is_air_major = yes }
+			modifier = {
+				air_home_defence_factor = 0.10
+				air_intercept_efficiency = 0.10
+			}
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	air_force_command_spirit = {
+		battlefield_air_interdiction_spirit = {
+			ledger = air
+			available = {
+				is_air_major = yes
+				has_doctrine = new_battlefield_support
+			}
+			visible = { is_air_major = yes }
+			modifier = {
+				ground_attack_factor = 0.08
+				air_cas_present_factor = 0.10
+			}
+			ai_will_do = { factor = 2 }
+		}
+		strategic_strike_spirit = {
+			ledger = air
+			picture = strategic_bombing_focus
+			available = {
+				is_air_major = yes
+				has_doctrine = new_strategic_destruction
+			}
+			visible = { is_air_major = yes }
+			modifier = {
+				air_strategic_bomber_bombing_factor = 0.12
+				air_escort_efficiency = 0.10
+			}
+			ai_will_do = { factor = 2 }
+		}
+		continuous_strike_spirit = {
+			ledger = air
+			available = {
+				is_air_major = yes
+				has_doctrine = new_operational_integrity
+			}
+			visible = { is_air_major = yes }
+			modifier = {
+				air_superiority_efficiency = 0.08
+				air_ace_generation_chance_factor = 0.15
+			}
+			ai_will_do = { factor = 2 }
+		}
+		tsm_air_denial_command_spirit = {
+			ledger = air
+			picture = home_defence_spirit
+			available = {
+				is_air_major = yes
+				has_doctrine = tsm_air_denial_command
+			}
+			visible = { is_air_major = yes }
+			modifier = {
+				air_home_defence_factor = 0.08
+				air_intercept_efficiency = 0.08
+				air_nav_efficiency = 0.08
+			}
+			ai_will_do = { factor = 2 }
+		}
+		veteran_air_instructors_spirit = {
+			ledger = air
+			picture = air_support_focus
+			available = { is_air_major = yes }
+			visible = { is_air_major = yes }
+			modifier = {
+				air_training_xp_gain_factor = 0.20
+				air_untrained_pilots_penalty_factor = -0.15
+			}
+			ai_will_do = { factor = 1 }
+		}
+		massed_strike_spirit = {
+			ledger = air
+			available = { is_air_major = yes }
+			visible = { is_air_major = yes }
+			modifier = {
+				air_nav_efficiency = 0.12
+				naval_strike_targetting_factor = 0.10
+			}
+			ai_will_do = { factor = 1 }
+		}
+	}
+}

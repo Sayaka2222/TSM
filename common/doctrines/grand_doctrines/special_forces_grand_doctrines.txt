@@ -24,12 +24,17 @@ special_forces_quantity = {
 
     special_forces_cap = 0.04
     special_forces_training_time_factor = -0.2
+    category_special_forces = {
+        supply_consumption = -0.10
+        default_morale = 0.05
+    }
 
     milestones = {
         {
             special_forces_cap = 0.04
             category_special_forces = {
                 soft_attack = 0.05
+                default_morale = 0.05
             }
             effect = {
                 if = {

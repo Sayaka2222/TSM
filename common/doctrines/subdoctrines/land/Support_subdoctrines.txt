@@ -8,36 +8,33 @@ mobile_recon_and_assault = {
     xp_type = army
 
     available = {
-        always = yes
+        OR = {
+            has_doctrine = tsm_asymmetric_attrition
+            has_doctrine = new_mobile_warfare
+            has_doctrine = mass_assault
+        }
     }
-    visible = {
-        has_dlc = "La Resistance"
-    }
-    
-    ai_will_do = {
 
+    ai_will_do = {
         base = 1
         modifier = {
             factor = 75
-            original_tag = GER
-        }
-        modifier = {
-            factor = 75
-            original_tag = USA
+            OR = {
+                original_tag = GER
+                original_tag = SOV
+            }
         }
         modifier = {
             factor = 0
             is_major = no
         }
     }
-    
 
     category_recon = {
         max_organisation = 10
     }
 
     rewards = {
-
         motorization_support = {
             category_divisional_support_battalions = {
                 max_organisation = 10
@@ -50,47 +47,39 @@ mobile_recon_and_assault = {
         }
         long_range_reconnaissance = {
             armored_car_recon = {
-                desert = {
-                    attack = 0.03
-                }
-                hills = {
-                    attack = 0.03
-                }
+                desert = { attack = 0.04 }
+                hills = { attack = 0.04 }
             }
-           light_tank_recon = {
-                forest = {
-                    attack = 0.03
-                }
-                hills = {
-                    attack = 0.03
-                }
+            light_tank_recon = {
+                forest = { attack = 0.04 }
+                hills = { attack = 0.04 }
             }
         }
         mobile_operational_deployments = {
             armored_signal = {
                 battalion_mult = {
                     category = category_all_armor
-                    breakthrough = 0.02
-                }   
+                    breakthrough = 0.05
+                }
             }
-            armored_maintenance = { 
+            armored_maintenance = {
                 battalion_mult = {
                     category = category_all_armor
-                    max_strength = 0.05
+                    max_strength = 0.5
                     add = yes
                 }
             }
             assault_engineer = {
                 battalion_mult = {
-                category = category_army
-                breakthrough = 0.02
+                    category = category_army
+                    breakthrough = 0.03
                 }
             }
             armored_engineer = {
                 river = {
-                    attack = 0.03 
-                    defence = 0.06 
-                    movement = 0.1 
+                    attack = 0.04
+                    defence = 0.06
+                    movement = 0.1
                 }
             }
         }
@@ -99,11 +88,10 @@ mobile_recon_and_assault = {
                 soft_attack = 0.05
                 hard_attack = 0.05
             }
-            category_support_tanks= {
+            category_support_tanks = {
                 soft_attack = 0.05
                 breakthrough = 0.05
             }
-            
         }
         deep_reconnaissance_focus = {
             recon = {
@@ -122,31 +110,31 @@ mobile_recon_and_assault = {
                 battalion_mult = {
                     category = category_line_artillery
                     soft_attack = 0.05
-                }                
+                }
             }
             armored_car_recon = {
                 battalion_mult = {
                     category = category_line_artillery
                     soft_attack = 0.05
-                }                
+                }
             }
             light_tank_recon = {
                 battalion_mult = {
                     category = category_line_artillery
                     soft_attack = 0.05
-                }                
+                }
             }
             rangers_support = {
                 battalion_mult = {
                     category = category_line_artillery
                     soft_attack = 0.05
-                }                
+                }
             }
         }
     }
 }
-self_propelled_support = {
 
+self_propelled_support = {
     track = support
     name = SUBDOCTRINE_SELF_PROPELLED_SUPPORT
     description = SUBDOCTRINE_SELF_PROPELLED_SUPPORT_DESC
@@ -156,23 +144,20 @@ self_propelled_support = {
     xp_type = army
 
     available = {
-       
+        OR = {
+            has_doctrine = tsm_combined_arms_shock
+            has_doctrine = new_mobile_warfare
+            has_doctrine = superior_firepower
+        }
     }
-    visible = {
-        
-    }
 
-
-    ai_will_do = { base = 0 }
-
+    ai_will_do = { base = 1 }
 
     category_sp_support_artillery = {
         max_organisation = 10
     }
 
-
     rewards = {
-
         mobile_battery_management_platoons = {
             category_sp_support_artillery = {
                 breakthrough = 0.05
@@ -183,38 +168,24 @@ self_propelled_support = {
         }
         screening_attacks = {
             light_sp_artillery = {
-                urban = {
-                    attack = 0.03
-                    movement = 0.04
-                }
-            } 
+                urban = { attack = 0.03 movement = 0.04 }
+            }
             medium_sp_artillery = {
-                urban = {
-                    attack = 0.04
-                    movement = 0.02
-                }
-            } 
+                urban = { attack = 0.04 movement = 0.02 }
+            }
             heavy_sp_artillery = {
-                urban = {
-                    attack = 0.05
-                }
-            }   
+                urban = { attack = 0.05 }
+            }
         }
         all_terrain_mobility = {
             light_sp_artillery = {
-                fort = {
-                    attack = 0.03
-                }
-            } 
+                fort = { attack = 0.04 }
+            }
             medium_sp_artillery = {
-                fort = {
-                    attack = 0.04
-                }
-            } 
+                fort = { attack = 0.05 }
+            }
             heavy_sp_artillery = {
-                fort = {
-                    attack = 0.05
-                }
+                fort = { attack = 0.06 }
             }
         }
         multirole_support_vehicles = {
@@ -235,11 +206,9 @@ self_propelled_support = {
                 breakthrough = 0.05
             }
         }
-
     }
-
-    
 }
+
 field_engineering = {
     track = support
     name = SUBDOCTRINE_FIELD_ENGINEERING
@@ -249,79 +218,49 @@ field_engineering = {
     xp_cost = 100
     xp_type = army
 
-    ai_will_do = { 
+    available = {
+        OR = {
+            has_doctrine = tsm_asymmetric_attrition
+            has_doctrine = grand_battleplan
+            has_doctrine = mass_assault
+        }
+    }
+
+    ai_will_do = {
         base = 1
         modifier = {
             factor = 75
-            original_tag = ITA
-        }
-        modifier = {
-            factor = 75
-            original_tag = JAP
+            OR = {
+                original_tag = ITA
+                original_tag = JAP
+            }
         }
     }
 
     engineer = {
-        river = {
-            attack = 0.02
-            defence = 0.02
-        }
-        forest = {
-            attack = 0.02
-            defence = 0.02
-        }
+        river = { attack = 0.02 defence = 0.02 }
+        forest = { attack = 0.02 defence = 0.02 }
     }
     assault_engineer = {
-        river = {
-            attack = 0.03
-            defence = 0.01
-        }
-        forest = {
-            attack = 0.03
-            defence = 0.01
-        }
+        river = { attack = 0.03 defence = 0.01 }
+        forest = { attack = 0.03 defence = 0.01 }
     }
     armored_engineer = {
-        river = {
-            attack = 0.04
-        }
-        marsh = {
-            attack = 0.02
-        }
+        river = { attack = 0.04 }
+        marsh = { attack = 0.02 }
     }
     pioneer_support = {
-        river = {
-            attack = 0.02
-            defence = 0.02
-        }
-        forest = {
-            attack = 0.02
-            defence = 0.02
-        }
-        jungle = {
-            attack = 0.02
-            defence = 0.02
-        }
+        river = { attack = 0.02 defence = 0.02 }
+        forest = { attack = 0.02 defence = 0.02 }
+        jungle = { attack = 0.02 defence = 0.02 }
     }
 
     rewards = {
         rapid_fire_lane_clearance = {
-            pioneer_support = {
-				max_organisation = 10
-                entrenchment = 1
-            }
-            engineer = {
-				max_organisation = 10
-                entrenchment = 1
-            }
-            armored_engineer = {
-				max_organisation = 10
-                entrenchment = 1
-            }
-            assault_engineer = {
-				max_organisation = 10
-                entrenchment = 1
-            }
+            pioneer_support = { max_organisation = 10 entrenchment = 1 }
+            engineer = { max_organisation = 10 entrenchment = 1 }
+            armored_engineer = { max_organisation = 10 entrenchment = 1 }
+            assault_engineer = { max_organisation = 10 entrenchment = 1 }
         }
         sapper_fieldcraft = {
             category_engineers = {
@@ -334,18 +273,10 @@ field_engineering = {
             }
         }
         engineerdug_gun_emplacements = {
-            pioneer_support = {
-                entrenchment = 1
-            }
-            engineer = {
-                entrenchment = 1
-            }
-            armored_engineer = {
-                entrenchment = 1
-            }
-            assault_engineer = {
-                entrenchment = 1
-            }
+            pioneer_support = { entrenchment = 1 }
+            engineer = { entrenchment = 1 }
+            armored_engineer = { entrenchment = 1 }
+            assault_engineer = { entrenchment = 1 }
         }
         smoke_projector_training = {
             category_engineers = {
@@ -354,18 +285,17 @@ field_engineering = {
             maintenance_company = {
                 battalion_mult = {
                     category = category_all_armor
-                    max_strength = 1
-					add = yes
+                    max_strength = 0.75
+                    add = yes
                 }
             }
             armored_maintenance = {
                 battalion_mult = {
                     category = category_all_armor
-                    max_strength = 1.5
-					add = yes
+                    max_strength = 1.0
+                    add = yes
                 }
             }
-
         }
         charge_and_flame = {
             category_support_tanks = {
@@ -373,7 +303,6 @@ field_engineering = {
                 soft_attack = 0.1
             }
         }
-
     }
 }
 
@@ -387,17 +316,20 @@ armored_infantry_support = {
     xp_type = army
 
     available = {
-        always = yes
+        OR = {
+            has_doctrine = tsm_combined_arms_shock
+            has_doctrine = superior_firepower
+            has_doctrine = grand_battleplan
+        }
     }
 
     ai_will_do = {
-
         base = 1
         modifier = {
             factor = 25
             OR = {
-               original_tag = ENG
-               original_tag = FRA
+                original_tag = ENG
+                original_tag = FRA
             }
         }
         modifier = {
@@ -406,14 +338,10 @@ armored_infantry_support = {
         }
     }
 
-    # EFFECTS
     enable_tactic = tactic_blitz
-    
-    #TODO jack look if you can make a script effect for production bonuses
-        
+
     rewards = {
         mobile_reserves = {
-        #1
             category_support_tanks = {
                 breakthrough = 0.05
                 soft_attack = 0.1
@@ -421,8 +349,7 @@ armored_infantry_support = {
             }
         }
         armored_cohorts = {
-        #2
-            armored_signal= {
+            armored_signal = {
                 battalion_mult = {
                     category = category_light_infantry
                     breakthrough = 0.05
@@ -433,10 +360,9 @@ armored_infantry_support = {
             category_all_armor = {
                 reliability = 0.1
                 default_morale = 0.05
-                }
+            }
         }
         fuel_rationing = {
-        #4
             logistics_company = {
                 battalion_mult = {
                     category = category_all_armor
@@ -445,15 +371,9 @@ armored_infantry_support = {
             }
         }
         mobile_armored_strongpoints = {
-            category_support_tanks = {
-                breakthrough = 0.1
-            }
-            category_recon = {
-                breakthrough = 0.1
-            }
-            category_sp_support_artillery = {
-                breakthrough = 0.1
-            }
+            category_support_tanks = { breakthrough = 0.1 }
+            category_recon = { breakthrough = 0.1 }
+            category_sp_support_artillery = { breakthrough = 0.1 }
         }
     }
 }

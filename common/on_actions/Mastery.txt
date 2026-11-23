@@ -1,5 +1,5 @@
 on_actions = {
-on_monthly = {
+	on_monthly = {
 		effect = {
 			if = {
 				limit = {
@@ -19,10 +19,6 @@ on_monthly = {
 				add_mastery = {
 					amount = 2.5
 					track = armor
-				}
-				add_mastery = {
-					amount = 2.5
-					track = combat_support
 				}
 				add_mastery = {
 					amount = 2.5
@@ -58,10 +54,6 @@ on_monthly = {
 				}
 				add_mastery = {
 					amount = 1
-					track = combat_support
-				}
-				add_mastery = {
-					amount = 1
 					track = support
 				}
 				add_mastery = {
@@ -71,6 +63,14 @@ on_monthly = {
 				add_mastery = {
 					amount = 1
 					track = operations
+				}
+				add_mastery = {
+					amount = 1.5
+					track = special_forces_first
+				}
+				add_mastery = {
+					amount = 1.5
+					track = special_forces_second
 				}
 			}
 			if = {
@@ -99,6 +99,7 @@ on_monthly = {
 			}
 			if = {
 				limit = {
+					is_air_major = yes
 					any_character = {
 						has_advisor_role = air_chief
 						is_hired_as_advisor = yes
@@ -121,6 +122,6 @@ on_monthly = {
 					track = heavy_aircraft
 				}
 			}
-	    }
+		}
 	}
 }

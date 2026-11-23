@@ -1,0 +1,143 @@
+# ==============================================================================
+# TSM GEMINI REWORK — 2 SPECIAL FORCES SUBDOCTRINES (BALANCED TUNING)
+# ==============================================================================
+
+tsm_long_range_commandos = {
+    track = { special_forces_first special_forces_second }
+    name = SUBDOCTRINE_TSM_LONG_RANGE_COMMANDOS
+    description = SUBDOCTRINE_TSM_LONG_RANGE_COMMANDOS_DESC
+    icon = GFX_doctrine_special_forces_1_medium
+
+    xp_cost = 60
+    xp_type = army
+
+    xor = { tsm_urban_storm_pioneers }
+
+    mastery = {
+        multiplier = 5
+        categories = {
+            category_special_forces
+        }
+    }
+
+    available = { always = yes }
+    visible = { always = yes }
+    ai_will_do = { base = 1 }
+
+    special_forces_out_of_supply_factor = -0.15
+    acclimatization_hot_climate_gain_factor = 0.20
+    category_special_forces = {
+        desert = { attack = 0.10 movement = 0.08 }
+        jungle = { attack = 0.10 movement = 0.08 }
+    }
+
+    rewards = {
+        reward_1 = {
+            mastery = 60
+            special_forces_cap = 0.05
+            category_special_forces = {
+                supply_consumption = -0.10
+                max_organisation = 5
+            }
+        }
+        reward_2 = {
+            mastery = 120
+            category_special_forces = {
+                soft_attack = 0.05
+                breakthrough = 0.05
+                recon = 0.15
+            }
+        }
+        reward_3 = {
+            mastery = 180
+            special_forces_no_supply_grace = 24
+            category_special_forces = {
+                default_morale = 0.10
+            }
+        }
+        reward_4 = {
+            mastery = 240
+            category_special_forces = {
+                jungle = { attack = 0.10 defence = 0.10 }
+                desert = { attack = 0.10 defence = 0.10 }
+            }
+        }
+        reward_5 = {
+            mastery = 300
+            category_special_forces = {
+                soft_attack = 0.05
+                hard_attack = 0.06
+                breakthrough = 0.05
+            }
+        }
+    }
+}
+
+tsm_urban_storm_pioneers = {
+    track = { special_forces_first special_forces_second }
+    name = SUBDOCTRINE_TSM_URBAN_STORM_PIONEERS
+    description = SUBDOCTRINE_TSM_URBAN_STORM_PIONEERS_DESC
+    icon = GFX_doctrine_special_forces_2_medium
+
+    xp_cost = 60
+    xp_type = army
+
+    xor = { tsm_long_range_commandos }
+
+    mastery = {
+        multiplier = 5
+        categories = {
+            category_special_forces
+        }
+    }
+
+    available = { always = yes }
+    visible = { always = yes }
+    ai_will_do = { base = 1 }
+
+    category_special_forces = {
+        urban = { attack = 0.10 defence = 0.10 }
+        fort = { attack = 0.12 }
+    }
+
+    rewards = {
+        reward_1 = {
+            mastery = 60
+            category_special_forces = {
+                breakthrough = 0.07
+                max_organisation = 5
+            }
+        }
+        reward_2 = {
+            mastery = 120
+            category_special_forces = {
+                river = { attack = 0.10 }
+                hard_attack = 0.08
+                ap_attack = 0.10
+            }
+        }
+        reward_3 = {
+            mastery = 180
+            special_forces_cap = 0.05
+            category_special_forces = {
+                soft_attack = 0.06
+                default_morale = 0.10
+            }
+        }
+        reward_4 = {
+            mastery = 240
+            category_special_forces = {
+                fort = { attack = 0.13 }
+                urban = { attack = 0.10 defence = 0.08 }
+            }
+        }
+        reward_5 = {
+            mastery = 300
+            coordination_bonus = 0.03
+            category_special_forces = {
+                breakthrough = 0.08
+                soft_attack = 0.05
+            }
+        }
+    }
+}
