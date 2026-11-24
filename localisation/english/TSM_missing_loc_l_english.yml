@@ -436,7 +436,7 @@
  RAJ_FREE:0 "India"
  RAJ_FREE_DEF:0 "India"
  RAJ_FREE_ADJ:0 "Indian"
- MAJOR_ONLY_DESC:0 "Play a streamlined World War II scenario focused exclusively on the Major Powers."
+ MAJOR_ONLY_DESC:0 "Play the 1936 scenario tailored for smaller lobbies, where unplayed AI minor nations are automatically annexed and the Spanish Civil War starts automatically if Spain is AI."
 
  # --- HIDDEN / BRANCHING FOCUS MECHANICS TOOLTIPS ---
  USA_american_dream_hidden_tt:0 "\n§YModifies §H$USA_second_deal$§Y:§!\n  - Removes £construction_speed_civfactory_texticon  Civilian Factory Construction Speed (§R-10.0%§!) and £construction_speed_infrastructure_texticon  Infrastructure Construction Speed (§R-10.0%§!)\n  - £stability_texticon  Stability: §G+10.0%§! (total §G+20.0%§!)\n  - £consumer_goods_texticon  Consumer Goods Factories Factor: §R+25.0%§! (removed upon completing §HA Date Which Will Live in Infamy§!)\n"
