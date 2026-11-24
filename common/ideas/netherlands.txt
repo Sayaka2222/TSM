@@ -190,7 +190,7 @@ ideas = {
 		}
 		theorist_production = {
 		MEX_alberto_pani ={
-			picture = alberto_pani
+			picture = MEX_alberto_pani
 			cost = 150
 
 			allowed = {
@@ -203,7 +203,7 @@ ideas = {
 			traits = { industrial_genius }
 		}
 		MEX_manuel_avila_camacho ={
-			picture = manuel_avila_camacho
+			picture = GFX_portrait_MEX_manuel_avila_camacho_small
 			cost = 150
 
 			allowed = {

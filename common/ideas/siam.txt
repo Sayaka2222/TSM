@@ -247,7 +247,7 @@ ideas = {
 	}
 		theorist_production = { 
 		SIA_vajiravudh_chichalerm = {
-			picture = SIA_vajiravudh_chichalerm
+			picture = generic_political_advisor_asia_3
 			cost = 150
 
 			allowed = {
@@ -257,7 +257,7 @@ ideas = {
 			traits = { war_industrialist }
 		}
 		SIA_wichit_wichitwathakarn = {
-			picture = AST_arthur_calwell
+			picture = generic_political_advisor_asia_1
 			cost = 150
 
 			allowed = {

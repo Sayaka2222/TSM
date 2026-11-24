@@ -114,7 +114,7 @@ characters={
 		name="Mom Rajawongse Seni Pramoj"
 		portraits={
 			army={
-				small="GFX_portrait_chi_hu_zongnan_small"
+				small="GFX_idea_CHI_hu_zongnan"
 			}
 			army={
 				large="GFX_portrait_chi_hu_zongnan"

@@ -1,0 +1,67 @@
+spriteTypes = {
+	# Unregistered TSM manufacturer & spirit icons present in gfx/interface/ideas/
+	spriteType = {
+		name = "GFX_idea_hanomag"
+		texturefile = "gfx/interface/ideas/idea_hanomag.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_volgograd_tractor_plant"
+		texturefile = "gfx/interface/ideas/idea_volgograd_tractor_plant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_volgograd_tractor_plantnzl"
+		texturefile = "gfx/interface/ideas/idea_volgograd_tractor_plantnzl.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_goe"
+		texturefile = "gfx/interface/ideas/idea_goe.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_STO"
+		texturefile = "gfx/interface/ideas/EFR_STO.dds"
+	}
+
+	# Etat Francais (EFR) advisor portraits present in gfx/interface/ideas/
+	spriteType = {
+		name = "GFX_idea_EFR_francois_darlan"
+		texturefile = "gfx/interface/ideas/idea_francois_darlan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_jacques_doriot"
+		texturefile = "gfx/interface/ideas/EFR_jacques_doriot.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_joseph_darnand"
+		texturefile = "gfx/interface/ideas/EFR_joseph_darnand.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_marcel_deat"
+		texturefile = "gfx/interface/ideas/EFR_marcel_deat.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_pierre_laval"
+		texturefile = "gfx/interface/ideas/EFR_pierre_laval.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_rene_belin"
+		texturefile = "gfx/interface/ideas/EFR_rene_belin.dds"
+	}
+
+	# Custom leader portraits preserved from shadowed _leader_portraits.gfx
+	spriteType = {
+		name = "GFX_portrait_Phraya_Phahon"
+		texturefile = "gfx/leaders/SIA/Portrait_Siam_Phraya_Phahon.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Reza_Shah_Pahlavi"
+		texturefile = "gfx/leaders/PER/Portrait_Iran_Reza_Shah_Pahlavi.dds"
+	}
+	spriteType = {
+		name = "GFX_RAJ_pattabhi_sitaramayya"
+		texturefile = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_RAJ_pattabhi_sitaramayya_small"
+		texturefile = "gfx/interface/ideas/idea_RAJ_political_leader_generic_2.dds"
+	}
+}

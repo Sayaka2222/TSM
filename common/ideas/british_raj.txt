@@ -445,7 +445,7 @@ ideas = {
 			allowed = {
 				tag = RAJ
 			}
-			picture = GFX_ordnance_factories_board
+			picture = ordnance_factories_board
 			cost = 100
 			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {

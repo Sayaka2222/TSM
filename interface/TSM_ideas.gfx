@@ -183,7 +183,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_idea_Alkett"
-		texturefile = "gfx/interface/ideas/idea_alkett.dds"
+		texturefile = "gfx/interface/ideas/idea_alkett.tga"
 	}
 
 	SpriteType = {
@@ -1579,15 +1579,15 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_joseph_goebbels"
-		texturefile = "gfx/interface/ideas/idea_joseph_goebbels.dds"
+		texturefile = "gfx/interface/ideas/portrait_GER_joseph_goebbels_small.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_rudolf_hess"
-		texturefile = "gfx/interface/ideas/idea_rudolf_hess.dds"
+		texturefile = "gfx/interface/ideas/portrait_GER_rudolf_hess_small.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_heinrich_himmler"
-		texturefile = "gfx/interface/ideas/idea_heinrich_himmler.dds"
+		texturefile = "gfx/interface/ideas/portrait_GER_heinrich_himmler_small.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_martin_bormann"
@@ -2566,11 +2566,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_alexander_yegorov"
-		texturefile = "gfx/interface/ideas/idea_alexander_yegorov.dds"
+		texturefile = "gfx/interface/ideas/idea_aleksandr_yegorov.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_vasily_blucher"
-		texturefile = "gfx/interface/ideas/idea_vasily_blucher.dds"
+		texturefile = "gfx/interface/ideas/idea_sov_blyukher.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_pyotr_smirnov"
@@ -4621,7 +4621,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_idea_italy_mario_roatta"
-		texturefile = "gfx/interface/ideas/idea_italy_mario_roatta.dds"
+		texturefile = "gfx/interface/ideas/idea_ita_mario_roatta_political_advisor.dds"
 	}
 
 	SpriteType = {

@@ -1670,6 +1670,7 @@ focus = {
 				remove_idea = isolation
 				add_idea = low_economic_mobilisation
 			}
+			custom_effect_tooltip = USA_american_dream_hidden_tt
 			hidden_effect = {
 				swap_ideas = {
 					remove_idea = USA_second_deal
@@ -1789,6 +1790,7 @@ focus = {
 				remove_idea = war_preparation
 				add_idea = war_economy
 			}
+			custom_effect_tooltip = USA_the_giant_wakes_hidden_tt
 			set_country_flag = USA_the_giant_wakes_added_civ_eco
 			hidden_effect = {
 				swap_ideas = {
@@ -2247,6 +2249,7 @@ focus = {
 		relative_position_id = USA_war_plan_black
 		cost = 3
 		completion_reward = {
+			custom_effect_tooltip = USA_ger3_tt
 			clr_country_flag = USA_no_armor_genius
 			set_country_flag = USA_armor_genius
 			deactivate_advisor = joseph_stilwell

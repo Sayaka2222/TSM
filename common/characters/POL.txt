@@ -32,34 +32,6 @@ characters = {
 		}
 	}
 
-	POL_walery_slawek = {
-		name=POL_ignacy_moscicki
-		portraits = {
-			army={
-				small="gfx/interface/ideas/idea_POL_ignacy_moscicki.dds"
-			}
-			civilian = {
-				large="GFX_portrait_POL_ignacy_moscicki"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = POL_ignacy_moscicki
-			available = {
-			}
-			allowed = {
-				original_tag = POL
-				OR = {
-					has_dlc = "No Step Back"
-					has_dlc = "Poland: United and Ready"
-				}
-			}
-			traits = {
-				the_king_of_the_castle 
-			}
-		}
-	}
-
 	POL_wladyslaw_sikorski = {
 		name=POL_wladyslaw_sikorski
 		portraits = {

@@ -10,6 +10,11 @@
  TSM_MA_SUP_NEED_TT:0 "Support Companies require §G5 less§! Support Equipment."
  TSM_COMMANDOS_NEED_TT:0 "Each Infantry battalion requires §R25 more§! Infantry Equipment and each Special Forces battalion requires §R50 more§! Infantry Equipment."
  SUBDOCTRINE_ARMORED_ADVANCE_DESC:0 "Combine heavy armor protection, high firepower, and mechanized maneuver to dominate tank-on-tank engagements and exploit breakthroughs."
+ armored_advance_mobile_reserves:0 "Mobile Reserves"
+ armored_advance_armored_cohorts:0 "Armored Cohorts"
+ armored_advance_maintenance_routines:0 "Maintenance Routines"
+ armored_advance_fuel_rationing:0 "Fuel Rationing"
+ armored_advance_mobile_armored_strongpoints:0 "Mobile Armored Strongpoints"
  great_war_infantry_elastic_counterattack:0 "Elastic Counterattack"
  great_war_infantry_elastic_counterattack_desc:0 "Mobile armored reserves positioned behind fortified zones counterattack exhausted enemy spearheads."
 
@@ -196,8 +201,18 @@
  tsm_lsub_4:0 "Coastal Shipping Strangulation"
  tsm_lsub_5:0 "Phantom Undersea Fleet"
 
- # --- 2 NEW SPECIAL FORCES SUBDOCTRINES ---
+ # --- 2 NEW SPECIAL FORCES SUBDOCTRINES + REWARDS ---
  SUBDOCTRINE_TSM_LONG_RANGE_COMMANDOS:0 "Long-Range Desert & Jungle Commandos"
  SUBDOCTRINE_TSM_LONG_RANGE_COMMANDOS_DESC:0 "Self-reliant long-range penetration groups thriving in extreme heat, jungle, and desert supply environments."
+ tsm_long_range_commandos_reward_1:0 "Desert & Jungle Logistics"
+ tsm_long_range_commandos_reward_2:0 "Deep Penetration Recon"
+ tsm_long_range_commandos_reward_3:0 "Self-Sustaining Raiding Parties"
+ tsm_long_range_commandos_reward_4:0 "Extreme Climate Mastery"
+ tsm_long_range_commandos_reward_5:0 "Phantom Commando Brigades"
  SUBDOCTRINE_TSM_URBAN_STORM_PIONEERS:0 "Urban & Fortress Storm Pioneers"
  SUBDOCTRINE_TSM_URBAN_STORM_PIONEERS_DESC:0 "Heavily armed assault commandos specialized in cracking fortified cities, rivers, and concrete bunkers."
+ tsm_urban_storm_pioneers_reward_1:0 "Breaching Assault Teams"
+ tsm_urban_storm_pioneers_reward_2:0 "River Assault & Anti-Armor Sappers"
+ tsm_urban_storm_pioneers_reward_3:0 "Shock Pioneer Expansion"
+ tsm_urban_storm_pioneers_reward_4:0 "Fortress & City Clearing"
+ tsm_urban_storm_pioneers_reward_5:0 "Coordinated Urban Storm"

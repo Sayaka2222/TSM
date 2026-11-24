@@ -1246,46 +1246,15 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		complete_tooltip = {
-			add_breakthrough_progress = {
-				specialization = specialization_air
-				value = 0.25
-			}
 			add_tech_bonus = {
 				name = CAN_the_pacific_coast_air_defence_radar_system
 				bonus = 1.0
-				uses = 1
+				uses = 4
 				category = radar_tech
 			}
-			# random_state = {
-				# limit = {
-					# has_state_flag = CAN_the_pacific_coast_air_defence_radar_system_radar1
-				# }
-				# add_building_construction = {
-					# type = radar_station
-					# level = 1
-					# instant_build = yes
-				# }
-			# }
-			# random_state = {
-				# limit = {
-					# has_state_flag = CAN_the_pacific_coast_air_defence_radar_system_radar2
-				# }
-				# add_building_construction = {
-					# type = radar_station
-					# level = 1
-					# instant_build = yes
-				# }
-			# }
-			# random_state = {
-				# limit = {
-					# has_state_flag = CAN_the_pacific_coast_air_defence_radar_system_radar3
-				# }
-				# add_building_construction = {
-					# type = radar_station
-					# level = 1
-					# instant_build = yes
-				# }
-			# }
+			set_technology = {
+				radio_detection = 1
+			}
 		}
 
 		completion_reward = {

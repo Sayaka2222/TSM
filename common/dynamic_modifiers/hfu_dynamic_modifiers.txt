@@ -123,7 +123,7 @@ RAJ_penalty = {
 	naval_invasion_penalty = RAJ.burma_status
 }
 RAJ_penalty_visual={
-	icon = "FRA_fortification_focus"
+	icon = "GFX_idea_FRA_fortification_focus"
 	naval_mine_hit_chance=RAJ.burma_status
 }
 USP_no_meme = {
@@ -148,7 +148,7 @@ Papua_defense={
 	naval_invasion_penalty=AST.pacific_status
 }
 Papua_visual={
-	icon = "FRA_fortification_focus"
+	icon = "GFX_idea_FRA_fortification_focus"
 	naval_mine_hit_chance=AST.pacific_status
 }
 Atlantikwall={
@@ -160,7 +160,7 @@ imperium_romanum={
 	army_core_attack_factor = ITA.imperium_romanum
 }
 Atlantikwall_visual = {
-		icon = "FRA_fortification_focus"
+		icon = "GFX_idea_FRA_fortification_focus"
 	naval_mine_hit_chance=GER.pacific_status
 }
 

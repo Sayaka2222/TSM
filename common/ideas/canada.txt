@@ -91,7 +91,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = constitutional_crisis
+			picture = generic_disjointed_gov
 
 			modifier = {
 				political_power_factor = -0.25
@@ -112,7 +112,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = constitutional_crisis2
+			picture = generic_disjointed_gov
 
 			modifier = {
 				political_power_factor = -0.10
@@ -251,7 +251,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = political_gridlock
+			picture = generic_disjointed_gov
 
 			modifier = {
 				political_power_factor = -0.25
@@ -271,7 +271,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = quebec_resistance
+			picture = generic_oppression
 
 			modifier = {
 				political_power_factor = -0.1
@@ -297,7 +297,7 @@ ideas = {
 				industrial_capacity_dockyard = 0.15
 			}
 
-			picture = imperial_conference
+			picture = eng_imperial_conscription
 
 			removal_cost = -1
 		}
@@ -320,7 +320,7 @@ ideas = {
 				industrial_capacity_dockyard = 0.4
 			}
 
-			picture = imperial_conference
+			picture = eng_imperial_conscription
 
 			removal_cost = -1
 		}
@@ -477,7 +477,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = can_great_depression
+			picture = great_depression
 			
 			modifier = {
 				industrial_capacity_factory = -0.2
@@ -513,7 +513,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = can_great_depression
+			picture = great_depression
 			
 			modifier = {
 				industrial_capacity_factory = -0.1

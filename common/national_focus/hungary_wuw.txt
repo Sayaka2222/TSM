@@ -511,11 +511,6 @@ focus_tree = {
 					add_idea = HUN_levente_associations_act_of_defense_and_secret_rearmament
 				}
 			}
-
-
-
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = HUN_istvan_horthy
 		}
 	}
 
@@ -1203,6 +1198,10 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
+			}
+			add_timed_idea = {
+				idea = HUN_urbanization_efforts
+				days = 365
 			}
 		}
 

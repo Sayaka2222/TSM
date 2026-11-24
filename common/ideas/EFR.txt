@@ -104,6 +104,7 @@ ideas = {
 			picture = generic_research_bonus
 		}
 		idea_EFR_STO = {
+			picture = EFR_STO
 			allowed = {
 				always = no
 			}
@@ -115,7 +116,7 @@ ideas = {
 			}
 		}
 		idea_EFR_STO2 = {
-			picture = idea_EFR_STO
+			picture = EFR_STO
 			allowed = {
 				always = no
 			}
@@ -127,7 +128,7 @@ ideas = {
 			}
 		}
 		idea_EFR_STO3 = {
-			picture = idea_EFR_STO
+			picture = EFR_STO
 			allowed = {
 				always = no
 			}

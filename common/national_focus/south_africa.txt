@@ -59,6 +59,7 @@ focus_tree = {
  		cost = 7.2
  		completion_reward = {
 			remove_ideas = SAF_history_of_segregation
+			custom_effect_tooltip = SAF_full_imperial_commitment_tt
 			hidden_effect = {
 				transfer_state = 468
 				transfer_state = 470

@@ -23,7 +23,7 @@ characters={
 		name="Zhang Haipeng"
 		portraits={
 			army={
-				small="GFX_portrait_man_zhang_haipeng_small"
+				small="GFX_idea_MAN_zhang_haipeng"
 			}
 			army={
 				large="GFX_portrait_man_zhang_haipeng"
@@ -44,7 +44,7 @@ characters={
 		name=MAN_zhang_jinghui
 		portraits={
 			army={
-				small="GFX_portrait_man_zhang_jinghui_small"
+				small="GFX_idea_MAN_zhang_jinghui"
 			}
 			army={
 				large="GFX_portrait_man_zhang_jinghui"
@@ -65,7 +65,7 @@ characters={
 		name=MAN_aisin_gioro_xiqia
 		portraits={
 			army={
-				small="GFX_portrait_man_aisin_gioro_xiqia_small"
+				small="GFX_idea_MAN_aisin_gioro_xiqia"
 			}
 			army={
 				large="GFX_portrait_man_aisin_gioro_xiqia"
@@ -107,7 +107,7 @@ characters={
 		name=MAN_zhao_shangzhi
 		portraits={
 			army={
-				small="GFX_portrait_chi_gu_zhutong_small"
+				small="GFX_idea_CHI_gu_zhutong"
 			}
 			army={
 				large="GFX_portrait_chi_gu_zhutong"
@@ -128,7 +128,7 @@ characters={
 		name=MAN_changlin_linge
 		portraits={
 			army={
-				small="GFX_portrait_chi_hu_zongnan_small"
+				small="GFX_idea_CHI_hu_zongnan"
 			}
 			army={
 				large="GFX_portrait_chi_hu_zongnan"

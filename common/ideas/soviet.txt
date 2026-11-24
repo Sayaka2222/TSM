@@ -137,6 +137,7 @@ ideas = {
 			}
 		}
 		Fast_Training = {
+			picture = generic_manpower_bonus
 			modifier = {
 				training_time_army_factor = -0.40
 			}
@@ -164,6 +165,7 @@ ideas = {
 			}
 		}
 		SOV_kazanspawnin = {
+			picture = generic_production_bonus
 			modifier = {
 				industrial_capacity_factory=-0.1
 			}
@@ -174,6 +176,7 @@ ideas = {
 			}
 		}
 		SOV_winter_offensive = {
+			picture = generic_morale_bonus
 			modifier = {
 				army_armor_attack_factor = 0.1
 				army_infantry_attack_factor = 0.1
@@ -181,6 +184,7 @@ ideas = {
 			}
 		}
 		SOV_uranus = {
+			picture = generic_artillery_regiments
 			modifier = {
 				army_armor_attack_factor = 0.1
 				army_infantry_attack_factor = 0.1
@@ -188,6 +192,7 @@ ideas = {
 			}
 		}
 		SOV_bagration = {
+			picture = generic_infantry_bonus
 			modifier = {
 				army_armor_attack_factor = 0.2
 				army_infantry_attack_factor = 0.2
@@ -353,7 +358,7 @@ ideas = {
 			allowed_civil_war = {
 				has_government = communism
 			}
-			picture = industrial_boom
+			picture = generic_production_bonus
 			modifier = {
 				production_speed_industrial_complex_factor = 0.05
 			}
@@ -551,6 +556,60 @@ ideas = {
 			modifier = {
                 line_change_production_efficiency_factor = 0.3
             }
+		}
+		SOV_tankograd_long = {
+			name = SOV_tankograd
+			removal_cost = -1
+			allowed = {
+				always = no # Added via focus
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_morale_bonus
+			equipment_bonus = {
+				medium_tank_chassis = {
+					build_cost_ic = -0.15  instant = yes
+				}
+			}
+			modifier = {
+				line_change_production_efficiency_factor = -0.3
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		SOV_tankograd_pos_long = {
+			name = SOV_tankograd
+			removal_cost = -1
+			allowed = {
+				always = no # Added via focus
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_morale_bonus
+			equipment_bonus = {
+				medium_tank_chassis = {
+					build_cost_ic = -0.05  instant = yes
+				}
+			}
+			modifier = {
+				line_change_production_efficiency_factor = 0.3
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		SOV_tankograd_long_only = {
+			name = SOV_tankograd
+			removal_cost = -1
+			allowed = {
+				always = no # Added via focus
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_morale_bonus
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+			}
 		}
 		SOV_heavy_tonk = {
 			removal_cost = -1

@@ -978,7 +978,7 @@ ideas = {
 		traits = { HUN_desertnomist_major }
 	  }
 	  generic_dockyard_industrial_theorist_major = {
-		picture = generic_naval_manufacturer
+		picture = generic_naval_manufacturer_1
 
 		allowed = {
 				OR = {
@@ -1055,7 +1055,7 @@ ideas = {
 	  }
 
 	  generic_dockyard_industrial_theorist = {
-		picture = generic_naval_manufacturer
+		picture = generic_naval_manufacturer_1
 
 		allowed = {
 				OR = {
@@ -1153,18 +1153,21 @@ ideas = {
 
 	political_advisor = {
 		generic_captain_of_industry = {
+			picture = generic_political_advisor_asia_1
 			allowed = {
 				OR = { original_tag = INS  }
 			}
 			traits = { captain_of_industry }
 		}
 		generic_fortification_engineer = {
+			picture = generic_political_advisor_asia_2
 			allowed = {
 				OR = { original_tag = INS  }
 			}
 			traits = { fortification_engineer }
 		}
 		generic_war_industrialist = {
+			picture = generic_political_advisor_asia_3
 			allowed = {
 				OR = { original_tag = INS  }
 			}
@@ -1173,12 +1176,14 @@ ideas = {
 	}
 	army_chief = {
 		generic_army_chief_off = {
+			picture = generic_army_asia_1
 			allowed = {
 				OR = { original_tag = INS  }
 			}
 			traits = { army_chief_offensive_1 }
 		}
 		generic_army_chief_def = {
+			picture = generic_army_asia_2
 			allowed = {
 				OR = { original_tag = INS  }
 			}
@@ -1187,12 +1192,14 @@ ideas = {
 	}
 	navy_chief = {
 		generic_navy_chief_decisive_bat = {
+			picture = generic_navy_asia_1
 			allowed = {
 				OR = { original_tag = INS  }
 			}
 			traits = { navy_chief_decisive_battle_2 }
 		}
 		generic_navy_anti_submarine = {
+			picture = generic_navy_asia_2
 			allowed = {
 				OR = { original_tag = INS  }
 			}
@@ -1201,12 +1208,14 @@ ideas = {
 	}
 	air_chief = {
 		generic_air_close_air_sup = {
+			picture = generic_air_asia_1
 			allowed = {
 				OR = { original_tag = INS  }
 			}
 			traits = { air_close_air_support_2 }
 		}
 		generic_air_chief_all_weather = {
+			picture = generic_air_asia_2
 			allowed = {
 				OR = { original_tag = INS  }
 			}
@@ -1215,6 +1224,7 @@ ideas = {
 	}
 	high_command = {
 		generic_army_art = {
+			picture = generic_army_asia_3
 			ledger = army
 			allowed = {
 				OR = { original_tag = INS  }
@@ -1222,6 +1232,7 @@ ideas = {
 			traits = { army_artillery_1 }
 		}
 		generic_army_log = {
+			picture = generic_army_asia_4
 			ledger = army
 			allowed = {
 				OR = { original_tag = INS  }
@@ -1229,6 +1240,7 @@ ideas = {
 			traits = { army_logistics_2 }
 		}
 		generic_navy_fleet_log = {
+			picture = generic_navy_asia_3
 			ledger = navy
 			allowed = {
 				OR = { original_tag = INS  }
@@ -1236,6 +1248,7 @@ ideas = {
 			traits = { navy_fleet_logistics_1 }
 		}
 		generic_air_air_combat_trainer = {
+			picture = generic_air_asia_3
 			ledger = air
 			allowed = {
 				OR = { original_tag = INS  }
@@ -1245,6 +1258,7 @@ ideas = {
 	}
 	theorist = {
 		generic_military_theorist = {
+			picture = generic_army_asia_5
 			ledger = army
 			allowed = {
 				OR = { original_tag = INS  }
@@ -1252,6 +1266,7 @@ ideas = {
 			traits = { military_theorist }
 		}
 		generic_naval_theorist = {
+			picture = generic_navy_asia_1
 			ledger = navy
 			allowed = {
 				OR = { original_tag = INS  }
@@ -1259,6 +1274,7 @@ ideas = {
 			traits = { naval_theorist }
 		}
 		generic_air_warfare_theorist = {
+			picture = generic_air_asia_1
 			ledger = air
 			allowed = {
 				OR = { original_tag = INS  }

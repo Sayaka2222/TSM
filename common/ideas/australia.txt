@@ -203,7 +203,7 @@ ideas = {
 	}
 	industrial_concern = {
 		bhp_steel = {
-			picture = generic_industrial_research_1
+			picture = bhp_steel
 			allowed = {
 				original_TAG = AST
 				has_dlc = "Together for Victory"

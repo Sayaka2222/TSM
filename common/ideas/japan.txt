@@ -399,6 +399,7 @@ ideas = {
 			}
 		}
 		state_shintoism2 = {
+			picture = state_shintoism
 			allowed = {
 				always = no
 			}
@@ -988,7 +989,7 @@ ideas = {
 	}
 	theorist_production = {
 		JAP_takuo_godo = {
-			picture = JAP_takuo_godo
+			picture = takuo_godo
 			cost = 150
 
 			allowed  = {
@@ -1001,7 +1002,7 @@ ideas = {
 			traits = { war_industrialist }
 		}
 		JAP_kingoro_hashimoto = {
-			picture = JAP_kingoro_hashimoto
+			picture = kingoro_hashimoto
 			cost = 150
 
 			allowed  = {

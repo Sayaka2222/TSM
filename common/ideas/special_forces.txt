@@ -8,7 +8,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			#picture = great_depression
+			picture = generic_army_problems
 			modifier = {
 			}
 		}

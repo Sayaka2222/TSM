@@ -530,6 +530,7 @@ focus = {
         custom_effect_tooltip = generic_skip_one_line_tt
 		remove_dynamic_modifier = { modifier = RAJ_a_loyal_government }
         custom_effect_tooltip = generic_skip_one_line_tt
+        custom_effect_tooltip = RAJ_the_dominion_of_india_slot_tt
         if = {
             limit = { 
                 NOT = {
@@ -621,7 +622,7 @@ focus = {
 
 	completion_reward = {
         custom_effect_tooltip = RAJ_modify_agrarian_society_tt
-		add_to_variable = { conscription_factor = 0.07	tooltip = conscription_factor_tt }
+		add_to_variable = { RAJ_agrarian_society_conscription_factor = 0.07	tooltip = conscription_factor_tt }
 	}
 }
 
@@ -2683,6 +2684,7 @@ focus = {
 
         search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_NAVY_XP }
         complete_tooltip = {
+            navy_experience = 50
             random_state = {
                 limit = {
                     has_state_flag = RAJ_expand_mazagon_dock_dlc
@@ -2938,6 +2940,7 @@ focus = {
 
         search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_NAVY_XP }
         complete_tooltip = {
+            navy_experience = 25
             random_state = {
                 limit = {
                     has_state_flag = RAJ_found_scindia_shipyard_dlc

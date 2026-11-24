@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="POLITICS_PHILIPPE_PÉTAIN_DESC"
+			desc="POLITICS_PHILIPPE_PETAIN_DESC"
 			ideology=fascism_ideology
 			expire="1965.1.1.1"
 			id=-1

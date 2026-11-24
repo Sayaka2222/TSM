@@ -497,8 +497,8 @@ characters = {
 		name = BUL_ivan_markov
 		portraits = {
 			army = {
-				large = "gfx/leaders/BUL/Konstantin_Ivanov_Bekyarov.dds"
-				small = "gfx/leaders/BUL/Konstantin_Ivanov_Bekyarov.dds"
+				large = "gfx/leaders/BUL/Konstantin_Ivanov_Bekyarov.tga"
+				small = "gfx/leaders/BUL/Konstantin_Ivanov_Bekyarov.tga"
 			}
 		}
 		corps_commander = {
@@ -535,8 +535,8 @@ characters = {
 		name = BUL_nikola_stoychev
 		portraits = {
 			army = {
-				large = "gfx/leaders/BUL/Nikola_Totev_Markov.dds"
-				small = "gfx/leaders/BUL/Nikola_Totev_Markov.dds"
+				large = "gfx/leaders/BUL/Nikola_Totev_Markov.tga"
+				small = "gfx/leaders/BUL/Nikola_Totev_Markov.tga"
 			}
 		}
 		corps_commander = {

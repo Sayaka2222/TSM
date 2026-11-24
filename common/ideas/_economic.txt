@@ -1,6 +1,7 @@
 ideas = {
 	country={
 		test_build_trade = {
+			picture = generic_production_bonus
 			modifier = {
 				production_lack_of_resource_penalty_factor = -1
 			}
@@ -22,6 +23,7 @@ ideas = {
 			}
 		}
 		wartime_economy_man = {
+			picture = generic_economic_increase
 			removal_cost = -1
 			allowed = {
 				always = no # Added via focus

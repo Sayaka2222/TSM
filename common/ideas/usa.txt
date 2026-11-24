@@ -198,6 +198,7 @@ ideas = {
 			}
 		}
 		USA_lend_lease_act_allies = {
+			picture = CHI_lend_lease_american
 			allowed = {
 				original_tag = USA
 			}
@@ -221,7 +222,7 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
-			picture = fund_the_navy
+			picture = generic_sea_focused_navy
 
 			research_bonus = { naval_equipment = 0.15 }
 			removal_cost = -1
@@ -242,7 +243,7 @@ ideas = {
 			allowed = {
 				original_tag = ENG
 			}
-			picture = islands_picture
+			picture = generic_coastal_defense_ships
 			targeted_modifier = {
 				tag = JAP
 				defense_bonus_against  = -0.05
@@ -614,7 +615,7 @@ ideas = {
 			}
 		}
 		USA_increased_programs = {
-			picture = factorio
+			picture = generic_production_bonus
 			allowed = {
 				always = no
 			}
@@ -627,7 +628,7 @@ ideas = {
 			}
 		}
 		USA_shipyard_expansion = {
-			picture = shipyard_expansion
+			picture = generic_navy_bonus
 			allowed = {
 				always = no
 			}
@@ -653,7 +654,7 @@ ideas = {
 			}
 		}
 		USA_reform_the_bureaucracy = {
-			picture = new_reforms
+			picture = generic_constitutional_guarantees
 			allowed = {
 				always = no
 			}
@@ -829,7 +830,7 @@ ideas = {
 			}
 		}
 		USA_state_funds_refused = {
-			picture = mex_callistas
+			picture = MEX_callistas
 			allowed = {
 				always = no
 			}
@@ -1747,6 +1748,7 @@ ideas = {
 			}
 		}
 		joseph_stilwell_2 = {
+			picture = joseph_stilwell
 			ledger = army
 			allowed = {
 				original_tag = USA
@@ -1879,7 +1881,7 @@ ideas = {
 			modifier = { tank_manufacturer_cost_factor = -1 }
 		}
 		detroit_arsenal = {
-			picture = generic_industrial_research_1
+			picture = generic_tank_manufacturer_1
 			allowed = {
 				original_tag = USA
 			}
@@ -2037,7 +2039,7 @@ ideas = {
 			allowed = {
 				tag = USA 
 			}
-			picture = white_motor
+			picture = generic_motorized_equipment_manufacturer_1
 			cost = 100
 			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {

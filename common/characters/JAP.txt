@@ -90,7 +90,7 @@ characters={
 		
 		field_marshal={
 			traits={  JAP_samurai_lineage		offensive_doctrine
-			infantry_leader infantry_expert organize }
+			infantry_leader infantry_expert organizer }
 			skill=4
 			attack_skill=6
 			defense_skill=4

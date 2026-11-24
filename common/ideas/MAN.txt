@@ -163,7 +163,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = 5_peoples
+			picture = man_five_year_plan_industry
 			
 			modifier = {
 				stability_factor = 0.2
@@ -262,7 +262,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = indentured_labour
+			picture = generic_oppression
 			
 			modifier = {
 				industrial_capacity_factory = 0.15
@@ -283,7 +283,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = indentured_labour
+			picture = generic_oppression
 			
 			modifier = {
 				industrial_capacity_factory = 0.1
@@ -304,7 +304,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = indentured_labour
+			picture = generic_oppression
 			
 			modifier = {
 				industrial_capacity_factory = 0.05
@@ -325,7 +325,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = puyi
+			picture = generic_local_self_management
 			
 			modifier = {
 				stability_factor = 0.05
@@ -1032,7 +1032,7 @@ ideas = {
 	
 
 	MAN_songgotu_zhanshan={
-		picture = MAN_songgotu_zhanshan
+		picture = generic_political_advisor_asia_1
 			cost = 150
 			allowed  = {
 					original_tag  = MAN 
@@ -1046,7 +1046,7 @@ ideas = {
 	
 
 	MAN_megata_toshiro={
-		picture = MAN_megata_toshiro
+		picture = generic_political_advisor_asia_2
 		cost = 150
 			allowed  = {
 					original_tag  = MAN 

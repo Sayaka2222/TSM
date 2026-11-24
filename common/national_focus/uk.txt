@@ -23,10 +23,10 @@ focus_tree = {
 		complete_tooltip = {
 			every_state = {
 				limit = { has_state_flag = ENG_limited_rearmament_focus_2IC }
-				add_extra_state_shared_building_slots = 4
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
-					level = 4
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -140,6 +140,8 @@ focus_tree = {
  			factor = 1
  		}
  		complete_tooltip= {
+			custom_effect_tooltip = ENG_shadow_scheme_focus2_tt
+			set_variable = { ENG.shadow_civs2 = 0 }
 			for_each_scope_loop = {
 				array = ENG.starting_core_states
 		
@@ -151,7 +153,7 @@ focus_tree = {
 				min = 0
 				max = 120
 			}
-			divide_variable={ENG.shadow_civs2=3}
+			divide_variable={ENG.shadow_civs2=2}
 			set_variable={ENG.shadow_civs3=ENG.shadow_civs2}
 			round_variable=ENG.shadow_civs2
 			if={
@@ -178,7 +180,7 @@ focus_tree = {
 			}}
 		}
  		completion_reward = {
-			custom_effect_tooltip = ENG_shadow_debug_tt
+			custom_effect_tooltip = ENG_shadow_scheme_focus2_tt
 			hidden_effect = { ENG_shadow_debug_calc = yes }
 			ENG = {
 				set_variable = { var = shadow_civs2 value = 0 }
@@ -332,19 +334,53 @@ focus_tree = {
 		}
 		complete_tooltip = {
 			air_experience = 25
-			if = {
-				limit = { has_country_flag = air_defense_focus_built_max }
-				custom_effect_tooltip = air_defense_focus_tt
+			121 = {
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
 			}
-			if = {
-				limit = { NOT = { has_country_flag = air_defense_focus_built_max } }
-				every_state = {
-					limit = { has_state_flag = ENG_air_defense_focus_built_2 }
-					add_building_construction = {
-						type = anti_air_building
-						level = 2
-						instant_build = yes
-					}
+			123 = {
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+			}
+			125 = {
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+			}
+			128 = {
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+			}
+			130 = {
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+			}
+			126 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+			}
+			127 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
 				}
 			}
 		}
@@ -2324,7 +2360,8 @@ focus_tree = {
 			has_tech = mechanised_infantry
 			}
 		}
-		completion_reward = {			
+		completion_reward = {
+					custom_effect_tooltip = ENG_churchill_tt
 					create_equipment_variant = {
 
 					name = "Sherman Firefly"
@@ -2379,7 +2416,7 @@ focus_tree = {
 						signal_company = { x = 0 y = 3 }
 					}
 				}
-				551 = {
+				476 = {
 					for_loop_effect = {
 						end = 2
 						create_unit = {

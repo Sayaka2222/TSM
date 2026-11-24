@@ -37,7 +37,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = ita_hitler_visits_rome
+			picture = generic_fascism_drift_bonus
 			modifier = {
 			stability_factor = 0.1
 			war_support_factor = -0.3
@@ -57,7 +57,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = ita_hitler_visits_rome
+			picture = generic_fascism_drift_bonus
 			modifier = {
 			research_speed_factor = 0.15
 			global_building_slots_factor = 0.1
@@ -72,7 +72,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = blackshirts_manpower
+			picture = generic_manpower_bonus
 			modifier = {
 			conscription  = 0.05
 			}
@@ -85,7 +85,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = ita_german_assistance
+			picture = german_advisors
 			equipment_bonus = {
 				support_equipment = {
 					build_cost_ic = -0.1 
@@ -137,7 +137,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = italy_refit
+			picture = generic_navy_bonus
 			modifier = {
 				refit_ic_cost = -0.15
 				refit_speed = 0.15
@@ -333,7 +333,7 @@ ideas = {
 			allowed = {
 				original_tag = "ITA"
 			}
-				picture = ita_bad_leadership
+				picture = generic_army_problems
 				removal_cost = -1
 				modifier = {
 				army_org_Factor = 0.1
@@ -342,6 +342,7 @@ ideas = {
 		}
 		
 		ITA_calm_the_masses = {
+			picture = generic_pp_unity_bonus
 			allowed = {
 				original_tag = "ITA"
 			}
@@ -804,7 +805,7 @@ ideas = {
 			allowed = {
 				tag = ITA
 			}
-			picture = GFX_idea_company_lancia
+			picture = lancia
 			cost = 100
 			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {

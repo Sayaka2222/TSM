@@ -313,7 +313,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			show_ideas_tooltip = MEX_escuela_de_ingeneria_electrica
 			add_tech_bonus = {
 				name = rocketry
 				bonus = 1.0

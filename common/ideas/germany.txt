@@ -130,7 +130,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = mobilize_the_reich
+			picture = generic_goods_red_bonus
 			modifier = {
 				industrial_capacity_factory = 0.2
 			}
@@ -143,7 +143,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = mass_production
+			picture = generic_production_bonus
 			modifier = {
 				industrial_capacity_factory = -4
 			}
@@ -156,7 +156,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = mass_production
+			picture = generic_production_bonus
 			modifier = {
 				industrial_capacity_factory = 0.1
 			}
@@ -169,7 +169,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = mass_production
+			picture = generic_production_bonus
 			modifier = {
 				industrial_capacity_factory = 1
 			}
@@ -179,7 +179,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = panther_program
+			picture = generic_acquire_tanks
 			modifier = {
 				min_export = -0.05
 				minimum_training_level = -0.1
@@ -244,7 +244,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			picture = total_war
+			picture = GER_total_war
 			removal_cost = -1
 			allowed_civil_war = {
 				has_government = fascism
@@ -462,6 +462,7 @@ ideas = {
 			}
 		}
 		GER_fall_rot = {
+			picture = generic_war_preparation
 			allowed = {
 				always = no
 			}
@@ -483,7 +484,7 @@ ideas = {
 				has_government = fascism
 			}
 			removal_cost = -1
-			picture = blitzkrieg
+			picture = generic_acquire_tanks
 			modifier = {
 				air_mission_efficiency = 0.1
 				air_cas_present_factor = 0.1
@@ -618,7 +619,7 @@ ideas = {
 				has_government = fascism
 			}
 			removal_cost = -1
-			picture = blau
+			picture = generic_war_preparation
 			
 			targeted_modifier = {
 				tag = SOV
@@ -749,7 +750,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = ger_glory
+			picture = ger_rebuild_the_nation
 			modifier = {
 				stability_weekly = 0.01
 				war_support_weekly = 0.01
@@ -761,7 +762,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = ger_rethink
+			picture = german_advisors
 			modifier = {
 				production_speed_industrial_complex_factor = 0.4
 			}
@@ -1312,7 +1313,7 @@ ideas = {
 			allowed = {
 				tag = GER
 			}
-			picture = GFX_idea_gustloff_werke
+			picture = generic_infantry_equipment_manufacturer_1
 			cost = 100
 			modifier = { materiel_manufacturer_cost_factor = -1 }
 			equipment_bonus = {

@@ -695,6 +695,7 @@
 				uses = 2
 				category = electronics
 			}
+			custom_effect_tooltip = GER_air_innovation_2_sov_tt
 			hidden_effect = {
 				if = {
 					limit = {
@@ -899,6 +900,13 @@
 					instant_build = yes
 				}
 			}
+			51 = {
+				add_building_construction = {
+					type = dam
+					level = 1
+					province = 6074
+				}
+			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
@@ -964,6 +972,13 @@ focus = {
 					type = industrial_complex
 					level = 2
 					instant_build = yes
+				}
+			}
+			55 = {
+				add_building_construction = {
+					type = dam
+					level = 1
+					province = 10488
 				}
 			}
 		}
@@ -1355,6 +1370,7 @@ focus = {
 			add_equipment_to_stockpile = { 
 			type = support_equipment_1 amount = 1000 producer = GER
 			}		
+			custom_effect_tooltip = GER_volkssturm_tt
 			hidden_effect={
 				division_template = {
 					name = "Volkssturm"
@@ -1746,7 +1762,7 @@ focus = {
 		}
 		available_if_capitulated = no
 		completion_reward = {
-			custom_effect_tooltip = "Deploys the last reserves of the Reich"
+			custom_effect_tooltip = GER_endsieg_tt
 			hidden_effect ={
 				division_template = {
 					name = "SS-Panzergrenadier"
@@ -1973,6 +1989,7 @@ focus = {
 			factor = 10
 		}
 		completion_reward = {
+			custom_effect_tooltip = GER_mol_rib_pact_yug_tt
 			hidden_effect = {
 				transfer_state = 102
 				transfer_state = 678
@@ -2164,6 +2181,7 @@ focus = {
 		}
 		completion_reward = {
 			unlock_decision_tooltip=GER_fall_weiss
+			custom_effect_tooltip = GER_danzig_or_war_hidden_tt
 			#remove_resource_rights = 122
 			hidden_effect = {
 				POL = {
@@ -2284,6 +2302,7 @@ focus = {
 		}
 		completion_reward = {
 			unlock_decision_tooltip=GER_fall_barb
+			custom_effect_tooltip = GER_ussr_war_goal_hidden_tt
 			hidden_effect={
 				SOV={remove_ideas=Fast_Training }
 				every_country={
@@ -2514,6 +2533,7 @@ focus = {
 		}
 		available_if_capitulated = no
 		completion_reward = {
+			custom_effect_tooltip = GER_north_tt
 			every_state = {
 				limit={OR={state=263 state=195 state=244 state=263 state=246 state=247 state=264 state=216 state=214 state =215 state=213 }}
 				add_dynamic_modifier = { modifier = JAP_attack days=90  }
@@ -2537,6 +2557,7 @@ focus = {
 		}
 		available_if_capitulated = no
 		completion_reward = {
+			custom_effect_tooltip = GER_south_tt
 			every_state = {
 				limit={OR={state=260 state=245 state=218 state=234 state=235 state=232 state=229 state=217 state=265 state=237 state=236 }}
 				add_dynamic_modifier = { modifier = JAP_attack days=90  }
@@ -2929,6 +2950,13 @@ focus = {
 		}
 		available_if_capitulated = yes
 		complete_tooltip = {
+			58 = {
+				add_building_construction = {
+					type = naval_facility
+					level = 1
+					province = 5898
+				}
+			}
 			navy_experience = 25
 			every_state = {
 				limit = { has_state_flag = GER_naval_effort_2dockyards }
@@ -2936,6 +2964,15 @@ focus = {
 				add_building_construction = {
 					type = dockyard
 					level = 2
+					instant_build = yes
+				}
+			}
+			every_state = {
+				limit = { has_state_flag = GER_naval_effort_1IC }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -2992,7 +3029,7 @@ focus = {
 					level = 1
 					instant_build = yes
 				}
-				set_state_flag = GER_industrial_effort_2IC
+				set_state_flag = GER_naval_effort_1IC
 			}
 			add_tech_bonus = {
 				name = dd_bonus

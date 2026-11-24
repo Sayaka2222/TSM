@@ -9,7 +9,6 @@ set_technology = {
 }
 
 recruit_character = LAT_gustavs_celminsh
-recruit_character = LAT_alberts_kvesis
 recruit_character = LAT_janis_balodis
 
 add_ideas = neutrality_idea1
