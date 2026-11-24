@@ -7,5 +7,136 @@ technologies = {
 			motorized_rocket_brigade
 		}
 	}
+
+	gbp_infantry_terrain_tech = {
+		infantry = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+		marine = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+		mountaineers = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+		paratrooper = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+	}
+
+	gbp_artillery_terrain_tech = {
+		artillery_brigade = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+		mot_artillery_brigade = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+		rocket_artillery_brigade = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+		mot_rocket_artillery_brigade = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+		light_sp_artillery_brigade = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+		medium_sp_artillery_brigade = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+		heavy_sp_artillery_brigade = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+		motorized_rocket_brigade = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+	}
+
+	gbp_armor_terrain_tech = {
+		light_armor = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+		medium_armor = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+		heavy_armor = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+	}
+
+	gbp_motorized_terrain_tech = {
+		mechanized = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+		cavalry = {
+			urban = { attack = 0.025 }
+			jungle = { attack = 0.025 }
+			mountain = { attack = 0.025 }
+			hills = { attack = 0.025 }
+			forest = { attack = 0.025 }
+		}
+	}
 }
 

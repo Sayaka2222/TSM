@@ -70,19 +70,17 @@ tsm_tank_busters = {
 
     ai_will_do = { base = 1 }
 
-    ground_attack_factor = 0.10
+    category_cas = { air_ground_attack = 0.10 }
 
     rewards = {
         tsm_tb_1 = {
             air_cas_efficiency = 0.12
-            category_cas = { air_ground_attack = 0.10 }
         }
         tsm_tb_2 = {
             naval_strike_attack_factor = 0.12
             category_nav_bomber = { naval_strike_attack = 0.10 }
         }
         tsm_tb_3 = {
-            air_cas_present_factor = 0.12
             category_cas = { air_defence = 0.10 }
         }
         tsm_tb_4 = {
@@ -90,7 +88,6 @@ tsm_tank_busters = {
             naval_strike_targetting_factor = 0.12
         }
         tsm_tb_5 = {
-            ground_attack_factor = 0.12
             air_nav_efficiency = 0.12
         }
     }

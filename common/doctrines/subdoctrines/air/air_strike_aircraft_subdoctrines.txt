@@ -35,7 +35,9 @@ air_subdoctrine_flying_artillery = {
         	air_cas_efficiency = 0.1
         }
         terrain_familiarity = {
-			air_cas_present_factor = 0.1
+			category_cas = {
+				air_ground_attack = 0.05
+			}
         }
         effective_payloads = { 
         	category_cas = {
@@ -83,7 +85,9 @@ air_subdoctrine_dive_bombers = {
     rewards = {
         forward_air_controllers = {
         	air_mission_efficiency = 0.05
-        	ground_attack_factor = 0.05
+        	category_cas = {
+        		air_ground_attack = 0.1
+        	}
         }
         all_weather_drills = {
 			air_weather_penalty = -0.05
@@ -123,7 +127,6 @@ air_subdoctrine_flexible_fire_support = {
     ai_will_do = { base = 0 }
 
     # EFFECTS
-    ground_attack_factor = 0.05
     naval_strike_targetting_factor = 0.05
 
     rewards = {

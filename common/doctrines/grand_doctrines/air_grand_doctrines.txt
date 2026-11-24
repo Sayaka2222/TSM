@@ -155,7 +155,6 @@ new_battlefield_support = {
         }
         {
             #2 Strike Aircraft
-            air_cas_present_factor = 0.15
             category_cas = {
                 air_agility = 0.15
             }

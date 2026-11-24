@@ -351,34 +351,6 @@ ideas = {
 			}
 		}
 
-		tsm_combined_arms_shock_spirit = {
-			ledger = army
-			picture = generic_armor
-			available = {
-				has_doctrine = tsm_combined_arms_shock
-			}
-			modifier = {
-				coordination_bonus = 0.03
-				planning_speed = 0.10
-				army_armor_attack_factor = 0.04
-			}
-			ai_will_do = { base = 2 }
-		}
-
-		tsm_asymmetric_attrition_spirit = {
-			ledger = army
-			picture = generic_fortify_the_borders
-			available = {
-				has_doctrine = tsm_asymmetric_attrition
-			}
-			modifier = {
-				max_dig_in_factor = 0.10
-				cas_damage_reduction = 0.05
-				supply_consumption_factor = -0.05
-			}
-			ai_will_do = { base = 2 }
-		}
-
 		mobile_warfare_army_spirit = {
 			ledger = army
 			visible={always=no}
@@ -563,7 +535,6 @@ ideas = {
 		}
 
 		maneuver_warfare_spirit = {
-			ledger = army
 			modifier = {
 				planning_speed = 0.5
 				army_speed_factor = 0.075

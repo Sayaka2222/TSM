@@ -60,9 +60,11 @@ ideas = {
 				has_doctrine = new_battlefield_support
 			}
 			visible = { is_air_major = yes }
-			modifier = {
-				ground_attack_factor = 0.08
-				air_cas_present_factor = 0.10
+			equipment_bonus = {
+				small_plane_cas_airframe = {
+					air_ground_attack = 0.10
+					instant = yes
+				}
 			}
 			ai_will_do = { factor = 2 }
 		}
