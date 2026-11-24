@@ -17,7 +17,7 @@ mountaineers_1 = {
     }
 
     available = {
-        always = yes
+        has_tech = tech_mountaineers
     }
 
     visible = {
@@ -108,7 +108,7 @@ mountaineers_2 = {
     }
 
     available = {
-        always = yes
+        has_tech = tech_mountaineers
     }
 
     visible = {
@@ -222,7 +222,7 @@ marines_1 = {
     }
 
     available = {
-        always = yes
+        has_tech = marines
     }
 
     visible = {
@@ -327,7 +327,7 @@ marines_2 = {
     }
 
     available = {
-        always = yes
+        has_tech = marines
     }
 
     visible = {
@@ -438,7 +438,7 @@ paratroopers_1 = {
     }
 
     available = {
-        always = yes
+        has_tech = paratroopers
     }
 
     visible = {
@@ -534,7 +534,7 @@ paratroopers_2 = {
     }
 
     available = {
-        always = yes
+        has_tech = paratroopers
     }
 
     visible = {
