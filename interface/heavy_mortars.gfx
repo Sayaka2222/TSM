@@ -1,0 +1,349 @@
+spriteTypes = {
+
+	# Technology & Equipment Icons
+	SpriteType = {
+		name = "GFX_heavy_mortars_1_medium"
+		texturefile = "gfx/interface/technologies/heavy_mortars_1.tga"
+	}
+	SpriteType = {
+		name = "GFX_heavy_mortars_2_medium"
+		texturefile = "gfx/interface/technologies/heavy_mortars_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_heavy_mortars_3_medium"
+		texturefile = "gfx/interface/technologies/heavy_mortars_3.tga"
+	}
+	SpriteType = {
+		name = "GFX_heavy_mortars_4_medium"
+		texturefile = "gfx/interface/technologies/heavy_mortars_4.tga"
+	}
+	SpriteType = {
+		name = "GFX_heavy_mortars_5_medium"
+		texturefile = "gfx/interface/technologies/heavy_mortars_5.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_archetype_heavy_mortar_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_heavy_mortar_equipment.tga"
+	}
+	SpriteType = {
+		name = "GFX_heavy_mortar_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/heavy_mortars_1.tga"
+	}
+	SpriteType = {
+		name = "GFX_heavy_mortar_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/heavy_mortars_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_heavy_mortar_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/heavy_mortars_4.tga"
+	}
+
+	# Subunit Counter Icons (Division Designer & Map)
+	spriteType = {
+		name = "GFX_unit_heavy_mortars_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/support_unit_heavy_mortars_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_heavy_mortars_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_mortars_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_heavy_mortars"
+		textureFile = "gfx/interface/counters/divisions_large/support_unit_heavy_mortars_icon.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	# Small Texticons
+	spriteType = {
+		name = "GFX_unit_heavy_mortars_icon_small"
+		texturefile = "gfx/texticons/support_unit_heavy_mortars_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_heavy_mortars_icon_small"
+		texturefile = "gfx/texticons/nato_unit_heavy_mortars_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_category_heavy_mortars_icon_small"
+		texturefile = "gfx/texticons/support_unit_heavy_mortars_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_category_heavy_mortars_icon_small"
+		texturefile = "gfx/texticons/nato_unit_heavy_mortars_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	# --- COUNTRY OVERRIDES ---
+	SpriteType = { name = "GFX_ALB_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_ALB_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_ALB_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_ALB_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_ALB_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_ALB_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_AST_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_AST_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_AST_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_AST_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_AST_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_AST_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_AUS_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_AUS_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_AUS_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_AUS_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_AUS_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_AUS_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_BEL_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_BEL_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_BEL_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_BEL_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_BEL_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_BEL_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_BUL_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_BUL_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_BUL_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_BUL_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_BUL_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_BUL_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_CAN_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_CAN_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_CAN_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_CAN_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_CAN_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_CAN_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_CHI_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_CHI_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_CHI_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_CHI_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_CHI_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_CHI_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_CZE_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_CZE_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_CZE_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_CZE_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_CZE_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_CZE_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_DEN_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_DEN_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_DEN_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_DEN_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_DEN_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_DEN_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_EFR_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_EFR_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_EFR_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_EFR_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_EFR_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_EFR_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_ENG_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_ENG_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_ENG_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_ENG_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_ENG_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_ENG_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_FIN_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_FIN_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_FIN_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_FIN_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_FIN_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_FIN_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_FRA_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_FRA_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_FRA_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_FRA_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_FRA_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_FRA_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_GER_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_GER_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_GER_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_GER_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_GER_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_GER_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_GRE_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_GRE_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_GRE_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_GRE_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_GRE_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_GRE_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_HOL_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_HOL_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_HOL_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_HOL_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_HOL_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_HOL_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_HUN_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_HUN_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_HUN_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_HUN_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_HUN_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_HUN_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_INS_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_INS_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_INS_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_INS_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_INS_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_INS_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_ITA_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_ITA_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_ITA_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_ITA_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_ITA_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_ITA_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_JAP_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_JAP_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_JAP_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_JAP_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_JAP_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_JAP_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_LUX_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_LUX_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_LUX_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_LUX_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_LUX_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_LUX_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_MAN_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_MAN_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_MAN_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_MAN_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_MAN_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_MAN_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_MEX_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_MEX_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_MEX_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_MEX_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_MEX_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_MEX_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_MON_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_MON_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_MON_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_MON_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_MON_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_MON_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_NOR_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_NOR_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_NOR_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_NOR_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_NOR_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_NOR_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_NZL_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_NZL_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_NZL_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_NZL_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_NZL_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_NZL_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_PER_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_PER_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_PER_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_PER_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_PER_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_PER_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_PHI_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_PHI_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_PHI_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_PHI_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_PHI_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_PHI_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_POL_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_POL_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_POL_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_POL_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_POL_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_POL_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_RAJ_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_RAJ_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_RAJ_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_RAJ_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_RAJ_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_RAJ_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_RCC_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_RCC_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_RCC_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_RCC_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_RCC_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_RCC_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_ROM_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_ROM_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_ROM_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_ROM_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_ROM_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_ROM_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SAF_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SAF_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SAF_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SAF_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SAF_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SAF_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SIA_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SIA_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SIA_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SIA_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SIA_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SIA_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/JAP_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SOV_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SOV_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SOV_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SOV_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SOV_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SOV_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SPN_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SPN_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/ITA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SPN_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SPN_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SPN_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SPN_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SPR_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SPR_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SPR_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SPR_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SPR_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SPR_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SWE_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SWE_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SWE_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SWE_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SWE_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SWE_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SWI_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SWI_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_SWI_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SWI_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_SWI_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_SWI_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_TUR_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_TUR_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_TUR_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_TUR_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_TUR_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_TUR_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_USA_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_USA_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_USA_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_USA_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_USA_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_USA_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_USP_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_USP_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_USP_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_USP_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_USP_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_USP_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_4.tga" }
+	SpriteType = { name = "GFX_VEN_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_VEN_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_VEN_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_VEN_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_VEN_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_VEN_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_YUG_heavy_mortars_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_YUG_heavy_mortar_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_1.tga" }
+	SpriteType = { name = "GFX_YUG_heavy_mortars_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_YUG_heavy_mortar_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_YUG_heavy_mortars_4_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+	SpriteType = { name = "GFX_YUG_heavy_mortar_equipment_3_medium" texturefile = "gfx/interface/technologies/SOV_heavy_mortars_2.tga" }
+}

@@ -1127,6 +1127,8 @@ generic_artillery_organization = {
 		anti_tank_equipment
 		anti_air_equipment
 		rocket_artillery_equipment
+		infantry_support_gun_equipment
+		heavy_mortar_equipment
 	}
 
 	

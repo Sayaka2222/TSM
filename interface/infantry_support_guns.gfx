@@ -1,0 +1,370 @@
+spriteTypes = {
+
+	# Technology & Equipment Icons
+	SpriteType = {
+		name = "GFX_infantry_support_guns_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_support_guns_1.tga"
+	}
+	SpriteType = {
+		name = "GFX_infantry_support_guns_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_support_guns_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_infantry_support_guns_3_medium"
+		texturefile = "gfx/interface/technologies/infantry_support_guns_3.tga"
+	}
+	SpriteType = {
+		name = "GFX_infantry_support_guns_4_medium"
+		texturefile = "gfx/interface/technologies/infantry_support_guns_4.tga"
+	}
+	SpriteType = {
+		name = "GFX_infantry_support_guns_5_medium"
+		texturefile = "gfx/interface/technologies/infantry_support_guns_5.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_archetype_infantry_support_gun_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_infantry_support_gun_equipment.tga"
+	}
+	SpriteType = {
+		name = "GFX_infantry_support_gun_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_support_guns_1.tga"
+	}
+	SpriteType = {
+		name = "GFX_infantry_support_gun_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_support_guns_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_infantry_support_gun_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/infantry_support_guns_4.tga"
+	}
+
+	# Subunit Counter Icons (Division Designer & Map)
+	spriteType = {
+		name = "GFX_unit_infantry_support_guns_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/support_unit_infantry_support_guns_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_infantry_support_guns_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_support_guns_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_infantry_support_gun_brigade_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_infantry_support_gun_brigade_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_infantry_support_gun_brigade_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_support_gun_brigade_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_category_infantry_support_guns"
+		textureFile = "gfx/interface/counters/divisions_large/support_unit_infantry_support_guns_icon.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	# Small Texticons
+	spriteType = {
+		name = "GFX_unit_infantry_support_guns_icon_small"
+		texturefile = "gfx/texticons/support_unit_infantry_support_guns_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_infantry_support_guns_icon_small"
+		texturefile = "gfx/texticons/nato_unit_infantry_support_guns_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_infantry_support_gun_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_infantry_support_gun_brigade_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_infantry_support_gun_brigade_icon_small"
+		texturefile = "gfx/texticons/nato_unit_infantry_support_gun_brigade_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_category_infantry_support_guns_icon_small"
+		texturefile = "gfx/texticons/support_unit_infantry_support_guns_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_category_infantry_support_guns_icon_small"
+		texturefile = "gfx/texticons/nato_unit_infantry_support_guns_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	# --- COUNTRY OVERRIDES ---
+	SpriteType = { name = "GFX_ALB_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_ALB_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_ALB_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_ALB_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_ALB_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_ALB_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_AST_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_AST_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_AST_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_AST_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_AST_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_AST_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_AUS_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_AUS_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_AUS_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_AUS_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_AUS_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_AUS_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_BEL_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_BEL_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_BEL_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_BEL_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_BEL_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_BEL_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_BUL_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_BUL_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_BUL_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_BUL_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_BUL_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_BUL_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_CAN_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_CAN_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_CAN_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_CAN_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_CAN_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_CAN_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_CHI_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_CHI_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_CHI_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_CHI_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_CHI_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_CHI_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_CZE_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_CZE_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_CZE_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_CZE_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_CZE_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_CZE_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_DEN_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_DEN_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_DEN_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_DEN_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_DEN_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_DEN_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_EFR_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_EFR_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_EFR_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_EFR_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_EFR_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_EFR_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_ENG_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_ENG_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_ENG_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_ENG_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_ENG_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_ENG_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_FIN_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_FIN_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_FIN_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_FIN_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_FIN_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_FIN_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_FRA_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_FRA_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_FRA_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_FRA_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_FRA_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_FRA_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_GER_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_GER_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_GER_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_GER_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_GER_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_GER_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_GRE_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_GRE_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_GRE_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_GRE_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_GRE_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_GRE_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_HOL_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_HOL_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_HOL_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_HOL_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_HOL_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_HOL_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_HUN_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_HUN_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_HUN_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_HUN_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_HUN_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_HUN_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_INS_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_INS_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_INS_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_INS_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_INS_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_INS_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_ITA_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_ITA_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_ITA_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_ITA_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_ITA_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_ITA_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_JAP_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_JAP_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_JAP_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_JAP_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_JAP_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_JAP_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_LUX_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_LUX_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_LUX_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_LUX_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_LUX_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_LUX_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_MAN_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_MAN_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_MAN_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_MAN_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_MAN_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_MAN_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_MEX_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_MEX_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_MEX_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_MEX_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_MEX_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_MEX_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_MON_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_MON_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_MON_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_MON_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_MON_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_MON_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_NOR_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_NOR_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_NOR_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_NOR_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_NOR_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_NOR_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_NZL_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_NZL_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_NZL_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_NZL_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_NZL_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_NZL_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_PER_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_PER_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_PER_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_PER_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_PER_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_PER_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_PHI_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_PHI_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_PHI_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_PHI_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_PHI_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_PHI_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_POL_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_POL_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_POL_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_POL_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_POL_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_POL_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_RAJ_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_RAJ_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_RAJ_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_RAJ_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_RAJ_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_RAJ_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_RCC_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_RCC_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_RCC_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_RCC_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_RCC_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_RCC_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_ROM_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_ROM_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_ROM_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_ROM_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_ROM_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_ROM_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SAF_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SAF_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SAF_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SAF_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SAF_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SAF_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SIA_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SIA_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SIA_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SIA_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SIA_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_SIA_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/JAP_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_SOV_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SOV_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SOV_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SOV_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SOV_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_SOV_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_SPN_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SPN_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SPN_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SPN_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SPN_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_SPN_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_SPR_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SPR_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SPR_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SPR_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SPR_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_SPR_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/SOV_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_SWE_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SWE_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SWE_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SWE_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SWE_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_SWE_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_SWI_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SWI_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_SWI_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SWI_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SWI_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_SWI_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/ENG_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_TUR_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_TUR_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_TUR_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_TUR_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_TUR_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_TUR_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/GER_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_USA_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_USA_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_USA_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_USA_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_USA_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_USA_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_USP_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_USP_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_USP_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_USP_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_USP_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_USP_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_VEN_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_VEN_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_VEN_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_VEN_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_VEN_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_VEN_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/USA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_YUG_infantry_support_guns_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_YUG_infantry_support_gun_equipment_1_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_1.tga" }
+	SpriteType = { name = "GFX_YUG_infantry_support_guns_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_YUG_infantry_support_gun_equipment_2_medium" texturefile = "gfx/interface/technologies/FRA_infantry_support_guns_2.tga" }
+	SpriteType = { name = "GFX_YUG_infantry_support_guns_4_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+	SpriteType = { name = "GFX_YUG_infantry_support_gun_equipment_3_medium" texturefile = "gfx/interface/technologies/ITA_infantry_support_guns_4.tga" }
+}

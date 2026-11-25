@@ -21,6 +21,8 @@ add_dynamic_modifier = { modifier = relative_industrial_capacity_factory }
 add_dynamic_modifier = { modifier = USA_two_ocean_navy }
 # Starting tech
 set_technology = {
+	infantry_support_guns_1 = 1
+	heavy_mortars_1 = 1
 	synth_oil_experiments = 1 
 	engine_tech_1 = 1
 	armor_tech_1 = 1

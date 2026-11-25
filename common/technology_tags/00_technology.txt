@@ -27,6 +27,8 @@ technology_categories = {
 	cat_artillery
 	cat_anti_tank
 	cat_anti_air
+	cat_infantry_support_guns
+	cat_heavy_mortars
 	naval_air
 	infantry_weapons
 	motorized_equipment

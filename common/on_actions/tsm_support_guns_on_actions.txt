@@ -1,0 +1,26 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				if = {
+					limit = {
+						NOT = { has_tech = infantry_support_guns_1 }
+					}
+					set_technology = {
+						infantry_support_guns_1 = 1
+						popup = no
+					}
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = heavy_mortars_1 }
+					}
+					set_technology = {
+						heavy_mortars_1 = 1
+						popup = no
+					}
+				}
+			}
+		}
+	}
+}

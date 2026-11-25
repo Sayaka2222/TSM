@@ -26,6 +26,8 @@ set_variable = {
 add_offsite_building = { type = arms_factory level = 3 }
 set_research_slots = 2
 set_technology = {
+	infantry_support_guns_1 = 1
+	heavy_mortars_1 = 1
 	basic_train = 1
 	bba_early_transport_plane = 1
 	armor_tech_1 = 1

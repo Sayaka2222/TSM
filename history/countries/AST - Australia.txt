@@ -8,6 +8,8 @@ add_ideas = ENG_allied_exped_corp2
 set_rule = {can_be_spymaster = no}
 # Starting tech
 set_technology = {
+	infantry_support_guns_1 = 1
+	heavy_mortars_1 = 1
 	asia_air = 1
 	naval_base_allowed = 1
 	infantry_weapons = 1

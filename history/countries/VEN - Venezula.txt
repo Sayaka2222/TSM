@@ -2,6 +2,8 @@ capital = 285
 set_research_slots = 0
 # Starting tech
 set_technology = {
+	infantry_support_guns_1 = 1
+	heavy_mortars_1 = 1
 }
 recruit_character = VEN_eleazar_lópez_contreras
 set_country_flag = monroe_doctrine

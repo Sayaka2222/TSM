@@ -1,0 +1,119 @@
+sub_units = {
+
+	infantry_support_guns = {
+		abbreviation = "ISG"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		is_artillery_brigade = yes
+
+		type = {
+			infantry
+			support
+		}
+
+		group = support
+		divisional = no
+		allowed_battalion_groups = { infantry combat_support }
+
+		categories = {
+			category_support_battalions
+			category_regimental_support_battalions
+			category_regimental_support_artillery
+			category_army
+			category_artillery
+			category_support_artillery
+			category_infantry_support_guns
+		}
+
+		combat_width = 0
+
+		need = {
+			infantry_support_gun_equipment = 12
+		}
+		essential = {
+			infantry_support_gun_equipment
+		}
+
+		manpower = 200
+		training_time = 120
+		max_organisation = 5
+		default_morale = 0.15
+		max_strength = 0.4
+		weight = 0.1
+
+		supply_consumption = 0.06
+
+		# Close-support direct fire scaling
+		defense = -0.30
+		breakthrough = -0.35
+		soft_attack = -0.45
+		hard_attack = -0.45
+
+		can_be_parachuted = yes
+	}
+
+	infantry_support_gun_brigade = {
+		abbreviation = "IGB"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 650
+		ai_priority = 80
+		active = no
+
+		type = {
+			infantry
+			artillery
+		}
+
+		group = infantry
+
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+			category_infantry_support_guns
+		}
+
+		combat_width = 1
+
+		manpower = 300
+		need = {
+			infantry_support_gun_equipment = 16
+		}
+		essential = {
+			infantry_support_gun_equipment
+		}
+
+		max_strength = 6
+		max_organisation = 20
+		default_morale = 0.2
+		training_time = 120
+		weight = 0.25
+		supply_consumption = 0.07
+		initiative = 0.01
+
+		# Light man-portable infantry guns have reduced rough-terrain penalties
+		jungle = {
+			attack = -0.05
+			movement = -0.05
+		}
+		marsh = {
+			attack = -0.05
+			movement = -0.10
+		}
+		fort = {
+			attack = 0.10
+		}
+		river = {
+			attack = -0.05
+			movement = -0.05
+		}
+		amphibious = {
+			attack = -0.25
+		}
+	}
+}

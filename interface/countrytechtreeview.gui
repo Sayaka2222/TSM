@@ -1211,7 +1211,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = { 
-					width = 1239 height = 1390 
+					width = 1980 height = 1390 
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -1282,6 +1282,32 @@ guiTypes = {
 					borderSize = {x = 0 y = 4}
 					text = "ARTILLERT_TITLE_AA"
 					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "artillery_subtitle_infantry_support_guns"
+					position = { x = 925 y = 160 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "ARTILLERY_TITLE_INFANTRY_SUPPORT_GUNS"
+					maxWidth = 290
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "artillery_subtitle_heavy_mortars"
+					position = { x = -475 y = 160 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "ARTILLERY_TITLE_HEAVY_MORTARS"
+					maxWidth = 290
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"

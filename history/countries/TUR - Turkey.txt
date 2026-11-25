@@ -5,6 +5,8 @@ add_ideas = {
 	neutral_idea
 }
 set_technology = {
+	infantry_support_guns_1 = 1
+	heavy_mortars_1 = 1
 }
 recruit_character = TUR_mustafa_kemal_ataturk
 set_politics = {
