@@ -120,7 +120,6 @@ technologies = {
 		enable_equipment_modules = {
 			tank_high_velocity_cannon_l1
 			tank_small_cannon_2
-			tank_close_support_gun
 			secondary_turret_close_support_gun
 			squeezebore_adaptor
 			tank_gasoline_engine_L
@@ -177,7 +176,6 @@ technologies = {
 			secondary_turret_small_cannon
 			tank_auto_cannon_2
 			tank_anti_air_cannon_2
-			tank_close_support_gun2
 			tank_small_cannon_2
 		}
 		path = {
@@ -248,7 +246,6 @@ technologies = {
 			#tank_rocket_launcher_2
 			tank_auto_cannon_3
 			tank_anti_air_cannon_3
-			tank_close_support_gun3
 			tank_small_cannon_3
 		}
 		path = {
@@ -343,7 +340,6 @@ technologies = {
 		enable_equipment_modules = {
 			tank_medium_howitzer
 			tank_small_cannon_2
-			tank_close_support_gun
 			tank_medium_cannon
 			tank_auto_cannon
 			tank_anti_air_cannon
@@ -636,7 +632,6 @@ technologies = {
 		enable_equipment_modules = {
 			tank_heavy_howitzer
 			tank_small_cannon_2
-			tank_close_support_gun
 			secondary_turret_close_support_gun
 			tank_gasoline_engine_H
 			tank_auto_cannon

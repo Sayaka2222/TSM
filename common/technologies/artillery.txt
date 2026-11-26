@@ -148,7 +148,6 @@ technologies = {
 			tank_heavy_howitzer2
 			tank_medium_howitzer_2
 			tank_heavy_close_support_gun1
-			tank_close_support_gun3
 		}
 		path = {
 			leads_to_tech = artillery3
@@ -1177,6 +1176,9 @@ technologies = {
 		enable_equipments = {
 			infantry_support_gun_equipment_1
 		}
+		enable_equipment_modules = {
+			tank_close_support_gun
+		}
 		enable_subunits = {
 			infantry_support_guns
 			infantry_support_gun_brigade
@@ -1216,6 +1218,9 @@ technologies = {
 	infantry_support_guns_2 = {
 		enable_equipments = {
 			infantry_support_gun_equipment_2
+		}
+		enable_equipment_modules = {
+			tank_close_support_gun2
 		}
 		path = {
 			leads_to_tech = infantry_support_guns_3
@@ -1293,6 +1298,9 @@ technologies = {
 	infantry_support_guns_4 = {
 		enable_equipments = {
 			infantry_support_gun_equipment_3
+		}
+		enable_equipment_modules = {
+			tank_close_support_gun3
 		}
 		path = {
 			leads_to_tech = infantry_support_guns_5
@@ -1373,6 +1381,9 @@ technologies = {
 		enable_equipments = {
 			heavy_mortar_equipment_1
 		}
+		enable_equipment_modules = {
+			tank_mortar_1
+		}
 		enable_subunits = {
 			heavy_mortars
 		}
@@ -1411,6 +1422,9 @@ technologies = {
 	heavy_mortars_2 = {
 		enable_equipments = {
 			heavy_mortar_equipment_2
+		}
+		enable_equipment_modules = {
+			tank_mortar_2
 		}
 		path = {
 			leads_to_tech = heavy_mortars_3
@@ -1484,6 +1498,9 @@ technologies = {
 	heavy_mortars_4 = {
 		enable_equipments = {
 			heavy_mortar_equipment_3
+		}
+		enable_equipment_modules = {
+			tank_mortar_3
 		}
 		path = {
 			leads_to_tech = heavy_mortars_5

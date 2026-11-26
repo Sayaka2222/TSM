@@ -1575,6 +1575,9 @@ technologies = {
 			mech_sp_artillery_brigade
 			mechanised_tank_destroyer_brigade
 			mechanized_aa_equipment
+			mech_sp_anti_air_support
+			mech_sp_artillery_support
+			mech_tank_destroyer_support
 		}
 		allow_branch={NOT={tag=EFR}}
 		enable_equipments = {
