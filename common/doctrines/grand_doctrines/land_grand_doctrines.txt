@@ -125,9 +125,11 @@ new_mobile_warfare = {
         }
         {
             #support
-            category_support_tanks = {soft_attack = 0.05 hard_attack = 0.05}
-            category_sp_support_artillery = {soft_attack = 0.05 hard_attack = 0.05}
             effect = {
+                custom_effect_tooltip = MW_SUPPORT_MILESTONE_TT
+                hidden_effect = {
+                    set_technology = { mw_inf_assault_gun_support_tech = 1 popup = no }
+                }
                 if = {
                     limit = {
                         NOT = {
@@ -292,18 +294,11 @@ superior_firepower = {
         }
         {
             #support
-            category_support_artillery = {
-                soft_attack = 0.1
-                hard_attack = 0.1
-                breakthrough = 0.1
-            }  
-            category_divisional_support_battalions = {
-                max_organisation = 10
-            }
-            category_regimental_support_battalions = {
-                max_organisation = 5
-            }            
             effect = {
+                custom_effect_tooltip = SF_SUPPORT_MILESTONE_TT
+                hidden_effect = {
+                    set_technology = { sf_inf_spg_support_tech = 1 popup = no }
+                }
                 if = {
                     limit = {
                         NOT = {
@@ -470,10 +465,17 @@ grand_battleplan = {
         }
         {
             #support
-            signal_company = { initiative = 0.1 }
-            category_divisional_support_battalions = { breakthrough = 0.2 }
-            category_regimental_support_battalions = { defense = 0.1 breakthrough = 0.1 }
             effect = {
+                custom_effect_tooltip = GBP_SUPPORT_MILESTONE_TT
+                hidden_effect = {
+                    set_country_flag = gbp_inf_heavy_tank_detachment_flag
+                    if = {
+                        limit = {
+                            has_tech = basic_heavy_tank_chassis
+                        }
+                        set_technology = { gbp_inf_heavy_tank_detachment_tech = 1 popup = no }
+                    }
+                }
                 if = {
                     limit = {
                         NOT = {
@@ -671,32 +673,11 @@ mass_assault = {
         }
         {
             #support
-        field_hospital = {
-			need = {support_equipment = -5}
-		}
-		engineer = {
-			need = {support_equipment = -5}
-		}
-		sniper_recon = {
-			need = {support_equipment = -5}
-		}
-		recon = {
-			need = {support_equipment = -5}
-		}
-		signal_company = {
-			need = {support_equipment = -5}
-		}
-		maintenance_company = {
-			need = {support_equipment = -5}
-		}
-        Military_police = {
-			need = {support_equipment = -5}
-		}
-        motorized_Military_police = {
-			need = {support_equipment = -5}
-		}
             effect = {
-                custom_effect_tooltip = "Support Companies require 5 less Support Equipment"
+                custom_effect_tooltip = MA_SUPPORT_MILESTONE_TT
+                hidden_effect = {
+                    set_technology = { ma_inf_katyusha_support_tech = 1 popup = no }
+                }
                 if = {
                     limit = {
                         NOT = {

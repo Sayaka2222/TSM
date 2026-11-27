@@ -668,9 +668,6 @@ country_event = {
 				artillery_brigade = { x = 4 y = 3 }
 			}
 					
-			regimental_support = {
-				artillery = { x = 0 y = 0 }
-			}
 			support = {
 				light_tank_recon = { x = 0 y = 0 }
 				engineer = { x = 0 y = 1 }

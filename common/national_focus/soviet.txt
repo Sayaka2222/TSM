@@ -102,8 +102,7 @@ focus_tree = {
 					artillery_brigade = { x = 4 y = 4 }
 				}
 				regimental_support = {
-					artillery = { x = 0 y = 0 }
-					anti_tank = { x = 1 y = 0 }
+					anti_tank = { x = 0 y = 0 }
 				}
 				support = {
 					recon = { x = 0 y = 0 }
@@ -691,9 +690,6 @@ focus = {
 					artillery_brigade = { x = 4 y = 1 }
 					artillery_brigade = { x = 4 y = 2 }
 					artillery_brigade = { x = 4 y = 3 }
-				}
-				regimental_support = {
-					artillery = { x = 0 y = 0 }
 				}
 				support = {
 					recon = { x = 0 y = 0 }

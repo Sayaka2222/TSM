@@ -110,9 +110,8 @@ country_event = {
 		artillery_brigade = { x = 3 y = 3 }
 	}
 	regimental_support = {
-		artillery = { x = 0 y = 0 }
-		anti_air = { x = 1 y = 0 }
-		anti_tank = { x = 2 y = 0 }
+		anti_air = { x = 0 y = 0 }
+		anti_tank = { x = 1 y = 0 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
@@ -177,9 +176,8 @@ country_event = {
 		artillery_brigade = { x = 3 y = 3 }
 	}
 	regimental_support = {
-		artillery = { x = 0 y = 0 }
-		anti_air = { x = 1 y = 0 }
-		anti_tank = { x = 2 y = 0 }
+		anti_air = { x = 0 y = 0 }
+		anti_tank = { x = 1 y = 0 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }

@@ -3,3 +3,7 @@
  tank_designer_rocket_role_disallowed:0 "Add a module that allows the §HAssault Gun§! role to be able to switch to it."
  rocket:0 "Assault Gun"
  group_combat_support_title:0 "Artillery Battalions"
+ fire_support:0 "Fortress Detachment"
+ fire_support_desc:0 "Heavy machine guns, light mortars, and heavy defensive weaponry detached to bolster infantry regiments."
+ mot_fire_support:0 "Motorized Fortress Detachment"
+ mot_fire_support_desc:0 "Motorization for a Fortress Detachment, allowing heavy weapons to keep pace with mobile formations."

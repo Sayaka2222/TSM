@@ -1,4 +1,4 @@
-﻿
+﻿﻿
 division_template = {
 	name = "Strelkovaya Diviziya"
 	division_names_group = SOV_INF_01
@@ -12,9 +12,6 @@ division_template = {
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
-	}
-	regimental_support = {
-		artillery = { x = 0 y = 0 }
 	}
 }
 division_template = {
@@ -33,9 +30,6 @@ division_template = {
 		mountaineers = { x = 3 y = 0 }
 		mountaineers = { x = 3 y = 1 }
 		mountaineers = { x = 3 y = 2 }
-	}
-	regimental_support = {
-		artillery = { x = 0 y = 0 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }

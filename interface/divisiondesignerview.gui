@@ -528,7 +528,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "support_header_label"
-				position = { x = 530 y = 128 }
+				position = { x = 484 y = 128 }
 				font = "hoi_16mbs"
 				text = "SUPPORT_HEADER"
 				maxWidth = 110
@@ -539,7 +539,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "regimental_support_header_label"
-				position = { x = 165 y = 402 }
+				position = { x = 157 y = 402 }
 				font = "hoi_16mbs"
 				text = "REGIMENTAL_SUPPORT_HEADER"
 				maxWidth = 250
@@ -550,7 +550,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "support_grid"
-				position = { x = 552 y = 130 }
+				position = { x = 505 y = 130 }
 				size = { width = 85 height = 100%% }
 				slotsize = { width = 82 height = 35 }
 				format = "UPPER_LEFT"
@@ -558,16 +558,16 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "regiments_grid"
-				position = { x = 50 y = 95 }
-				size = { width = 445 height = 100%% }
-				slotsize = { width = 102 height = 41 }
+				position = { x = 90 y = 94 }
+				size = { width = 415 height = 100%% }
+				slotsize = { width = 102 height = 36 }
 				format = "UPPER_LEFT"
 			}
 
 			gridboxtype = {
 				name = "regiment_support_grid"
-				position = { x = 54 y = 344 }
-				size = { width = 445 height = 100%% }
+				position = { x = 94 y = 344 }
+				size = { width = 415 height = 100%% }
 				slotsize = { width = 102 height = 36 }
 				format = "UPPER_LEFT"
 			}

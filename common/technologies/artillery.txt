@@ -1180,7 +1180,6 @@ technologies = {
 		}
 		enable_subunits = {
 			infantry_support_guns
-			infantry_support_gun_brigade
 		}
 		path = {
 			leads_to_tech = infantry_support_guns_2
@@ -1258,10 +1257,6 @@ technologies = {
 			soft_attack = 0.1
 			breakthrough = 0.1
 		}
-		infantry_support_gun_brigade = {
-			soft_attack = 0.1
-			breakthrough = 0.1
-		}
 		path = {
 			leads_to_tech = infantry_support_guns_4
 			research_cost_coeff = 1
@@ -1335,11 +1330,6 @@ technologies = {
 
 	infantry_support_guns_5 = {
 		infantry_support_guns = {
-			soft_attack = 0.1
-			hard_attack = 0.15
-			ap_attack = 0.2
-		}
-		infantry_support_gun_brigade = {
 			soft_attack = 0.1
 			hard_attack = 0.15
 			ap_attack = 0.2

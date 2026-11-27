@@ -198,7 +198,7 @@ technologies = {
 	
 		
 	infantry_weapons = {
-		additional_brigade_column_size = 2
+		additional_brigade_column_size = 3
 		enable_equipments = {
 			infantry_equipment_0
 		}

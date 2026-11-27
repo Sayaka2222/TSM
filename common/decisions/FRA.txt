@@ -234,9 +234,6 @@ FRA_great_war_veterans = {
 					anti_air_brigade = { x = 4 y = 0 }
 					}
 					
-					regimental_support = {
-						artillery = { x = 0 y = 0 }
-					}
 					support = {
 						light_tank_recon = { x = 0 y = 0 }
 						engineer = { x = 0 y = 1 }

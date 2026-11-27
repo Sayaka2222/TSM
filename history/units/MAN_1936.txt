@@ -19,9 +19,9 @@
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
-		artillery_brigade = { x = 4 y = 0 }
-		artillery_brigade = { x = 4 y = 1 }
-		artillery_brigade = { x = 4 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
+		artillery_brigade = { x = 3 y = 4 }
+		artillery_brigade = { x = 3 y = 5 }
 	}
 }
 division_template = {
@@ -62,9 +62,9 @@ division_template = {
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
-		artillery_brigade = { x = 4 y = 0 }
-		artillery_brigade = { x = 4 y = 1 }
-		artillery_brigade = { x = 4 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
+		artillery_brigade = { x = 3 y = 4 }
+		artillery_brigade = { x = 3 y = 5 }
 	}
 }
 instant_effect = {

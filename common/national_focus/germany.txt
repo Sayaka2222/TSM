@@ -1,4 +1,4 @@
-﻿focus_tree = {
+﻿﻿focus_tree = {
 	id = german_focus
 	country = {
 		factor = 0
@@ -1489,9 +1489,8 @@ focus = {
 						anti_tank_brigade = { x = 4 y = 2 }
 					}
 					regimental_support = {
-						artillery = { x = 0 y = 0 }
-						anti_tank = { x = 1 y = 0 }
-						anti_air = { x = 2 y = 0 }
+						anti_tank = { x = 0 y = 0 }
+						anti_air = { x = 1 y = 0 }
 					}
 					support = {
 						recon = { x = 0 y = 0 }

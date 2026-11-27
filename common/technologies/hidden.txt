@@ -138,5 +138,34 @@ technologies = {
 			forest = { attack = 0.025 }
 		}
 	}
+
+	sf_inf_spg_support_tech = {
+		enable_subunits = {
+			light_sp_artillery_inf
+			medium_sp_artillery_inf
+			heavy_sp_artillery_inf
+			mech_sp_artillery_support_inf
+		}
+	}
+
+	mw_inf_assault_gun_support_tech = {
+		enable_subunits = {
+			light_assault_gun_support_inf
+			medium_assault_gun_support_inf
+			mech_assault_gun_support_inf
+		}
+	}
+
+	ma_inf_katyusha_support_tech = {
+		enable_subunits = {
+			motorized_rocket_artillery_inf
+		}
+	}
+
+	gbp_inf_heavy_tank_detachment_tech = {
+		enable_subunits = {
+			heavy_tank_detachment_inf
+		}
+	}
 }
 

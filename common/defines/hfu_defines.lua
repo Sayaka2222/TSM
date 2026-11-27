@@ -245,8 +245,9 @@ NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 50
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 50
 NDefines.NMilitary.XP_GAIN_PER_OVERRUN_UNIT = 0
 NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0
-NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6 -- WAS 5 | We added one more support company as it feels necessary for quality tank or infantry divisions -Thrasymachus
-NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments in division designer
+NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 5		-- Max height of support companies in division designer
+NDefines.NMilitary.MAX_DIVISION_BRIGADE_WIDTH = 4		-- Max width (columns) of regiments in division designer
+NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 7		-- Max height of regiments in division designer
 NDefines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP = 0.0
 NDefines.NMilitary.BATALION_NOT_CHANGED_EXPERIENCE_DROP = 0.0
 
