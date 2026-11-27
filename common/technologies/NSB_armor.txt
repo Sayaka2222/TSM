@@ -20,7 +20,9 @@ technologies = {
 			medium_tank_destroyer_chassis_0
 			heavy_tank_destroyer_chassis_0
 			light_tank_artillery_chassis_0
+			light_tank_rocket_chassis_0
 			medium_tank_artillery_chassis_0
+			medium_tank_rocket_chassis_0
 			heavy_tank_artillery_chassis_0
 			light_tank_aa_chassis_0
 			medium_tank_aa_chassis_0
@@ -115,11 +117,11 @@ technologies = {
 			light_tank_chassis_1
 			light_tank_destroyer_chassis_1
 			light_tank_artillery_chassis_1
+			light_tank_rocket_chassis_1
 			light_tank_aa_chassis_1
 		}
 		enable_equipment_modules = {
 			tank_high_velocity_cannon_l1
-			tank_small_cannon_2
 			secondary_turret_close_support_gun
 			squeezebore_adaptor
 			tank_gasoline_engine_L
@@ -128,6 +130,8 @@ technologies = {
 		}
 		enable_subunits = {
 			light_armor
+			light_assault_gun_brigade
+			light_assault_gun_support
 		}
 		path = {
 			leads_to_tech = improved_light_tank_chassis
@@ -169,6 +173,7 @@ technologies = {
 			light_tank_chassis_2
 			light_tank_destroyer_chassis_2
 			light_tank_artillery_chassis_2
+			light_tank_rocket_chassis_2
 			light_tank_aa_chassis_2
 		}
 		enable_equipment_modules = {
@@ -176,7 +181,6 @@ technologies = {
 			secondary_turret_small_cannon
 			tank_auto_cannon_2
 			tank_anti_air_cannon_2
-			tank_small_cannon_2
 		}
 		path = {
 			leads_to_tech = advanced_light_tank_chassis
@@ -239,6 +243,7 @@ technologies = {
 			light_tank_chassis_3
 			light_tank_destroyer_chassis_3
 			light_tank_artillery_chassis_3
+			light_tank_rocket_chassis_3
 			light_tank_aa_chassis_3
 		}
 		enable_equipment_modules = {
@@ -246,7 +251,6 @@ technologies = {
 			#tank_rocket_launcher_2
 			tank_auto_cannon_3
 			tank_anti_air_cannon_3
-			tank_small_cannon_3
 		}
 		path = {
 			leads_to_tech = improved_medium_tank_chassis
@@ -312,7 +316,6 @@ technologies = {
 			tank_high_velocity_cannon_m2
 			tank_medium_anti_air_cannon_2
 			tungston_core_ammunition
-			tank_small_cannon_3
 		
 	}
 	special_project_specialization = { specialization_land }
@@ -327,10 +330,13 @@ technologies = {
 			medium_tank_chassis_1
 			medium_tank_destroyer_chassis_1
 			medium_tank_artillery_chassis_1
+			medium_tank_rocket_chassis_1
 			medium_tank_aa_chassis_1
 		}
 		enable_subunits = {
 			medium_armor
+			medium_assault_gun_brigade
+			medium_assault_gun_support
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -339,7 +345,6 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_medium_howitzer
-			tank_small_cannon_2
 			tank_medium_cannon
 			tank_auto_cannon
 			tank_anti_air_cannon
@@ -403,8 +408,8 @@ technologies = {
 			medium_tank_chassis_2
 			medium_tank_destroyer_chassis_2
 			medium_tank_artillery_chassis_2
+			medium_tank_rocket_chassis_2
 			medium_tank_aa_chassis_2
-			tank_small_cannon_3
 		}
 		path = {
 			leads_to_tech = advanced_medium_tank_chassis
@@ -508,6 +513,7 @@ technologies = {
 			medium_tank_chassis_3
 			medium_tank_destroyer_chassis_3
 			medium_tank_artillery_chassis_3
+			medium_tank_rocket_chassis_3
 			medium_tank_aa_chassis_3
 		}
 		enable_equipment_modules = {
@@ -631,7 +637,6 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_heavy_howitzer
-			tank_small_cannon_2
 			secondary_turret_close_support_gun
 			tank_gasoline_engine_H
 			tank_auto_cannon

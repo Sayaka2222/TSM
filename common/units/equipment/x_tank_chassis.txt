@@ -31,6 +31,13 @@
  		variant_name = { find_and_replace = { "td_equipment" "equipment" } }
  		}
  	}
+	mechanized_assault_gun_equipment = {
+		archetype = mechanized_equipment
+		type = { armor rocket }
+		for_each = {
+			variant_name = { find_and_replace = { "assault_gun_equipment" "equipment" } }
+		}
+	}
  	#mechanized_flame_equipment = {
  	#	archetype = mechanized_equipment
  	##	type = { armor flame }
@@ -79,6 +86,13 @@
  			variant_name = { find_and_replace = { "chassis" "equipment" } }
  		}
  	}
+	light_tank_rocket_chassis = {
+		archetype = light_tank_chassis
+		type = { armor rocket }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
  	# medium_tank
  	medium_tank_aa_chassis = {
  		archetype = medium_tank_chassis
@@ -115,6 +129,13 @@
  			variant_name = { find_and_replace = { "chassis" "equipment" } }
  		}
  	}
+	medium_tank_rocket_chassis = {
+		archetype = medium_tank_chassis
+		type = { armor rocket }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
  	# heavy_tank
  	heavy_tank_aa_chassis = {
  		archetype = heavy_tank_chassis

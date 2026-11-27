@@ -15,7 +15,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor
+		group = combat_support
 
 		categories = {
 			category_all_armor
@@ -99,7 +99,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor
+		group = combat_support
 
 		categories = {
 			category_all_armor
@@ -184,7 +184,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor
+		group = combat_support
 
 		categories = {
 			category_all_armor
@@ -263,7 +263,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor
+		group = combat_support
 		
 		categories = {
 			category_all_armor
@@ -345,7 +345,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor
+		group = combat_support
 		
 		categories = {
 			category_all_armor
@@ -428,7 +428,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor
+		group = combat_support
 		
 		categories = {
 			category_all_armor

@@ -1578,17 +1578,21 @@ technologies = {
 			mech_sp_anti_air_support
 			mech_sp_artillery_support
 			mech_tank_destroyer_support
+			mech_assault_gun_brigade
+			mech_assault_gun_support
 		}
 		allow_branch={NOT={tag=EFR}}
 		enable_equipments = {
 			motorized_equipment_1
 			mechanized_equipment_0
+			mechanized_assault_gun_equipment_0
 		}
 		enable_equipment_modules = {
 			tank_wheeled_suspension
 			tank_gasoline_engine
 			tank_riveted_armor
 			tank_module_troop_carrier
+			tank_mechanized_fixed_superstructure_turret
 			secondary_turret_hmg
 		}
 
@@ -1696,10 +1700,6 @@ technologies = {
 		allow_branch = { has_dlc = "La Resistance" }
 		path = {
 			leads_to_tech = armored_car2
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = assault_gun_1
 			research_cost_coeff = 1
 		}
 		research_cost = 2
@@ -1841,13 +1841,13 @@ technologies = {
 		}
 		enable_equipments = {
 			mechanized_equipment_1
+			mechanized_assault_gun_equipment_1
 		}
 		enable_subunits = {
 			mechanized
 		}
 		enable_equipment_modules = {
 			tank_half_track_suspension
-			tank_mechanized_fixed_superstructure_turret
 			tank_module_troop_carrier
 			tank_bogie_suspension_mech
 		}
@@ -1953,6 +1953,7 @@ technologies = {
 		}
 		enable_equipments = {
 			mechanized_equipment_2
+			mechanized_assault_gun_equipment_2
 		}
 		path = {
 			leads_to_tech = mechanised_infantry3
@@ -1988,6 +1989,7 @@ technologies = {
 		}
 		enable_equipments = {
 			mechanized_equipment_3
+			mechanized_assault_gun_equipment_3
 		}
 		mechanized = {
 			soft_attack = 0.15

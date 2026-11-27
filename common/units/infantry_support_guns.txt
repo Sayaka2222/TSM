@@ -69,7 +69,7 @@ sub_units = {
 			artillery
 		}
 
-		group = infantry
+		group = combat_support
 
 		categories = {
 			category_army

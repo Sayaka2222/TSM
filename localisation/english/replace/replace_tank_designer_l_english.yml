@@ -1,0 +1,5 @@
+﻿l_english:
+ tank_designer_rocket:0 "Assault Gun"
+ tank_designer_rocket_role_disallowed:0 "Add a module that allows the §HAssault Gun§! role to be able to switch to it."
+ rocket:0 "Assault Gun"
+ group_combat_support_title:0 "Artillery Battalions"

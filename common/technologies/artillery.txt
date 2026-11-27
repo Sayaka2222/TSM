@@ -882,7 +882,6 @@ technologies = {
 			tank_high_velocity_cannon_h2
 			tank_heavy_cannon_2
 			tank_medium_cannon_2
-			tank_small_cannon_3
 		}
 		path = {
 			leads_to_tech = antitank3
